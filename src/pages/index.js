@@ -5,7 +5,11 @@ import Link from 'next/link';
 import Blog from '../components/Blog';
 //import Navigation from '../components/Navigation';
 
-export default function Home() {
+export default function Home({ getAllPosts }) {
+  console.log(
+    '🚀 ~ file: index.js:9 ~ Home ~ getAllPosts:',
+    getAllPosts
+  );
   return (
     <div>
       <p className='flex justify-center my-8'>

@@ -19,6 +19,10 @@ async function fetchAPI(query, { variables } = {}) {
 }
 
 export async function getAllPosts() {
+  console.log(
+    '🚀 ~ file: api.js:22 ~ getAllPosts ~ getAllPosts:',
+    getAllPosts
+  );
   const data = await fetchAPI(
     `
     query AllPosts {
