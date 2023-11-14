@@ -1,16 +1,27 @@
-export default function Wordpress({ allPosts, preview }) {
-  const post =
-    allPosts && allPosts.edges && allPosts.edges.length > 0
-      ? allPosts.edges[0].node
-      : null;
+import { getAllPosts } from '@/lib/api';
 
-  return (
-    <div preview={preview}>
-      {post && (
-        <div>
-          <div title={post.title}>{/* Other properties */}</div>
+const Wordpress = ({ allPosts }) => {
+  const edges = allPosts?.edges || [];
+  <div>
+    <section>
+      {edges.map(({ node }) => (
+        <div key={node.id}>
+          <p className='text-3xl font-cursive text-black'>
+            {node.title}
+          </p>
         </div>
-      )}
-    </div>
-  );
+      ))}
+    </section>
+  </div>;
+};
+
+export default Wordpress;
+
+export async function getStaticProps() {
+  const allPosts = await getAllPosts();
+  return {
+    props: {
+      allPosts,
+    },
+  };
 }

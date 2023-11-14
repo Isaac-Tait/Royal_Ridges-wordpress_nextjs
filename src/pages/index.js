@@ -1,4 +1,4 @@
-import { getAllPosts } from '../pages/api/api';
+import { getAllPosts } from '../lib/api';
 
 /* import Link from 'next/link';
 import Image from 'next/image';

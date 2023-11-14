@@ -18,11 +18,11 @@ async function fetchAPI(query, { variables } = {}) {
   return json.data;
 }
 
-export async function getAllPosts(preview) {
+export async function getAllPosts() {
   const data = await fetchAPI(
     `
     query AllPosts {
-      posts(first: 20, where: {orderby: {field: DATE, order: DESC}}) {
+      posts(first: 5, where: {orderby: {field: DATE, order: DESC}}) {
         edges {
           node {
             date
