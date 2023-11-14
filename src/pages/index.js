@@ -6,18 +6,14 @@ import Link from 'next/link';
 import Blog from '../components/Blog';
 //import Navigation from '../components/Navigation';
 
-export default function Home({ getAllPosts }) {
-  // console.log(
-  // '🚀 ~ file: index.js:9 ~ Home ~ getAllPosts:',
-  // getAllPosts
-  // );
+export default function Home({ allPosts }) {
   return (
     <div>
       <p className='flex justify-center my-8'>
         This is my home page...Below should be two blog post titles in
         large, black, cursive font
       </p>
-      <Blog allPosts={getAllPosts} />
+      <Blog allPosts={allPosts} />
       <hr />
       <div className='flex justify-center mt-12'>
         <p>You should also see the blog post titles on</p>
@@ -31,10 +27,6 @@ export default function Home({ getAllPosts }) {
 
 export async function getStaticProps() {
   const allPosts = await getAllPosts();
-  // console.log(
-  // '🚀 ~ file: index.js:34 ~ getStaticProps ~ getAllPosts:',
-  // getAllPosts
-  // );
 
   return {
     props: {
