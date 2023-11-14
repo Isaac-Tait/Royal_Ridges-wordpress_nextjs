@@ -1,4 +1,5 @@
 import { getAllPosts } from '../lib/api';
+// console.log('🚀 ~ file: index.js:2 ~ getAllPosts:', getAllPosts);
 
 import Link from 'next/link';
 
@@ -6,10 +7,10 @@ import Blog from '../components/Blog';
 //import Navigation from '../components/Navigation';
 
 export default function Home({ getAllPosts }) {
-  console.log(
-    '🚀 ~ file: index.js:9 ~ Home ~ getAllPosts:',
-    getAllPosts
-  );
+  // console.log(
+  // '🚀 ~ file: index.js:9 ~ Home ~ getAllPosts:',
+  // getAllPosts
+  // );
   return (
     <div>
       <p className='flex justify-center my-8'>
@@ -30,6 +31,10 @@ export default function Home({ getAllPosts }) {
 
 export async function getStaticProps() {
   const allPosts = await getAllPosts();
+  // console.log(
+  // '🚀 ~ file: index.js:34 ~ getStaticProps ~ getAllPosts:',
+  // getAllPosts
+  // );
 
   return {
     props: {

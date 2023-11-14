@@ -40,55 +40,7 @@ export async function getAllPosts() {
     }
     `
   );
+  console.log('🚀 ~ file: api.js:44 ~ getAllPosts ~ data:', data);
 
   return data?.posts;
-}
-
-export async function getAllPostsWithSlug() {
-  const data = await fetchAPI(
-    `
-    {
-      posts(first: 10000) {
-        edges {
-          node {
-            slug
-          }
-        }
-      }
-    }
-  `
-  );
-  return data?.posts;
-}
-
-export async function getPost(slug) {
-  const data = await fetchAPI(
-    `
-    fragment PostFields on Post {
-      title
-      excerpt
-      slug
-      date
-      featuredImage {
-        node {
-          sourceUrl
-        }
-      }
-    }
-    query PostBySlug($id: ID!, $idType: PostIdType!) {
-      post(id: $id, idType: $idType) {
-        ...PostFields
-        content
-      }
-    }
-  `,
-    {
-      variables: {
-        id: slug,
-        idType: 'SLUG',
-      },
-    }
-  );
-
-  return data;
 }
