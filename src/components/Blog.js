@@ -43,15 +43,3 @@ const Blog = ({ allPosts }) => {
 };
 
 export default Blog;
-
-/* export async function getStaticProps({ preview = false }) {
-  const allPosts = await getAllPosts(preview);
-
-  return {
-    props: {
-      allPosts,
-      preview,
-    },
-    revalidate: 10,
-  };
-} */

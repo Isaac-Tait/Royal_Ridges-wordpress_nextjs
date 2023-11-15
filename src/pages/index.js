@@ -1,13 +1,16 @@
-import { getAllPosts } from '../lib/api';
-
 import Link from 'next/link';
 import Image from 'next/image';
 import Head from 'next/head';
 
+import { getServerState } from 'react-instantsearch';
+import { renderToString } from 'react-dom/server';
+
+import { getAllPosts } from '../lib/api';
 import Blog from '../components/Blog';
 import Navigation from '../components/Navigation';
+import SearchPage from '../components/InstantSearch';
 
-export default function Home({ allPosts }) {
+export default function Home({ allPosts, serverState, serverUrl }) {
   return (
     <div>
       <Head>
@@ -277,6 +280,22 @@ export async function getStaticProps() {
   return {
     props: {
       allPosts,
+    },
+  };
+}
+
+export async function getServerSideProps({ req }) {
+  const protocol = req.headers.referer?.split('://')[0] || 'https';
+  const serverUrl = `${protocol}://${req.headers.host}${req.url}`;
+  const serverState = await getServerState(
+    <SearchPage serverUrl={serverUrl} />,
+    { renderToString }
+  );
+
+  return {
+    props: {
+      serverState,
+      serverUrl,
     },
   };
 }
