@@ -4,12 +4,12 @@ import Image from 'next/image';
 const Blog = ({ allPosts }) => {
   return (
     <div>
-      <section>
+      <section className='overflow-auto'>
         {allPosts.edges.map(({ node }) => (
           <div key={node.id} className='my-4'>
             <Link
               href={`https://updatesroyalridges.org/${node.slug}`}
-              target="_blank"
+              target='_blank'
             >
               <p className='text-3xl font-cursive text-black'>
                 {node.title}
@@ -17,9 +17,16 @@ const Blog = ({ allPosts }) => {
               <Image
                 src={node.featuredImage.node.mediaItemUrl}
                 alt='blog photo'
+                width={200}
+                height={200}
+                className='rounded-xl block md:hidden mx-auto'
+              />
+              <Image
+                src={node.featuredImage.node.mediaItemUrl}
+                alt='blog photo'
                 width={400}
                 height={400}
-                className='rounded-xl'
+                className='rounded-xl hidden md:block'
               />
             </Link>
           </div>
