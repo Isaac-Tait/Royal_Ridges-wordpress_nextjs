@@ -17,6 +17,7 @@
     "next": "14.0.2",
     "react": "^18",
     "react-dom": "^18",
+    "react-instantsearch": "^7.3.0",
     "react-instantsearch-dom": "^6.40.4",
     "tailwindcss-hero-patterns": "^0.1.2"
   },
