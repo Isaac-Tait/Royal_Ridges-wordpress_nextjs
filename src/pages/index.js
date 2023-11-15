@@ -176,12 +176,8 @@ export default function Home({ allPosts }) {
               />
             </svg>
           </div>
-          <div className='flex justify-center h-2/3'>
+          <div className='flex justify-center h-screen'>
             <Blog allPosts={allPosts} />
-            <p>
-              This is currently an empty window because I need to
-              figure out how to get the Wordpress blog to show up here
-            </p>
           </div>
         </div>
 
