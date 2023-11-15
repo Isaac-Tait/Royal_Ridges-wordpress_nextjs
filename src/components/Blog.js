@@ -1,14 +1,25 @@
-//import Link from 'next/link';
+import Link from 'next/link';
+import Image from 'next/image';
 
 const Blog = ({ allPosts }) => {
   return (
     <div>
-      <section>
+      <section className=''>
         {allPosts.edges.map(({ node }) => (
-          <div key={node.id}>
-            <p className='text-3xl font-cursive text-black'>
-              {node.title}
-            </p>
+          <div key={node.id} className='my-8'>
+            <Link
+              href={`https://updatesroyalridges.org/${node.slug}`}
+            >
+              <p className='text-3xl font-cursive text-black'>
+                {node.title}
+              </p>
+              <Image
+                src={node.featuredImage.node.mediaItemUrl}
+                alt='blog photo'
+                width={400}
+                height={400}
+              />
+            </Link>
           </div>
         ))}
       </section>

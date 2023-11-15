@@ -9,6 +9,10 @@ module.exports = {
         protocol: 'https',
         hostname: 'royal-ridges-retreat.s3.us-west-1.amazonaws.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'updatesroyalridges.org',
+      },
     ],
   },
 };
