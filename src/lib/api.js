@@ -22,7 +22,7 @@ export async function getAllPosts() {
   const data = await fetchAPI(
     `
     query AllPosts {
-      posts(limit: 3, where: {orderby: {field: DATE, order: DESC}}) {
+      posts(first: 5, where: {orderby: {field: DATE, order: DESC}}) {
         edges {
           node {
             date
@@ -31,10 +31,10 @@ export async function getAllPosts() {
             title
             content
             featuredImage {
-              node {
-                mediaItemUrl
-              }
+            node {
+              mediaItemUrl
             }
+          }
           }
         }
       }
