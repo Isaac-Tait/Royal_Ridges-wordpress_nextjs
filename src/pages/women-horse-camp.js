@@ -1,8 +1,7 @@
-'use client';
 import Image from 'next/image';
 
-import Header from '../../(components)/Header';
-import Footer from '../../(components)/Footer';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 const WomenHorseCamp = () => {
   return (
     <div className='bg-gradient-to-r from-yellow-200 to-indigo-200'>

@@ -1,10 +1,8 @@
-'use client';
-
 import Image from 'next/image';
 
-import SummerNavigation from '../../(components)/SummerNav';
-import Header from '../../(components)/Header';
-import Footer from '../../(components)/Footer';
+import SummerNavigation from '../components/SummerNav';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const DayCamp = () => {
   return (

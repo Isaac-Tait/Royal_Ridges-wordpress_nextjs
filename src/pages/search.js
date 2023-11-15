@@ -1,4 +1,3 @@
-'use client';
 import React from 'react';
 
 import algoliasearch from 'algoliasearch';
@@ -8,9 +7,9 @@ import {
   Hits,
 } from 'react-instantsearch-dom';
 
-import SearchPreview from '../../(components)/SearchPreview';
-import Header from '../../(components)/Header';
-import Footer from '../../(components)/Footer';
+//import SearchPreview from '../../(components)/SearchPreview';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const searchClient = algoliasearch(
   'S0ISUA0J96',

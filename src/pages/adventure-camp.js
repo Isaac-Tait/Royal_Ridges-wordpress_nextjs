@@ -1,9 +1,9 @@
 'use client';
 import Image from 'next/image';
 
-import Navigation from '../../(components)/SummerNav';
-import Header from '../../(components)/Header';
-import Footer from '../../(components)/Footer';
+import Navigation from '../components/SummerNav';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const DayAdventureCamp = () => {
   return (

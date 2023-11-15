@@ -1,10 +1,8 @@
-'use client';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import Header from '../../(components)/Header';
-import Footer from '../../(components)/Footer';
-
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 const SchoolBreak = () => {
   return (
     <div className='bg-gradient-to-r from-yellow-200 to-green-200'>

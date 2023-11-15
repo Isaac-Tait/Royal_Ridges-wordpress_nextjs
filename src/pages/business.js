@@ -1,12 +1,7 @@
-'use client';
-
 import Image from 'next/image';
 
-import Header from '../../(components)/Header';
-import Footer from '../../(components)/Footer';
-
-// import Impact from '../images/impactLogo.png';
-// import Printing from '../images/printingLogo.png';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const Business = () => {
   return (
