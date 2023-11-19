@@ -16,11 +16,11 @@ const DayCamp = () => {
         {/*Column 2*/}
         <div className='mr-4 overflow-y-scroll'>
           <Image
-            src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1699283060/royalRidges/icons/GiddyUp_pmxkht.png'
+            src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1700409573/royalRidges/Summer_Bus_Service_Website_2024_x0fqkw.jpg'
             alt='summer bus service'
-            width={200}
-            height={200}
             className='w-1/2 flex mx-auto rounded-xl my-6'
+            width={400}
+            height={400}
           />
           <a
             href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151'
@@ -86,7 +86,9 @@ const DayCamp = () => {
               15815 NE 18th Street Vancouver, WA
             </a>
             <p className='italic ml-2 text-xs'>
-              (NE Side of parking lot)
+              (NE side of Parking Lot/Back of Parking lot near
+              basketball hoop.(There are food trucks in parking lot -
+              please leave space for their customers to park.))
             </p>
             <h4 className='font-semibold'>
               Fourth Plains Church of the Nazarene
@@ -108,13 +110,12 @@ const DayCamp = () => {
             <h4 className='font-semibold'>
               Brush Prairie Baptist Church
             </h4>
-            <p className='ml-2'>8:15am - Departure Time</p>
-            <p className='ml-2'>
-              4:00pm - Drop Off Time&nbsp;
-              <span className='font-semibold text-red-400'>
-                (Final Stop)
-              </span>
-            </p>
+            <p>To Be Determined</p>
+            {/* <p className="ml-2">8:15am - Departure Time</p>
+          <p className="ml-2">
+            4:00pm - Drop Off Time&nbsp;
+            <span className="font-semibold text-red-400">(Final Stop)</span>
+          </p> */}
             <a
               href='https://goo.gl/maps/Lewa8HyenUBhNw2q9'
               target='_blank'
@@ -180,10 +181,15 @@ const DayCamp = () => {
               West Two Bus Route
             </h3>
             <h4 className='font-semibold'>
-              Albertsons at Salmon Creek
+              Safeway at Salmon Creek (formerly Albertsons)
             </h4>
             <p className='ml-2'>8:15am - Departure Time</p>
-            <p className='ml-2'>4:05pm - Drop Off Time</p>
+            <p className='ml-2'>
+              4:05pm - Drop Off Time&nbsp;
+              <span className='font-semibold text-red-400'>
+                (Final Stop)
+              </span>
+            </p>
             <a
               href='https://goo.gl/maps/uwcH583GVrLgoi61A'
               target='_blank'
@@ -285,8 +291,8 @@ const DayCamp = () => {
               all times.
             </p>
             <p className='italic ml-2'>
-              d) Knowing the color and number of your child&#39;s
-              wrist band.
+              d) Knowing the color and number of your child's wrist
+              band.
             </p>
             <p className='italic ml-2'>
               e) Requesting your children in numerical order of the

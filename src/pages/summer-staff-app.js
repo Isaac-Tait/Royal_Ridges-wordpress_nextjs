@@ -22,8 +22,8 @@ const SummerStaffApp = () => {
             Summer Mission Field!
           </p>
           <p>
-            Applications for Summer 2023 will be accepted from
-            December 1st through May 31 each year.
+            Applications for Summer Staff will be accepted beginning
+            December 1st each year.
           </p>
           <p>
             Please read the following documents carefully and make
@@ -65,28 +65,13 @@ const SummerStaffApp = () => {
               rel='noopener noreferrer'
               className='text-green-200 italic text-sm underline hover:text-indigo-400'
             >
-              Job Descriptions
+              Summer Camp Job Descriptions
             </a>
           </div>
-          {/*Letter to the parents*/}
-          <div className='mb-12'>
-            <p className='text-3xl text-yellow-400'>Step II</p>
-            <p>
-              A letter to the parents of prospective Royal Ridges
-              employees
-            </p>
-            <a
-              href='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/PDFs/Parent_Letter.pdf'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='text-green-200 italic text-sm underline hover:text-indigo-400'
-            >
-              A letter for the parents
-            </a>
-          </div>
+
           {/*All about references*/}
           <div className='pb-6'>
-            <p className='text-3xl text-yellow-400'>Step III</p>
+            <p className='text-3xl text-yellow-400'>Step II</p>
             <p>The Summer Staff Application and References</p>
             <p>
               (Note: You will need to create an account in order to
@@ -101,21 +86,14 @@ const SummerStaffApp = () => {
               (Create an Account)
             </a>
             <p>
-              Once you have made account click the link below to be
-              directed to the staff application.
+              Once you have made account you can “register” for the
+              summer staff application through the Ultra Camp program.
             </p>
-            <a
-              href='https://www.ultracamp.com/registration/publicSelectSession.aspx?sessionFinder=1&&idPerson=6532791'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='text-green-200 italic text-sm underline hover:text-indigo-400'
-            >
-              Click to begin the staff application process
-            </a>
+        
             <p className='mx-10 mt-4'>
               Please give us some time to process your application. If
               you have not heard from us after a week, please contact
-              the Program Director to make sure we received it. Thank
+              the <a href='mailto:programs@royalridges.org' className='text-green-200 underline hover:text-indigo-400 italic text-sm'>Program Director</a> to make sure we received it. Thank
               you for considering Royal Ridges for your summer!
             </p>
           </div>
