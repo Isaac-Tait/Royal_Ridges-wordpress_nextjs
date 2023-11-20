@@ -291,8 +291,8 @@ const DayCamp = () => {
               all times.
             </p>
             <p className='italic ml-2'>
-              d) Knowing the color and number of your child's wrist
-              band.
+              d) Knowing the color and number of your child&#39;s
+              wrist band.
             </p>
             <p className='italic ml-2'>
               e) Requesting your children in numerical order of the
