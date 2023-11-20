@@ -284,7 +284,7 @@ export async function getStaticProps() {
   };
 }
 
-export async function getServerSideProps({ req }) {
+/* export async function getServerSideProps({ req }) {
   const protocol = req.headers.referer?.split('://')[0] || 'https';
   const serverUrl = `${protocol}://${req.headers.host}${req.url}`;
   const serverState = await getServerState(
@@ -298,4 +298,4 @@ export async function getServerSideProps({ req }) {
       serverUrl,
     },
   };
-}
+} */
