@@ -2,15 +2,15 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Head from 'next/head';
 
-import { getServerState } from 'react-instantsearch';
-import { renderToString } from 'react-dom/server';
+// import { getServerState } from 'react-instantsearch';
+// import { renderToString } from 'react-dom/server';
 
 import { getAllPosts } from '../lib/api';
 import Blog from '../components/Blog';
 import Navigation from '../components/Navigation';
-import SearchPage from '../components/InstantSearch';
 
-export default function Home({ allPosts, serverState, serverUrl }) {
+//export default function Home({ allPosts, serverState, serverUrl }) {
+export default function Home({ allPosts }) {
   return (
     <div>
       <Head>
