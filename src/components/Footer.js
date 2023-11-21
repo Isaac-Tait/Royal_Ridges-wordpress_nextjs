@@ -42,7 +42,13 @@ const Footer = () => {
           </Link>
         </div>
         <div className='md:w-1/3 flex flex-col justify-end'>
-          <p>Another</p>
+          <p>
+            Built with{' '}
+            <span role='img' aria-label='red heart'>
+              &#10084;
+            </span>{' '}
+            by
+          </p>
           <a
             href='https://mountaintopcoding.dev'
             className='text-green-200 hover:text-yellow-400'
@@ -55,7 +61,6 @@ const Footer = () => {
             </span>
             );
           </a>
-          <p>project</p>
         </div>
       </footer>
     </div>
