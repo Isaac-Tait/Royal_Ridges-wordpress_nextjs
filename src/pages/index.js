@@ -8,6 +8,7 @@ import Head from 'next/head';
 import { getAllPosts } from '../lib/api';
 import Blog from '../components/Blog';
 import Navigation from '../components/Navigation';
+import Footer from '../components/Footer';
 
 //export default function Home({ allPosts, serverState, serverUrl }) {
 export default function Home({ allPosts }) {
@@ -270,6 +271,7 @@ export default function Home({ allPosts }) {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
