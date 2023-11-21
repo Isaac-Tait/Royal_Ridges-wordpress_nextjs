@@ -5,7 +5,7 @@ import {
 } from 'react-instantsearch';
 //import { history } from 'instantsearch.js/es/lib/routers/index.js';
 import singletonRouter from 'next/router';
-import { createInstantSearchRouterNext } from 'react-instantsearch-router-nextjs';
+//import { createInstantSearchRouterNext } from 'react-instantsearch-router-nextjs';
 
 const searchClient = algoliasearch(
   '9Y3RHNIFAD',
