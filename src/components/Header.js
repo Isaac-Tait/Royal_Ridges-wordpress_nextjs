@@ -7,7 +7,11 @@ import Image from 'next/image';
 const navigation = [
   { name: 'Programs', href: '/programs', current: false },
   { name: 'Summer Camp', href: '/summer-camp', current: false },
-  { name: 'Updates', href: '/updates', current: false },
+  {
+    name: 'Updates',
+    href: 'https://updatesroyalridges.org/',
+    current: false,
+  },
   { name: 'Support', href: '/support', current: false },
   { name: 'About', href: '/about', current: false },
   { name: 'Contact', href: '/contact', current: false },
