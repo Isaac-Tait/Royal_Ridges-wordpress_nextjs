@@ -35,6 +35,7 @@ const Blog = ({ allPosts }) => {
       <Link
         href='https://updatesroyalridges.org'
         className='text-gray-800 bg-yellow-400 opacity-80 hover:bg-green-200 hover:text-white p-1 rounded-md flex mx-auto justify-center'
+        target='_blank'
       >
         Visit our updates page for more information
       </Link>
