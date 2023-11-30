@@ -23,7 +23,7 @@ const SummerReg = () => {
             height={400}
             className='w-1/2 flex mx-auto rounded-xl my-6'
           />
-          <h3 className='font-cursive text-center text-xl mb-4'>
+          {/*           <h3 className='font-cursive text-center text-xl mb-4'>
             Check Availability{' '}
             <a
               href='https://royalridges.org/updates/2022-summer-camp-availability/'
@@ -34,7 +34,7 @@ const SummerReg = () => {
               Here
             </a>
             !
-          </h3>
+          </h3> */}
           <p>
             All of our Summer Camps include lots of fun games, team
             building activities, Bible Studies, singing camp songs,
