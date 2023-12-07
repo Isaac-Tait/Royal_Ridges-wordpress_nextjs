@@ -2,16 +2,25 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Head from 'next/head';
 
-// import { getServerState } from 'react-instantsearch';
-// import { renderToString } from 'react-dom/server';
+import {
+  getServerState,
+  InstantSearch,
+  InstantSearchSSRProvider,
+} from 'react-instantsearch';
+import algoliasearch from 'algoliasearch/lite';
+import { renderToString } from 'react-dom/server';
 
 import { getAllPosts } from '../lib/api';
 import Blog from '../components/Blog';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 
-//export default function Home({ allPosts, serverState, serverUrl }) {
-export default function Home({ allPosts }) {
+const searchClient = algoliasearch(
+  process.env.NEXT_PUBLIC_ALGOLIA_APP_ID,
+  process.env.NEXT_PUBLIC_ALGOLIA_SEARCH_API_KEY
+);
+
+export default function Home({ allPosts, serverState }) {
   return (
     <div>
       <Head>
@@ -79,6 +88,14 @@ export default function Home({ allPosts }) {
           </div>
           {/* Search Icon */}
           <div className='mr-2'>
+            <InstantSearchSSRProvider {...serverState}>
+              <InstantSearch
+                searchClient={searchClient}
+                indexName='YourIndexName'
+              >
+                {/* Widgets */}
+              </InstantSearch>
+            </InstantSearchSSRProvider>
             <Link href='/search'>
               <svg
                 width='18'
@@ -278,26 +295,13 @@ export default function Home({ allPosts }) {
 
 export async function getStaticProps() {
   const allPosts = await getAllPosts();
-
+  const serverState = await getServerState(<Home />, {
+    renderToString,
+  });
   return {
     props: {
       allPosts,
+      serverState,
     },
   };
 }
-
-/* export async function getServerSideProps({ req }) {
-  const protocol = req.headers.referer?.split('://')[0] || 'https';
-  const serverUrl = `${protocol}://${req.headers.host}${req.url}`;
-  const serverState = await getServerState(
-    <SearchPage serverUrl={serverUrl} />,
-    { renderToString }
-  );
-
-  return {
-    props: {
-      serverState,
-      serverUrl,
-    },
-  };
-} */
