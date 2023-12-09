@@ -41,8 +41,8 @@ const DayHorseCamp = () => {
               lovers
             </p>
             <p>
-              Cowpoke Horse Camp /Arena Ride Only (Ages 7-8) Weeks 2,
-              6, & 9
+              Cowpoke Horse Camp /Arena Ride Only (Ages 7-8) Weeks 2 &
+              6
             </p>
             <p>Teen Horse Camp (Ages 13-16) Weeks 1 & 8</p>
           </div>
@@ -57,8 +57,8 @@ const DayHorseCamp = () => {
             >
               Horse Specialty Theme Camps
             </a>
-            &nbsp;Trail Camp Weeks 3 and 7, Miniature Horse Driving
-            Week 4, Vaulting Week 5
+            &nbsp;Trail Camp (Ages 10-16) Weeks 3, 7 & 9 Miniature
+            Horse Driving Week 4, Vaulting Week 5
           </p>
           <hr />
           <div>
@@ -158,7 +158,7 @@ const DayHorseCamp = () => {
               <span className='text-green-200 font-semibold'>
                 Week #9
               </span>{' '}
-              - August 12-16 (Cowpoke Group Available)
+              - August 12-16 (Trail Camp)
             </p>
           </div>
           <a
