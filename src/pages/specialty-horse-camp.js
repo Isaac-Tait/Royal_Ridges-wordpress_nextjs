@@ -44,7 +44,7 @@ const Staff = () => {
           <h3 className='font-semibold text-xl mt-4'>
             Trail Camp{' '}
             <span className='text-sm italic'>&nbsp;ages 10 - 16</span>
-            (Week 3 & 7) - $475
+            (Week 3, 7, & 9) - $475
           </h3>
           <p className='mb-4'>
             Campers will have a blast getting set to ride the trails.
@@ -117,6 +117,12 @@ const Staff = () => {
                 Week #7
               </span>
               &nbsp;- June 29 - August 2 (Trail Camp)
+            </p>
+            <p>
+              <span className='text-green-200 font-semibold'>
+                Week #9
+              </span>
+              &nbsp;- August 12 - August 16 (Trail Camp)
             </p>
           </div>
           <a
