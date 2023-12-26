@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Blog = ({ allPosts }) => {
   return (
-    <div>
+    <div className='flex flex-col'>
       <section className='overflow-auto'>
         {allPosts.edges.map(({ node }) => (
           <div key={node.id} className='my-4'>
