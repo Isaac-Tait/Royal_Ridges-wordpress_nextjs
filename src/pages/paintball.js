@@ -44,10 +44,10 @@ const Paintball = () => {
         <p className='mt-2'>
           Interested in other dates/times? Email{' '}
           <a
-            href='mailto:paintball@royalridges.org'
+            href='mailto:joshua@royalridges.org'
             className='text-green-200 hover:underline hover:text-indigo-400'
           >
-            paintball@royalridges.org
+            joshua@royalridges.org
           </a>
           &nbsp;to arrange alternate dates/times.
         </p>
@@ -67,7 +67,7 @@ const Paintball = () => {
         <div className='flex flex-row mt-2'>
           <p>Open Play Games and Dates:</p>
           <Link
-            href={`/paintball-open-play`}
+            href={`https://royalridgespaintball.com/pay`}
             className='text-green-200 hover:underline hover:text-indigo-400'
           >
             <p>&nbsp;Info</p>
@@ -76,7 +76,7 @@ const Paintball = () => {
         <p className='mt-2'>
           Register for our Private Paintball Parties Here:{` `}
           <a
-            href='http://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Paintball+Party'
+            href='https://royalridgespaintball.com/private-groups'
             className='text-green-200 hover:underline hover:text-indigo-400'
             target='_blank'
             rel='noopener noreferrer'

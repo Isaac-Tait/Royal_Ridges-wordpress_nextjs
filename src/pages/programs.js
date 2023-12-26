@@ -145,7 +145,7 @@ const ProgramsPage = () => {
           </div>
 
           <div className='justify-self-center flex items-center justify-center relative box-content w-20 md:w-40 lg:w-60 h-20 md:h-40 lg:h-60'>
-            <Link href={'/paintball'}>
+            <Link href={'http://royalridgespaintball.com/'}>
               <Image
                 src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1699283060/royalRidges/icons/Paintball_hzuita.png'
                 alt='paintball camp'
