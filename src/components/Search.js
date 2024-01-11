@@ -11,12 +11,12 @@ function Hit({ hit }) {
   return JSON.stringify(hit);
 }
 
-const AlgoliaAppId = 'latency';
+/* const AlgoliaAppId = 'latency';
 const AlgoliaSearchOnlyApiKey = '6be0576ff61c053d5f9a3225e2a90f76';
-const AlgoliaIndexName = 'instant_search';
+const AlgoliaIndexName = 'instant_search'; */
 
 const appId = '9Y3RHNIFAD';
-const searchOnlyApiKey = process.env.ALGOLIA_SEARCH_API_KEY;
+const searchOnlyApiKey = '6be0576ff61c053d5f9a3225e2a90f76';
 const indexName =
   'netlify_3f1d04a0-b847-4a3a-aba8-722f05e29701_main_all';
 
