@@ -35,7 +35,7 @@ const DayHorseCamp = () => {
             <p>8-14 Years Old</p>
             <p>$400 for the week</p>
             <p>$60 Bus Transportation</p>
-            <p>$125 ADD ON Overnight Blast Weeks 1, 5, and 7</p>
+            <p>$125 ADD ON Overnight Blast Weeks 5, 7, and 10</p>
             <p className='pt-2'>
               Special groups designed for the younger and older horse
               lovers
@@ -44,7 +44,7 @@ const DayHorseCamp = () => {
               Cowpoke Horse Camp /Arena Ride Only (Ages 7-8) Weeks 2 &
               6
             </p>
-            <p>Teen Horse Camp (Ages 13-16) Weeks 1 & 8</p>
+            <p>Teen Horse Camp (Ages 13-16) Week 8</p>
           </div>
           <p className='mt-2 text-center mb-4'>
             <span className='font-semibold'>New this year!</span>
@@ -110,7 +110,7 @@ const DayHorseCamp = () => {
               <span className='text-green-200 font-semibold'>
                 Week #1
               </span>{' '}
-              - June 17-21 (ONB and Teen Horse Available)
+              - June 17-21
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
@@ -159,6 +159,12 @@ const DayHorseCamp = () => {
                 Week #9
               </span>{' '}
               - August 12-16 (Trail Camp)
+            </p>
+            <p>
+              <span className='text-green-200 font-semibold'>
+                Week #10
+              </span>{' '}
+              - August 19-23 (ONB Available)
             </p>
           </div>
           <a

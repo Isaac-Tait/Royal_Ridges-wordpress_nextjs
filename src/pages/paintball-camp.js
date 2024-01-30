@@ -142,6 +142,15 @@ const DayPaintBall = () => {
                 &nbsp;EXTREME
               </span>
             </p>
+            <p>
+              <span className='text-green-200 font-semibold'>
+                Week #10
+              </span>{' '}
+              - August 19-23
+              <span className='text-yellow-400 font-bold'>
+                &nbsp;SPLAT
+              </span>
+            </p>
           </div>
           <a
             href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151'
