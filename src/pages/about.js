@@ -1,14 +1,21 @@
 'use client';
-
+import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 export default function About() {
   return (
     <div className='bg-gradient-to-l from-yellow-200 to-green-200'>
+      <Head>
+        <title>About Royal Ridges</title>
+        <description>
+          This is a snippet about Royal Ridges Retreat in South
+          Washington
+        </description>
+      </Head>
       <Header />
       <div className='max-w-6xl mx-auto'>
         <div className='flex justify-center'>

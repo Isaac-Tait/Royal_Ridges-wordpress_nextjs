@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import { renderToString } from 'react-dom/server';
 import algoliasearch from 'algoliasearch/lite';
 import {
@@ -6,12 +8,19 @@ import {
   getServerState,
   Hits,
   SearchBox,
+  Highlight,
 } from 'react-instantsearch';
 
-import SearchHit from '../components/SearchHit';
-
 function Hit({ hit }) {
-  return JSON.stringify(hit);
+  return (
+    <article>
+      <h1>
+        <Highlight attribute='test' hit={hit} />
+        <Link href={hit.pathname}>{hit.title}</Link>
+        <p>{hit.content}</p>
+      </h1>
+    </article>
+  );
 }
 
 const appId = '9Y3RHNIFAD';
@@ -29,9 +38,15 @@ export default function SearchPage({ serverState }) {
       >
         <SearchBox
           placeholder='Search parameter'
-          className='bg-red-200 flex justify-center'
+          className={{
+            root: 'p-3 shadow-sm',
+            form: 'relative',
+            input:
+              'block w-full pl-9 pr-3 py-2 bg-white border border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 rounded-md focus:ring-1',
+            submitIcon: 'absolute top-0 left-0 bottom-0 w-6',
+          }}
         />
-        <Hits hitComponent={SearchHit} />
+        <Hits hitComponent={Hit} />
       </InstantSearch>
     </InstantSearchSSRProvider>
   );

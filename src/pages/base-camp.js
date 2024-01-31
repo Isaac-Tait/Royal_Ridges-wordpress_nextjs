@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Head from 'next/head';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -7,6 +8,12 @@ import Navigation from '../components/SummerNav';
 const DayCamp = () => {
   return (
     <div className='bg-gradient-to-l from-yellow-200 to-indigo-200'>
+      <Head>
+        <title>Base Camp @ Royal Ridges</title>
+      </Head>
+      <Head>
+        <title>Adventure Camp!</title>
+      </Head>
       <Header />
       <div className='h-screen overflow-y-scroll px-1 sm:grid sm:grid-cols-2'>
         {/*Column 1*/}
