@@ -9,17 +9,22 @@ import {
   Hits,
   SearchBox,
   Highlight,
+  Pagination
 } from 'react-instantsearch';
 
 function Hit({ hit }) {
   return (
-    <article>
+    <div className='max-w-5xl mx-auto bg-red-50'>
       <h1>
-        <Highlight attribute='test' hit={hit} />
-        <Link href={hit.pathname}>{hit.title}</Link>
-        <p>{hit.content}</p>
+        <Highlight attribute='content' hit={hit} />
+        <Link href={hit.pathname} className='font-extrabold'>
+          {hit.title}
+        </Link>
       </h1>
-    </article>
+      {/* <p className='w-1/3 h-40 p-4 text-ellipsis overflow-hidden '>
+        {hit.content}
+      </p> */}
+    </div>
   );
 }
 
@@ -47,6 +52,7 @@ export default function SearchPage({ serverState }) {
           }}
         />
         <Hits hitComponent={Hit} />
+        <Pagination />
       </InstantSearch>
     </InstantSearchSSRProvider>
   );

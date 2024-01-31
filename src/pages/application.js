@@ -6,7 +6,7 @@ const Application = () => {
   return (
     <div className=''>
       <Head>
-        <title>Apply to work at Royal Ridges</title>
+        <title>Apply to work @ Royal Ridges</title>
       </Head>
       <Header />
       <div>
