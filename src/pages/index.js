@@ -2,9 +2,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Head from 'next/head';
 
-import { renderToString } from 'react-dom/server';
-import { getServerState } from 'react-instantsearch';
-
 import { getAllPosts } from '../lib/api';
 
 import SearchPage from '../components/Search';
@@ -12,7 +9,7 @@ import Blog from '../components/Blog';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 
-export default function Home({ allPosts, serverState }) {
+export default function Home({ allPosts }) {
   return (
     <div>
       <Head>
@@ -271,13 +268,9 @@ export default function Home({ allPosts, serverState }) {
 
 export async function getStaticProps() {
   const allPosts = await getAllPosts();
-  const serverState = await getServerState(<SearchPage />, {
-    renderToString,
-  });
   return {
     props: {
       allPosts,
-      serverState,
     },
   };
 }
