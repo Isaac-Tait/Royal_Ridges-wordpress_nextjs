@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import Head from 'next/head';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -7,6 +8,9 @@ import Footer from '../components/Footer';
 const SpringDayCamp = () => {
   return (
     <div className='bg-gradient-to-b from-green-200 to-yellow-200'>
+      <Head>
+        <title>Spring Day Camp @ Royal Ridges</title>
+      </Head>
       <Header />
       <div className='h-screen grid grid-cols-2 max-w-6xl mx-auto'>
         {/*Column 1*/}

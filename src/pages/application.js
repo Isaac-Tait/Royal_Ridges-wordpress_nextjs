@@ -1,9 +1,13 @@
+import Head from 'next/head';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 const Application = () => {
   return (
-    <div className=''>
+    <div>
+      <Head>
+        <title>Apply to work @ Royal Ridges</title>
+      </Head>
       <Header />
       <div>
         <div className='max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen overflow-y-scroll'>

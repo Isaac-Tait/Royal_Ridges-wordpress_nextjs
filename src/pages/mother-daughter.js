@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Head from 'next/head';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -6,6 +7,12 @@ import Footer from '../components/Footer';
 const MotherDaughter = () => {
   return (
     <div className='bg-gradient-to-r from-yellow-200 to-indigo-200'>
+      <Head>
+        <title>Mother Daughter Programs @ Royal Ridges</title>
+      </Head>
+      <Head>
+        <title>Businesses that support Royal Ridges</title>
+      </Head>
       <Header />
       <div className='h-screen'>
         <p className='flex flex-wrap text-green-200 font-bold font-cursive text-xl justify-center md:text-4xl pb-4'>

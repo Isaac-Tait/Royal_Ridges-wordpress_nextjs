@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Head from 'next/head';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -6,6 +7,12 @@ import Footer from '../components/Footer';
 const ParentsManual = () => {
   return (
     <div className='bg-gradient-to-l from-yellow-200 to-indigo-200'>
+      <Head>
+        <title>
+          A manual for parents who are sending their children to Royal
+          Ridges
+        </title>
+      </Head>
       <Header />
       <div className='h-screen max-w-6xl mx-auto text-gray-800 overflow-y-scroll'>
         <Image

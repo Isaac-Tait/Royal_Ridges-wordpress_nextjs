@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Head from 'next/head';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -6,6 +7,9 @@ import Footer from '../components/Footer';
 const SummerStaffApp = () => {
   return (
     <div className='bg-gradient-to-l from-yellow-200 to-indigo-200'>
+      <Head>
+        <title>Royal Ridges&#39; Summer Staff Application</title>
+      </Head>
       <Header />
       <div className='max-w-6xl mx-auto h-screen overflow-y-scroll'>
         <Image
@@ -89,12 +93,19 @@ const SummerStaffApp = () => {
               Once you have made account you can “register” for the
               summer staff application through the Ultra Camp program.
             </p>
-        
+
             <p className='mx-10 mt-4'>
               Please give us some time to process your application. If
               you have not heard from us after a week, please contact
-              the <a href='mailto:programs@royalridges.org' className='text-green-200 underline hover:text-indigo-400 italic text-sm'>Program Director</a> to make sure we received it. Thank
-              you for considering Royal Ridges for your summer!
+              the{' '}
+              <a
+                href='mailto:programs@royalridges.org'
+                className='text-green-200 underline hover:text-indigo-400 italic text-sm'
+              >
+                Program Director
+              </a>{' '}
+              to make sure we received it. Thank you for considering
+              Royal Ridges for your summer!
             </p>
           </div>
         </div>

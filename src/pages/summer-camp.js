@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Head from 'next/head';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -7,6 +8,9 @@ import Footer from '../components/Footer';
 const SummerCampPage = () => {
   return (
     <div className='bg-gradient-to-l from-yellow-200 to-green-200'>
+      <Head>
+        <title>Summer Camp @ Royal Ridges</title>
+      </Head>
       <Header />
       <div className='max-w-6xl mx-auto'>
         <div className='flex justify-center'>

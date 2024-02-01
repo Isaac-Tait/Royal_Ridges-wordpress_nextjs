@@ -1,9 +1,14 @@
+import Head from 'next/head';
+
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 const Contract = () => {
   return (
     <div className='bg-gradient-to-l from-yellow-200 to-indigo-200'>
+      <Head>
+        <title>Summer Senior Contract @ Royal Ridges</title>
+      </Head>
       <Header />
       <div className='h-screen'>
         <div className='max-w-4xl mx-auto mt-8'>

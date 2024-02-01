@@ -1,9 +1,14 @@
+import Head from 'next/head';
+
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 const staffManual = () => {
   return (
     <div className='bg-gradient-to-l from-yellow-200 to-indigo-200'>
+      <Head>
+        <title>Royal Ridges&#39; Summer Staff Manual</title>
+      </Head>
       <Header />
       <div className='h-screen'>
         <p className='text-green-200 font-bold text-base md:text-4xl flex flex-wrap justify-center mx-auto'>
