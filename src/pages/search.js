@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 
 const search = () => {
   return (
-    <div className='h-screen heropattern-topography-yellow-400'>
+    <div className='heropattern-topography-yellow-400'>
       <Head>
         <title>Searching the Royal Ridges&#39; website</title>
       </Head>

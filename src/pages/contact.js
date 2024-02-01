@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Head from 'next/head';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -6,6 +7,9 @@ import Footer from '../components/Footer';
 const Comments = () => {
   return (
     <div className='bg-gradient-to-l from-yellow-400 to-yellow-200'>
+      <Head>
+        <title>How to get in touch with Royal Ridges</title>
+      </Head>
       <Header />
       <div className='max-w-6xl flex flex-col mx-auto md:h-screen overflow-auto mb-4 px-2'>
         <Image

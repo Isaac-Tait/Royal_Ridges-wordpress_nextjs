@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import Head from 'next/head';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -7,6 +8,9 @@ import Footer from '../components/Footer';
 const ParentChild = () => {
   return (
     <div className='bg-gradient-to-r from-yellow-200 to-indigo-200'>
+      <Head>
+        <title>Parent Child Programs @ Royal Ridges</title>
+      </Head>
       <Header />
       <div className='max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen'>
         <Image

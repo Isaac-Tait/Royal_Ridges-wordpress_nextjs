@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Head from 'next/head';
 
 import Navigation from '../components/SummerNav';
 import Header from '../components/Header';
@@ -8,6 +9,9 @@ import Footer from '../components/Footer';
 const SummerReg = () => {
   return (
     <div className='bg-gradient-to-l from-yellow-200 to-indigo-200'>
+      <Head>
+        <title>Register for Summer Camp @ Royal Ridges</title>
+      </Head>
       <Header />
       <div className='h-screen overflow-auto px-1 sm:grid sm:grid-cols-2'>
         {/*Column 1*/}

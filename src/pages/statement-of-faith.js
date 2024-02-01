@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Head from 'next/head';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -6,6 +7,9 @@ import Footer from '../components/Footer';
 const StatementOfFaith = () => {
   return (
     <div className='bg-gradient-to-t from-yellow-200 to-indigo-200'>
+      <Head>
+        <title>Statement of Faith @ Royal Ridges</title>
+      </Head>
       <Header />
       <div>
         <div className='max-w-6xl mx-2 md:mx-auto text-lg h-screen overflow-y-scroll'>

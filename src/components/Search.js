@@ -14,7 +14,7 @@ import {
 
 function Hit({ hit }) {
   return (
-    <div className='max-w-5xl mx-auto bg-red-50'>
+    <div className='max-w-5xl mx-auto bg-gray-50 opacity-90'>
       <h1>
         <Snippet attribute='content' hit={hit} />
         <Link href={hit.pathname} className='font-extrabold'>
@@ -36,27 +36,32 @@ const indexName =
 const searchClient = algoliasearch(appId, searchOnlyApiKey);
 export default function SearchPage() {
   return (
-    <div className='h-screen overflow-y-scroll'>
+
       <InstantSearchSSRProvider>
         <InstantSearch
           searchClient={searchClient}
           indexName={indexName}
         >
-          <SearchBox
-            placeholder='Search parameter'
-            className={{
-              root: 'p-3 shadow-sm',
-              form: 'mt-8 pl-8',
-              input:
-                'block w-full pl-9 pr-3 py-2 bg-white border border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 rounded-md focus:ring-1',
-              submitIcon: 'absolute top-0 left-0 bottom-0 w-6',
-            }}
-          />
+          <div className='top-0 sticky z-10'>
+            <SearchBox
+              placeholder='Search parameter'
+              classNames={{
+                root: 'p-3 shadow-sm',
+                form: 'mt-8 pl-8',
+                input:
+                  'block w-full pl-9 pr-3 py-2 bg-white border border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 rounded-md focus:ring-1',
+                submitIcon: 'absolute top-0 left-0 bottom-0 w-6',
+              }}
+            />
+          </div>
+          <div className='h-screen overflow-y-scroll'>
           <Hits hitComponent={Hit} />
-          <Pagination />
+          </div>
+          
+          {/*           <Pagination /> */}
         </InstantSearch>
       </InstantSearchSSRProvider>
-    </div>
+
   );
 }
 

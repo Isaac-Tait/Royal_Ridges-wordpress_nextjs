@@ -1,9 +1,17 @@
+import Head from 'next/head';
+
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 const TermsAndConditions = () => {
   return (
     <div className='bg-gradient-to-l from-pink-200 to-indigo-200'>
+      <Head>
+        <title>
+          Royal Ridges&#39; Important but boring Terms and Conditions
+          TL;DR
+        </title>
+      </Head>
       <Header />
       <div className='h-screen'>
         <div className='max-w-4xl mx-auto mt-8'>

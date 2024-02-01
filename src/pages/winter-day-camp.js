@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import Head from 'next/head';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -7,6 +8,9 @@ import Footer from '../components/Footer';
 const WinterDayCamp = () => {
   return (
     <div className='bg-gradient-to-b from-yellow-200 to-green-200'>
+    <Head>
+        <title>Winter Day Camp @ Royal Ridges&#39; Staff</title>
+      </Head>
       <Header />
       <div className='h-screen max-w-6xl mx-auto'>
         <div className='mr-4'>

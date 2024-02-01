@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Head from 'next/head';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -6,6 +7,9 @@ import Footer from '../components/Footer';
 const SummerStaffTwo = () => {
   return (
     <div className='bg-yellow-200'>
+      <Head>
+        <title>Staff Excellence @ Royal Ridges</title>
+      </Head>
       <Header />
       <div className='max-w-7xl mx-2 md:mx-auto text-xs md:text-base h-screen overflow-y-scroll'>
         <h3 className='text-2xl my-6 font-semibold text-center'>

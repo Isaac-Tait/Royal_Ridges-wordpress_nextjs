@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 
 const Application = () => {
   return (
-    <div className=''>
+    <div>
       <Head>
         <title>Apply to work @ Royal Ridges</title>
       </Head>

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Head from 'next/head';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -6,6 +7,9 @@ import Footer from '../components/Footer';
 const GuestGroups = () => {
   return (
     <div className='bg-gradient-to-r from-yellow-200 to-indigo-200'>
+      <Head>
+        <title>Guest Groups</title>
+      </Head>
       <Header />
       <div>
         <div className='max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen overflow-y-scroll'>

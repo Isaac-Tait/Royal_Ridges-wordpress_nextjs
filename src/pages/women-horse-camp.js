@@ -1,10 +1,16 @@
 import Image from 'next/image';
+import Head from 'next/head';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 const WomenHorseCamp = () => {
   return (
     <div className='bg-gradient-to-r from-yellow-200 to-indigo-200'>
+      <Head>
+        <title>
+          Women&#39;s Horse Camp @ Royal Ridges&#39; Staff
+        </title>
+      </Head>
       <Header />
       <div className='max-w-6xl mx-2 md:mx-auto text-xs md:text-base h-screen overflow-y-scroll'>
         <Image

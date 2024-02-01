@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import Head from 'next/head;';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -7,6 +8,9 @@ import Footer from '../components/Footer';
 const ProgramsPage = () => {
   return (
     <div className='bg-gradient-to-r from-yellow-100 to-yellow-400'>
+      <Head>
+        <title>A full list of programs offered @ Royal Ridges</title>
+      </Head>
       <Header />
       <div className=''>
         <div className='flex justify-center'>

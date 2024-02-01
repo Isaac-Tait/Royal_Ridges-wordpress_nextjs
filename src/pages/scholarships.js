@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Head from 'next/head';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -6,6 +7,12 @@ import Footer from '../components/Footer';
 const Scholarship = () => {
   return (
     <div className='bg-gradient-to-l from-yellow-200 to-indigo-200'>
+      <Head>
+        <title>
+          Scholarships for attending Royal Ridges&#39; programs and
+          camps
+        </title>
+      </Head>
       <Header />
       <div className='max-w-4xl mx-auto h-screen overflow-y-scroll'>
         <Image

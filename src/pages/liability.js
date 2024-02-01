@@ -1,9 +1,14 @@
+import Head from 'next/head';
+
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 const Medical = () => {
   return (
     <div className='bg-gradient-to-l from-pink-200 to-indigo-200'>
+      <Head>
+        <title>Liability Form for Royal Ridges</title>
+      </Head>
       <Header />
       <div className='h-screen max-w-6xl mx-auto text-gray-800'>
         <p className='text-xl'>
