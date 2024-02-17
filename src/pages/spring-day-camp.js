@@ -82,7 +82,7 @@ const SpringDayCamp = () => {
           </p>
           <p className='font-bold'>Prices:</p>
           <p className='ml-1'>Base Camp: $175.00 per child</p>
-          <p className='ml-1'>Horse Camp: $350.00 per child</p>
+          <p className='ml-1'>Horse Camp: $400.00 per child</p>
           <p className='mt-2 text-center font-cursive text-xl'>
             Register
             <a
