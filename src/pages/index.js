@@ -4,7 +4,6 @@ import Head from 'next/head';
 
 import { getAllPosts } from '../lib/api';
 
-import SearchPage from '../components/Search';
 import Blog from '../components/Blog';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
