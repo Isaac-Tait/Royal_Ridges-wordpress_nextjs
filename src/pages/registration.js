@@ -27,18 +27,17 @@ const SummerReg = () => {
             height={400}
             className='w-1/2 flex mx-auto rounded-xl my-6'
           />
-          {/*           <h3 className='font-cursive text-center text-xl mb-4'>
-            Check Availability{' '}
-            <a
-              href='https://royalridges.org/updates/2022-summer-camp-availability/'
-              className='text-green-200 hover:text-indigo-400 hover:underline'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              Here
-            </a>
-            !
-          </h3> */}
+          {/* Mobile Text */}
+          <div className='text-center md:hidden text-xs italic w-2/3 mx-auto'>
+            <p className='mb-1'>
+              To access specific information about our camps tap the
+            </p>
+            <span className='text-yellow-200 bg-yellow-400 p-1 rounded-lg w-fit'>
+              Summer Camp Options
+            </span>
+            <p className='mt-1'>button above the image</p>
+          </div>
+          <hr />
           <p>
             All of our Summer Camps include lots of fun games, team
             building activities, Bible Studies, singing camp songs,

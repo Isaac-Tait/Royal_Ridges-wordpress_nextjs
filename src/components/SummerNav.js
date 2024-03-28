@@ -35,7 +35,7 @@ const SummerNav = () => {
             <div className='mt-10'>
               <div className='sm:hidden'>
                 {/* Mobile menu button*/}
-                <Disclosure.Button className='inline-flex items-center justify-center p-2 rounded-md text-gray-800 bg-yellow-400 hover:bg-green-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white opacity-80'>
+                <Disclosure.Button className='-ml-4 inline-flex items-center justify-center p-2 rounded-md text-gray-800 bg-yellow-400 hover:bg-green-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white opacity-80'>
                   <span className='sr-only'>Open main menu</span>
                   {open ? (
                     <XIcon
@@ -43,7 +43,7 @@ const SummerNav = () => {
                       aria-hidden='true'
                     />
                   ) : (
-                    <p className='font-medium'>Camp Options</p>
+                    <p className='font-medium'>Summer Camp Options</p>
                   )}
                 </Disclosure.Button>
               </div>
