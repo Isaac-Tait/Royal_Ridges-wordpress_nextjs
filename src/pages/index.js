@@ -271,6 +271,7 @@ export async function getStaticProps() {
     props: {
       allPosts,
     },
-    revalidate: 10,
+    //revalidate: 10,
+    // The above line causes the website to push a 500 error
   };
 }
