@@ -9,7 +9,6 @@ import {
   Hits,
   SearchBox,
   Snippet,
-  Pagination,
 } from 'react-instantsearch';
 
 function Hit({ hit }) {
@@ -36,32 +35,28 @@ const indexName =
 const searchClient = algoliasearch(appId, searchOnlyApiKey);
 export default function SearchPage() {
   return (
-
-      <InstantSearchSSRProvider>
-        <InstantSearch
-          searchClient={searchClient}
-          indexName={indexName}
-        >
-          <div className='top-0 sticky z-10'>
-            <SearchBox
-              placeholder='Search parameter'
-              classNames={{
-                root: 'p-3 shadow-sm',
-                form: 'mt-8 pl-8',
-                input:
-                  'block w-full pl-9 pr-3 py-2 bg-white border border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 rounded-md focus:ring-1',
-                submitIcon: 'absolute top-0 left-0 bottom-0 w-6',
-              }}
-            />
-          </div>
-          <div className='h-screen overflow-y-scroll'>
+    <InstantSearchSSRProvider>
+      <InstantSearch
+        searchClient={searchClient}
+        indexName={indexName}
+      >
+        <div className='top-0 sticky z-10'>
+          <SearchBox
+            placeholder='Search parameter'
+            classNames={{
+              root: 'p-3 shadow-sm',
+              form: 'mt-8 pl-8',
+              input:
+                'block w-full pl-9 pr-3 py-2 bg-white border border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 rounded-md focus:ring-1',
+              submitIcon: 'absolute top-0 left-0 bottom-0 w-6',
+            }}
+          />
+        </div>
+        <div className='h-screen overflow-y-scroll'>
           <Hits hitComponent={Hit} />
-          </div>
-          
-          {/*           <Pagination /> */}
-        </InstantSearch>
-      </InstantSearchSSRProvider>
-
+        </div>
+      </InstantSearch>
+    </InstantSearchSSRProvider>
   );
 }
 

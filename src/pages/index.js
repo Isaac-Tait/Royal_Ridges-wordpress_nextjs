@@ -8,14 +8,25 @@ import Blog from '../components/Blog';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 
+export async function getStaticProps() {
+  const allPosts = await getAllPosts();
+  return {
+    props: {
+      allPosts,
+    },
+    revalidate: 10,
+    // The above line causes the website to push a 500 error
+  };
+}
+
 export default function Home({ allPosts }) {
   return (
     <div>
+      <link rel='icon' href='/favicon.png' />
       <Head>
         <title>
           Royal Ridges - An Adventure Camp in Southern Washington
         </title>
-        <link rel='icon' href='/favicon.ico' />
       </Head>
       {/* Sticky Header */}
       <div className='sticky top-0'>
@@ -263,15 +274,4 @@ export default function Home({ allPosts }) {
       <Footer />
     </div>
   );
-}
-
-export async function getStaticProps() {
-  const allPosts = await getAllPosts();
-  return {
-    props: {
-      allPosts,
-    },
-    //revalidate: 10,
-    // The above line causes the website to push a 500 error
-  };
 }
