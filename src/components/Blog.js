@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-const Blog = ({ allPosts }) => {
+export default function Blog({ allPosts }) {
   return (
     <div className='flex flex-col'>
       <section className='overflow-auto'>
@@ -41,6 +41,4 @@ const Blog = ({ allPosts }) => {
       </Link>
     </div>
   );
-};
-
-export default Blog;
+}
