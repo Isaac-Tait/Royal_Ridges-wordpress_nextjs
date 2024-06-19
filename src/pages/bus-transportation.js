@@ -8,10 +8,8 @@ import Footer from '../components/Footer';
 const DayCamp = () => {
   return (
     <div className='bg-gradient-to-l from-yellow-200 to-indigo-200'>
-    <Head>
-        <title>
-          Bus Transportation to and from Royal Ridges
-        </title>
+      <Head>
+        <title>Bus Transportation to and from Royal Ridges</title>
       </Head>
       <Header />
       <div className='h-screen overflow-y-scroll px-1 sm:grid sm:grid-cols-2'>
@@ -113,23 +111,26 @@ const DayCamp = () => {
             <h3 className='text-green-200 font-semibold text-xl mt-6'>
               East Three Bus Route
             </h3>
-            <h4 className='font-semibold'>
-              Brush Prairie Baptist Church
-            </h4>
-            <p>To Be Determined</p>
-            {/* <p className="ml-2">8:15am - Departure Time</p>
-          <p className="ml-2">
-            4:00pm - Drop Off Time&nbsp;
-            <span className="font-semibold text-red-400">(Final Stop)</span>
-          </p> */}
+            <h4 className='font-semibold'>Reign Church</h4>
+            <p className='ml-2'>8:15am - Departure Time</p>
+            <p className='ml-2'>
+              4:00pm - Drop Off Time&nbsp;
+              <span className='font-semibold text-red-400'>
+                (Final Stop)
+              </span>
+            </p>
             <a
-              href='https://goo.gl/maps/Lewa8HyenUBhNw2q9'
+              href='https://maps.app.goo.gl/CK22wmeYJa7zwhbn9'
               target='_blank'
               rel='noopener noreferrer'
               className='ml-2 hover:underline text-green-200 hover:text-indigo-500'
             >
-              11814 NE 117th Avenue Vancouver, WA
+              11608 NE 107th St., Vancouver, WA
             </a>
+            <p className='italic ml-2 text-xs'>
+              (Please park in the middle of parking lot. Please do not
+              park in front of the building or by the daycare center.)
+            </p>
             <h4 className='font-semibold'>
               Battle Ground Baptist Church
             </h4>
@@ -144,7 +145,8 @@ const DayCamp = () => {
               1110 NW 6th Avenue Battle Ground, WA
             </a>
             <p className='italic ml-2 text-xs mb-2'>
-              (Front parking lot)
+              (Please use parking lot furthest to east (closest to the
+              wooden fence and away from staff/visitor parking.)
             </p>
             <hr />
             <h3 className='text-green-200 font-semibold text-xl mt-6'>
