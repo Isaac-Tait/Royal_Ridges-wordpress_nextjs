@@ -21,43 +21,38 @@ const Donations = () => {
         />
 
         <h1 className='font-semibold text-2xl tracking-wide text-center text-red-600'>
-          Barn Fire Update
+          Donations
         </h1>
         <p className='my-4'>
-          On Friday, July 7th, our hay barn caught fire and burned to
-          the ground. It was a total loss. All of our equipment,
-          medical supplies, grain, and hay for the year was destroyed.
-          Our herd was out on pasture at the time of the fire so they
-          were unharmed, but our vaulting horse was in a paddock
-          attached to the barn and was injured. He is being treated at
-          Oregon State University and we are hopeful that he will
-          recover. We have an incredible community supporting us and
-          we know that God is in control and the loss of our barn and
-          hay will work for His glory. If you would like to help
-          please make a donation to our general fund or email{' '}
-          <a
-            href='mailto: sarah@royalridges.org'
-            className='text-green-200 hover:text-indigo-400 hover:underline'
-          >
-            sarah@royalridges.org
-          </a>{' '}
-          to donate items or hay.
+          It has been over a year since we lost our barn to a fire.
+          Through the generosity of many, we have been blessed to have
+          built new buildings, allowing us to replace what we lost and
+          plan for future expansion. We now have the new facility at
+          the capacity of our previous barn, with double the amount of
+          hay storage and the capability of doubling our horse numbers
+          to meet our future program growth goals. The road to
+          recovery has been long but filled with many wonderful
+          opportunities to meet fantastic people and work with
+          incredible companies. We could not have done it without the
+          community coming alongside us and helping us rebuild. From
+          the bottom of our hearts, we want to thank everyone
+          involved. With thankful hearts, Royal Ridges Staff
         </p>
 
-        <div className='flex flex-col md:flex-row w-full justify-between px-8'>
+        <div className='flex flex-col md:flex-row w-full justify-between px-8 mb-2'>
           <Image
-            src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1688934484/Royal-Ridges/before_barn_fire_njqn1n.jpg'
-            alt='barn before fire'
-            width={400}
+            src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1722096588/Royal-Ridges/royal-ridges-new_barn-washington_tkvwgg.jpg'
+            alt='new barn'
+            width={500}
             height={400}
-            className='rounded-2xl shadow-xl mt-2 w-96 h-60'
+            className='rounded-2xl shadow-xl mt-2'
           />
           <Image
-            src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1688934484/Royal-Ridges/during_barn_fire_uxplf1.jpg'
+            src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1722096588/Royal-Ridges/royal-ridges-new_barn-washington-horse-hay_rvx8gu.jpg'
             alt='barn during fire'
-            width={400}
-            height={400}
-            className='rounded-2xl shadow-xl mt-2 w-96 h-48'
+            width={300}
+            height={150}
+            className='rounded-2xl shadow-xl mt-2'
           />
         </div>
 
