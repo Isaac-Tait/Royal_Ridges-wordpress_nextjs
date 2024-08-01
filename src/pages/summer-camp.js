@@ -12,7 +12,7 @@ const SummerCampPage = () => {
         <title>Summer Camp @ Royal Ridges</title>
       </Head>
       <Header />
-      <div className='max-w-6xl mx-auto'>
+      <div className='max-w-6xl mx-auto overflow-y-scroll'>
         <div className='flex justify-center'>
           <Image
             src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1699283063/royalRidges/icons/SummerIcon_wa521t.png'
