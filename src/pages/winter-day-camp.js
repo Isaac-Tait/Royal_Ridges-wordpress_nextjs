@@ -8,7 +8,7 @@ import Footer from '../components/Footer';
 const WinterDayCamp = () => {
   return (
     <div className='bg-gradient-to-b from-yellow-200 to-green-200'>
-    <Head>
+      <Head>
         <title>Winter Day Camp @ Royal Ridges&#39; Staff</title>
       </Head>
       <Header />
@@ -37,21 +37,17 @@ const WinterDayCamp = () => {
             </Link>
           </div>
           <p className='mb-2 text-center'>
-            Five action-packed days of Winter Camp fun and activities!
+            Action Packed Winter Camp Activities!
           </p>
           <p>
-            Join us this Christmas break for our Winter Day Camp as we
-            create 5 days of fun-filled holiday-themed adventures for
-            campers from Kindergarten through 6th grade. We are
-            looking forward to filling camp with the joy of the
-            season. Campers will play games, learn about Jesus&#39;s
-            birth, and spend time outdoors. We also offer a break-out
-            horse activity for those kiddos who love horses. Space is
-            limited, so click on the link below for more information
-            and to register for camp. Please pack your camper with a
-            packed lunch, water bottle, and snack, and ensure they
-            dress in plenty of layers and warm clothes. We do have a
-            heated area, but they will be outside as well.
+            Join our Winter Day Camp for a fun-filled, holiday-themed
+            adventure for campers from Kindergarten through 6th grade.
+            This year&#39;s Winter Camp is split into 2-day sessions:
+            December 30 - 31 & January 2 - 3. Campers will learn how
+            Jesus&#39; love brings JOY, play games & spend time
+            outdoors. We also offer two break-out activities (The
+            Horse Option for those kiddos who love horses and the
+            Adventure Option [grades 3 & up] for those who dare!)
           </p>
           <p className='mb-2'>
             Sign up for Base Camp and choose to add the horse activity
@@ -61,7 +57,7 @@ const WinterDayCamp = () => {
           <hr />
           <p className='mt-1'>
             <span className='font-bold'>Date:&nbsp;</span>December
-            18-22, 2023
+            30-31, 2024 & January 2-3, 2025
           </p>
           <p>
             <span className='font-bold'>Time:&nbsp;</span>9:00am -
@@ -69,17 +65,21 @@ const WinterDayCamp = () => {
           </p>
           <p>
             <span className='font-bold'>Ages:&nbsp;</span>Kindergarten
-            to 6th Grade
+            to 7th Grade
           </p>
           <p className='font-bold'>Prices:</p>
           <p className='ml-1'>
-            Base Camp: $175.00 per camper for the week
+            Base Camp: $75.00 per camper for two day session
           </p>
           <p className='ml-1'>
-            Horse Option: add $150 per camper for the week
+            Horse Option: add $90 per camper for two day session
+          </p>
+          <p>
+            Adventure Option: add $30 per camper for 2-day session
+            (Only available for grades 3 & up)
           </p>
           <p className='ml-1'>
-            Bus Transportation: add $60 per camper for the week
+            Bus Transportation: add $25 per camper for the week
           </p>
           <p className='mt-2 text-center font-cursive text-xl'>
             Register
