@@ -12,7 +12,7 @@ const WinterDayCamp = () => {
         <title>Winter Day Camp @ Royal Ridges&#39; Staff</title>
       </Head>
       <Header />
-      <div className='h-screen max-w-6xl mx-auto'>
+      <div className='h-screen max-w-6xl mx-auto overflow-y-auto'>
         <div className='mr-4'>
           <Image
             src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/programs-page/headerPhotos/SchoolBreakCamps.png'
@@ -24,19 +24,19 @@ const WinterDayCamp = () => {
           <div className='flex justify-between max-w-4xl mx-auto my-10'>
             <Link
               href={'/school-break'}
-              className='font-cursive font-extrabold text-xl hover:underline text-green-200 hover:text-indigo-500'
+              className='font-cursive font-extrabold text-xl hover:underline text-yellow-200 hover:text-indigo-500'
             >
               <p>School Break Camps</p>
             </Link>
 
             <Link
               href={'/spring-day-camp'}
-              className='font-cursive font-extrabold text-xl hover:underline text-green-200 hover:text-indigo-500'
+              className='font-cursive font-extrabold text-xl hover:underline text-yellow-200 hover:text-indigo-500'
             >
               <p>Spring Day Camp</p>
             </Link>
           </div>
-          <p className='mb-2 text-center'>
+          <p className='mb-2 text-center font-medium text-lg'>
             Action Packed Winter Camp Activities!
           </p>
           <p>
@@ -74,7 +74,7 @@ const WinterDayCamp = () => {
           <p className='ml-1'>
             Horse Option: add $90 per camper for two day session
           </p>
-          <p>
+          <p className='ml-1'>
             Adventure Option: add $30 per camper for 2-day session
             (Only available for grades 3 & up)
           </p>
@@ -87,7 +87,7 @@ const WinterDayCamp = () => {
               href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Winter+Break+Camp'
               target='_blank'
               rel='noopener noreferrer'
-              className='text-green-200 hover:text-indigo-400 hover:underline'
+              className='text-yellow-200 hover:text-indigo-400 hover:underline'
             >
               &nbsp;here
             </a>
