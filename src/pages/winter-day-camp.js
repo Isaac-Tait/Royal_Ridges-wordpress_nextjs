@@ -69,17 +69,18 @@ const WinterDayCamp = () => {
           </p>
           <p className='font-bold'>Prices:</p>
           <p className='ml-1'>
-            Base Camp: $75.00 per camper for two day session
+            Base Camp: $75.00 per camper for the two day session
           </p>
           <p className='ml-1'>
-            Horse Option: add $90 per camper for two day session
+            Horse Option: add $90 per camper for the two day session
           </p>
           <p className='ml-1'>
-            Adventure Option: add $30 per camper for 2-day session
-            (Only available for grades 3 & up)
+            Adventure Option: add $30 per camper for the two day
+            session (Only available for grades 3 & up)
           </p>
           <p className='ml-1'>
-            Bus Transportation: add $25 per camper for the week
+            Bus Transportation: add $25 per camper for the two day
+            session.
           </p>
           <p className='mt-2 text-center font-cursive text-xl'>
             Register

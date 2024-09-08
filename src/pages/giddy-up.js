@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Head from 'next/head';
+import Link from 'next/link';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -38,22 +39,20 @@ const GiddyUp = () => {
             every Wednesday from 9:00 am - 3:00 pm.
           </p>
           <p>Ages: 5 - 12</p>
-          <p>Price: $47/per week</p>
-          <h3>Dates:</h3>
-          <ul className='prose list-disc'>
-            <li>
-              * Wednesdays - September 11, 2024 - June 4, 2025
-              (10:00am - 12:00pm)
-            </li>
-            <li>
-              * Thursdays: September 12, 2024 - June 5, 2025 (4:30 -
-              6:30 pm)
-            </li>
-          </ul>
+          <p>Price: $35/per week</p>
+          <p>Dates: September 11, 2024 - June 4, 2025</p>
           <p>
-            <span className='font-bold'>Horse Option: </span>We offer
-            Horsemanship Lessons on Wednesdays, 10:00 am - 12:00 pm.
+            <span className='font-bold'>Horse Option: </span>We
+            offer&nbsp;
+            <Link
+              href='/horsemanship'
+              className='hover:underline hover:text-indigo-400 text-green-200'
+            >
+              Horsemanship Lessons
+            </Link>{' '}
+            on Wednesdays and Thursdays.
           </p>
+
           <p>
             A $10/day discount is offered when purchasing the GiddyUp
             program and Wednesday Horsemanship Lessons.

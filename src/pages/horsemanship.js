@@ -30,21 +30,17 @@ const RidingLessons = () => {
             discussion, and Bible topics related to horsemanship)
           </p>
           <p>Ages: 6 to 18</p>
-          <p>Price: $45/per week</p>
-          <p>Dates:</p>
+          <p>Price: $47/per week</p>
 
+          <h3>Dates:</h3>
           <ul className='prose list-disc'>
             <li>
-              Tuesdays - September 12, 2023 - June 4, 2024 - 4:00 -
-              6:00 pm
+              * Wednesdays - September 11, 2024 - June 4, 2025
+              (10:00am - 12:00pm)
             </li>
             <li>
-              Wednesdays - September 13,2023 - June 5, 2024 - 10:00 am
-              - 12:00 pm
-            </li>
-            <li>
-              Thursdays - September 14, 2023 - June 6, 2024 - 4:00 -
-              6:00 pm
+              * Thursdays: September 12, 2024 - June 5, 2025 (4:30 -
+              6:30 pm)
             </li>
           </ul>
 
