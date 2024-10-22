@@ -1,5 +1,4 @@
-'use client';
-import Head from 'next/head'
+import Head from 'next/head';
 import Image from 'next/image';
 
 import Navigation from '../components/SummerNav';
@@ -9,10 +8,8 @@ import Footer from '../components/Footer';
 const DayAdventureCamp = () => {
   return (
     <div className='bg-gradient-to-l from-yellow-200 to-indigo-200'>
-    <Head>
-        <title>
-          Adventure Camp!
-        </title>
+      <Head>
+        <title>Adventure Camp!</title>
       </Head>
       <Header />
       <div className='h-screen overflow-y-scroll px-1 sm:grid sm:grid-cols-2'>
@@ -116,14 +113,15 @@ const DayAdventureCamp = () => {
               <span className='text-green-200 font-semibold'>
                 Week #1
               </span>{' '}
-              - June 17-21
+              - June 16-20
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #2
               </span>{' '}
-              - June 24-28&nbsp;
+              - June 23-27
               <span className='text-md font-semibold'>
+                {' '}
                 (ONB Available)
               </span>
             </p>
@@ -131,14 +129,16 @@ const DayAdventureCamp = () => {
               <span className='text-green-200 font-semibold'>
                 Week #3
               </span>{' '}
-              - July 1-5
+              - June 30 July 3
             </p>
+            <span className='italic text-xs'>No Camp on July 4</span>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #4
               </span>{' '}
-              - July 8-12&nbsp;
+              - July 7-11
               <span className='text-md font-semibold'>
+                {' '}
                 (ONB Available)
               </span>
             </p>
@@ -146,14 +146,15 @@ const DayAdventureCamp = () => {
               <span className='text-green-200 font-semibold'>
                 Week #5
               </span>{' '}
-              - July 15-19
+              - July 14-18
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #6
               </span>{' '}
-              - July 22-26&nbsp;
+              - July 21-25
               <span className='text-md font-semibold'>
+                {' '}
                 (ONB Available)
               </span>
             </p>
@@ -161,25 +162,19 @@ const DayAdventureCamp = () => {
               <span className='text-green-200 font-semibold'>
                 Week #7
               </span>{' '}
-              - July 29 - August 2
+              - July 28 - August 1
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #8
               </span>{' '}
-              - August 5-9
+              - August 4-8
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #9
               </span>{' '}
-              - August 12-16
-            </p>
-            <p>
-              <span className='text-green-200 font-semibold'>
-                Week #10
-              </span>{' '}
-              - August 19-23
+              - August 11-15
             </p>
           </div>
           <a
