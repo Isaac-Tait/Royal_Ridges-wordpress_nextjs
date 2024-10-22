@@ -45,10 +45,9 @@ const DayHorseCamp = () => {
               lovers
             </p>
             <p>
-              Cowpoke Horse Camp /Arena Ride Only (Ages 7-8) Weeks 2 &
-              6
+              Cowpoke Horse Camp /Arena Ride Only (Ages 7-8) Week 3
             </p>
-            <p>Teen Horse Camp (Ages 13-16) Week 8</p>
+            <p>Teen Horse Trail Camp (Ages 13-16) Week 7</p>
           </div>
           <p className='mt-2 text-center mb-4'>
             <span className='font-semibold'>New this year!</span>
@@ -61,8 +60,8 @@ const DayHorseCamp = () => {
             >
               Horse Specialty Theme Camps
             </a>
-            &nbsp;Trail Camp (Ages 10-16) Weeks 3, 7 & 9 Miniature
-            Horse Driving Week 4, Vaulting Week 5
+            &nbsp;Trail Camp (Ages 10-16) Weeks 1 - 8Miniature Horse
+            Driving Week 6, Vaulting Week 4
           </p>
           <hr />
           <div>
@@ -81,7 +80,7 @@ const DayHorseCamp = () => {
             </p>
             {/*Updated for 2024*/}
             <p className='text-xl font-bold mt-2'>
-              Day Horse Camp Overnight Blast Option
+              Horse Camp Overnight Blast Option
             </p>
             <p>
               Our Overnight Blast Horse Program will allow campers to
@@ -114,61 +113,59 @@ const DayHorseCamp = () => {
               <span className='text-green-200 font-semibold'>
                 Week #1
               </span>{' '}
-              - June 17-21
+              - June 16-20 (ONB and Trail Camp Available)
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #2
               </span>{' '}
-              - June 24-28 (Cowpoke Group Available)
+              - June 23-27 (Trail Camp Available)
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #3
               </span>{' '}
-              - July 1-5
+              - June 30 July 3
+              <span className='italic text-xs'>
+                No Camp on July 4
+              </span>
+              (Cowpoke and Trail Camp Available)
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #4
               </span>{' '}
-              - July 8-12 (Miniature Horse Available)
+              - July 7-11 (Vaulting and Trail Camp)
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #5
               </span>{' '}
-              - July 15-19 (ONB Available)
+              - July 14-18 (ONB and Trail Camp Available)
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #6
               </span>{' '}
-              - July 22-26 (Cowpoke Group Available)
+              - July 21-25 (Mini Driving and Trail Camp Available)
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #7
               </span>{' '}
-              - July 29 - August 2 (ONB Available)
+              - July 28 - August 1 (ONB and Teen Trail Camp Available)
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #8
               </span>{' '}
-              - August 5-9 (Teen Horse Available)
+              - August 4-8 (Trail Camp Available)
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #9
               </span>{' '}
-              - August 12-16 (Trail Camp)
-            </p>
-            <p>
-              <span className='text-green-200 font-semibold'>
-                Week #10
-              </span>{' '}
-              - August 19-23 (ONB Available)
+              - August 11-15
             </p>
           </div>
           <a
