@@ -53,27 +53,58 @@ export default function RecSportCamp() {
           <hr />
 
           <div className='my-2 ml-2 text-center'>
-            <p>Week #1 - June 16-20 (Grades 5 - 7)</p>
-            <p>Week #2 - June 23-27 (Grades 1 - 3)</p>
-
             <p>
-              {' '}
-              Week #3 - June 30-July 3
+              <span className='text-green-200 font-semibold'>
+                Week #1
+              </span>{' '}
+              June 16-20 (Grades 5 - 7)
+            </p>
+            <p>
+              <span className='text-green-200 font-semibold'>
+                Week #2
+              </span>{' '}
+              June 23-27 (Grades 1 - 3)
+            </p>
+            <p>
+              <span className='text-green-200 font-semibold'>
+                Week #3
+              </span>{' '}
+              June 30-July 3
               <span className='text-xs italic mb-2'>
                 &nbsp;No camp on July 4th
-              </span>
+              </span>{' '}
               (Grades 3 - 5)
             </p>
-
-            <p>Week #4 - July 7-11 (Grades 5 - 7)</p>
-
-            <p>Week #5 - July 14-18 (Grades 3 - 5)</p>
-
-            <p>Week #6 - July 21-25 (Grades 5 - 7)</p>
-
-            <p>Week #7 - July 28 - August 1 (Grades 1 - 3)</p>
-
-            <p>Week #8 - August 4-8 (Grades 3 - 5)</p>
+            <p>
+              <span className='text-green-200 font-semibold'>
+                Week #4
+              </span>{' '}
+              July 7-11 (Grades 5 - 7)
+            </p>
+            <p>
+              <span className='text-green-200 font-semibold'>
+                Week #5
+              </span>{' '}
+              July 14-18 (Grades 3 - 5)
+            </p>
+            <p>
+              <span className='text-green-200 font-semibold'>
+                Week #6
+              </span>{' '}
+              July 21-25 (Grades 5 - 7)
+            </p>
+            <p>
+              <span className='text-green-200 font-semibold'>
+                Week #7
+              </span>{' '}
+              July 28 - August 1 (Grades 1 - 3)
+            </p>
+            <p>
+              <span className='text-green-200 font-semibold'>
+                Week #8
+              </span>{' '}
+              August 4-8 (Grades 3 - 5)
+            </p>
           </div>
           <Link
             href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151'
