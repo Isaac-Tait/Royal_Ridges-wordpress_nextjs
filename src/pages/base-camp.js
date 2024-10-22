@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Head from 'next/head';
+import Link from 'next/link';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -29,14 +30,14 @@ const DayCamp = () => {
             height={300}
             className='w-1/2 mx-auto rounded-xl my-6'
           />
-          <a
+          <Link
             href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151'
             target='_blank'
             rel='noopener noreferrer'
             className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400 text-center'
           >
             Register for Base Camp
-          </a>
+          </Link>
           <div className='font-semibold text-green-200 ml-4 my-4 text-center'>
             <p>Monday-Friday 9am-3:30pm</p>
             <p>Entering Grades 1st-5th</p>
@@ -49,8 +50,8 @@ const DayCamp = () => {
               Our Base Camps are jam-packed with activities and fun!
               Campers will play games, experience team-building
               activities, explore the Bible during the daily Bible
-              lesson and sing songs. Base camps are divided into two
-              age level groups:
+              lesson, sing songs, and visit the camp store each day..
+              Base camps are divided into two age level groups:
             </p>
             <p className='font-bold underline mt-4'>
               Spruce Group - Grades 1st - 3rd
@@ -78,55 +79,55 @@ const DayCamp = () => {
               <span className='text-green-200 font-semibold'>
                 Week #1
               </span>{' '}
-              - June 17-21
+              - June 16-20
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #2
               </span>{' '}
-              - June 24-28
+              - June 23-27
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #3
               </span>{' '}
-              - July 1-5
+              - June 30 - July 3
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #4
               </span>{' '}
-              - July 8-12
+              - July 7-11
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #5
               </span>{' '}
-              - July 15-19
+              - July 14-18
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #6
               </span>{' '}
-              - July 22-26
+              - July 21-25
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #7
               </span>{' '}
-              - July 29 - August 2
+              - July 28 - August 1
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #8
               </span>{' '}
-              - August 5-9
+              - August 4-8
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #9
               </span>{' '}
-              - August 12-16
+              - August 11-15
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
@@ -139,7 +140,7 @@ const DayCamp = () => {
             href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151'
             target='_blank'
             rel='noopener noreferrer'
-            className='text-yellow-400 font-extrabold text-3xl my-10 hover:underline hover:text-indigo-400 text-center'
+            className='text-yellow-400 font-extrabold text-3xl my-10 hover:underline hover:text-indigo-400 text-center bg-indigo-300'
           >
             Register for Base Camp
           </a>

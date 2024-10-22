@@ -6,6 +6,16 @@ import { XIcon } from '@heroicons/react/outline';
 const navigation = [
   { name: 'Registration', href: '/registration', current: false },
   { name: 'Base Camp', href: '/base-camp', current: false },
+  {
+    name: 'Recreational Sports Camp',
+    href: '/rec-sport-camp',
+    current: false,
+  },
+  {
+    name: 'Arts and Crafts Camp',
+    href: '/art-craft-camp',
+    current: false,
+  },
   { name: 'Horse Camp', href: '/horse-camp', current: false },
   { name: 'Adventure Camp', href: '/adventure-camp', current: false },
   { name: 'Paintball Camp', href: '/paintball-camp', current: false },

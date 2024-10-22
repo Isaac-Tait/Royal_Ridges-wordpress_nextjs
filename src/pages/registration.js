@@ -66,48 +66,26 @@ const SummerReg = () => {
           </p>
           {/*New Content for 2024*/}
           <p className='font-semibold text-xl text-green-200 text-center mt-4'>
-            What&#39;s New for Summer Camp 2024!
+            What&#39;s New for Summer Camp 2025!
           </p>
           <p className='text-center font-bold'>
-            We&#39;re looking forward to Summer Camp 2024 and are
+            We&#39;re looking forward to Summer Camp 2025 and are
             delighted to let you know about some exciting new
             adventures and changes.
           </p>
           <ul className='list-disc mb-2 ml-6'>
             <li className='mt-2'>
-              Traditional Camps have taken on a new name. They are now
-              referred to as Base Camp. Same great camp with a new
-              name! If you are looking for a Base Camp option for
-              older campers, see Adventure Camp without the high ropes
-              for a similar camp to the Fir groups from last year.
+              New Recreational Sports Camp is available for various
+              age groups throughout the summer for campers who look
+              forward to the competitive games at camp. Campers will
+              play team games and be introduced to several different
+              sports focusing on sportsmanship skills in a supportive
+              environment no matter their skill level.
             </li>
             <li className='mt-2'>
-              <Link
-                href={'/specialty-horse-camp'}
-                className='underline text-green-200 hover:text-indigo-500'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                Horse Camp Specialty Themes
-              </Link>{' '}
-              - Theme weeks designed for returning campers or
-              experienced riders looking for some variety at horse
-              camp. Choose from:{' '}
-              <span className='font-semibold'>
-                Vaulting (gymnastics on horseback), Miniature Horse
-                Driving, and Trail
-              </span>
-              . Group size will be limited, so order your camp soon!
-            </li>
-            <li className='mt-2'>
-              Adventure Camp has added more age groups with the fun of
-              past summer but without the option of high ropes. If you
-              want high ropes as part of your camp, sign up for
-              Extreme Adventure Camp.
-            </li>
-            <li className='mt-2'>
-              Multi-Week Camp will not be offered this year. See our
-              other exciting options to sign up for multiple weeks
+              New Arts and Craft Camp for campers who love crafts and
+              drawing and are interested in exploring their creativity
+              and expanding their artistic skills.
             </li>
           </ul>
           <div className='text-center'>
