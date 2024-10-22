@@ -69,7 +69,7 @@ const DayPaintBall = () => {
               <span className='text-green-200 font-semibold'>
                 Week #1
               </span>{' '}
-              - June 17-21
+              - June 16-20
               <span className='text-green-200 font-bold'>
                 &nbsp;SPLAT
               </span>
@@ -78,7 +78,7 @@ const DayPaintBall = () => {
               <span className='text-green-200 font-semibold'>
                 Week #2
               </span>{' '}
-              - June 24-28
+              - June 23-27
               <span className='text-green-200 font-bold'>
                 &nbsp;SPLAT
               </span>
@@ -87,7 +87,10 @@ const DayPaintBall = () => {
               <span className='text-green-200 font-semibold'>
                 Week #3
               </span>{' '}
-              - July 1-5
+              - June 30 July 3
+              <span className='italic text-xs'>
+                No Camp on July 4
+              </span>
               <span className='text-yellow-400 font-bold'>
                 &nbsp;EXTREME
               </span>
@@ -96,7 +99,7 @@ const DayPaintBall = () => {
               <span className='text-green-200 font-semibold'>
                 Week #4
               </span>{' '}
-              - July 8-12
+              - July 7-11
               <span className='text-green-200 font-bold'>
                 &nbsp;SPLAT
               </span>
@@ -105,7 +108,7 @@ const DayPaintBall = () => {
               <span className='text-green-200 font-semibold'>
                 Week #5
               </span>{' '}
-              - July 15-19
+              - July 14-18
               <span className='text-green-200 font-bold'>
                 &nbsp;SPLAT
               </span>
@@ -114,7 +117,7 @@ const DayPaintBall = () => {
               <span className='text-green-200 font-semibold'>
                 Week #6
               </span>{' '}
-              - July 22-26
+              - July 21-25
               <span className='text-yellow-400 font-bold'>
                 &nbsp;EXTREME
               </span>
@@ -123,7 +126,7 @@ const DayPaintBall = () => {
               <span className='text-green-200 font-semibold'>
                 Week #7
               </span>{' '}
-              - July 29 - August 2
+              - July 28 - August 1
               <span className='text-green-200 font-bold'>
                 &nbsp;SPLAT
               </span>
@@ -132,7 +135,7 @@ const DayPaintBall = () => {
               <span className='text-green-200 font-semibold'>
                 Week #8
               </span>{' '}
-              - August 5-9
+              - August 4-8
               <span className='text-green-200 font-bold'>
                 &nbsp;SPLAT
               </span>
@@ -141,18 +144,9 @@ const DayPaintBall = () => {
               <span className='text-green-200 font-semibold'>
                 Week #9
               </span>{' '}
-              - August 12-16
+              - August 11-15
               <span className='text-yellow-400 font-bold'>
                 &nbsp;EXTREME
-              </span>
-            </p>
-            <p>
-              <span className='text-green-200 font-semibold'>
-                Week #10
-              </span>{' '}
-              - August 19-23
-              <span className='text-yellow-400 font-bold'>
-                &nbsp;SPLAT
               </span>
             </p>
           </div>
