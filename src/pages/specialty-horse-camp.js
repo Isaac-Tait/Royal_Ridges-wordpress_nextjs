@@ -38,9 +38,10 @@ const Staff = () => {
             Theme weeks are suitable for returning campers or
             experienced riders looking for some variety at horse camp.
           </p>
+          <hr />
           <div className='text-center'>
             <p>Monday-Friday 9:00 am - 3:30 pm</p>
-            <p>$475 for the week</p>
+            <p>$485 for the week</p>
             <p>$60 Bus Transportation</p>
             <p>Ages 8-16</p>
           </div>
@@ -48,7 +49,7 @@ const Staff = () => {
           <h3 className='font-semibold text-xl mt-4'>
             Trail Camp{' '}
             <span className='text-sm italic'>&nbsp;ages 10 - 16</span>
-            (Week 3, 7, & 9) - $475
+            (Week 1 - 8) - $485
           </h3>
           <p className='mb-4'>
             Campers will have a blast getting set to ride the trails.
@@ -66,7 +67,7 @@ const Staff = () => {
           <h3 className='font-semibold text-xl mt-4'>
             Miniature Horse Driving Camp -{' '}
             <span className='text-sm italic'>&nbsp;ages 9 - 16</span>
-            (Week 4) - $475
+            (Week 6) - $485
           </h3>
           <p>
             Campers will get a unique experience learning how to care
@@ -80,9 +81,9 @@ const Staff = () => {
           <h3 className='font-semibold text-xl mt-4'>
             Vaulting Camp -{' '}
             <span className='text-sm italic'>&nbsp;ages 8 - 16</span>{' '}
-            (Week 5) - $475
+            (Week 4) - $485
           </h3>
-          <p>
+          <p className='mb-4'>
             This special week-long Vaulting Day Camp program will
             introduce your child to the basics of Vaulting. Vaulting
             is essentially a gymnastic routine performed on horseback
@@ -91,42 +92,70 @@ const Staff = () => {
             basic moves under the supervision and support of our
             vaulting instructor. Vaulting is a wonderful activity for
             the brave horse-loving kiddo as well as the more cautious
-            first-time horse lover. Campers will also get to go on a
-            trail ride. Vaulters should wear leggings or sweatpants
-            and soft tennis shoes to be more free moving and
-            comfortable for the horse.
+            first-time horse lover. Vaulters should wear leggings or
+            sweatpants and soft tennis shoes to be more free moving
+            and comfortable for the horse.
           </p>
-
-          <div className='text-center mb-6'>
+          <hr />
+          <div className='text-center mt-6'>
+            <p>
+              <span className='text-green-200 font-semibold'>
+                Week #1
+              </span>{' '}
+              June 16-20 (ONB and Trail Camp Available)
+            </p>
+            <p>
+              <span className='text-green-200 font-semibold'>
+                Week #2
+              </span>{' '}
+              June 23-27 (Trail Camp Available)
+            </p>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #3
-              </span>
-              &nbsp;- July 1 - 5 (Trail Camp)
+              </span>{' '}
+              June 30 - July 3&nbsp;
+              <span className='italic text-xs'>
+                No Camp on July 4
+              </span>{' '}
+              (Cowpoke and Trail Camp Available)
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #4
-              </span>
-              &nbsp;- July 8 - 12 (Mini Driving Camp)
+              </span>{' '}
+              July 7 - 11 (Vaulting and Trail Camp Available)
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #5
-              </span>
-              &nbsp;- July 15 - July 19 (Vaulting Camp)
+              </span>{' '}
+              July 14 - July 18 (ONB and Trail Camp Available)
+            </p>
+            <p>
+              <span className='text-green-200 font-semibold'>
+                Week #6
+              </span>{' '}
+              July 21 - July 25 (Mini Driving and Trail Camp
+              Available)
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #7
-              </span>
-              &nbsp;- June 29 - August 2 (Trail Camp)
+              </span>{' '}
+              July 28 - August 1 (ONB and Teen Trail Camp Available)
+            </p>
+            <p>
+              <span className='text-green-200 font-semibold'>
+                Week #8
+              </span>{' '}
+              August 4-8 (Trail Camp Available)
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
                 Week #9
-              </span>
-              &nbsp;- August 12 - August 16 (Trail Camp)
+              </span>{' '}
+              August 11 - August 15
             </p>
           </div>
           <a
