@@ -36,14 +36,16 @@ const SummerStaffApp = () => {
             before you submit your application.
           </p>
           <p>
-            Please note that summer staff are required to serve Royal
-            Ridges for a minimum of three weeks.
+            Please note that senior summer staff are required to work
+            at Royal Ridges for a minimum of five weeks and summer
+            junior staff are required to work a minimum of three
+            weeks.
           </p>
           <p>
             You must also complete all of the paperwork and online
             training prior to attending the onsite training. Onsite
-            training is required. Onsite training will be on the
-            Saturdays in June and the first week of camp. The dates
+            training is required. Onsite training will be in the
+            evenings on the week before camp begins in June. The dates
             and training information will be sent to you once you are
             hired.
           </p>
