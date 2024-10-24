@@ -9,7 +9,7 @@ const DayCamp = () => {
   return (
     <div className='bg-gradient-to-l from-yellow-200 to-indigo-200'>
       <Head>
-        <title>Bus Transportation to and from Royal Ridges</title>
+        <title>Bus Transportation // Royal Ridges</title>
       </Head>
       <Header />
       <div className='h-screen overflow-y-scroll px-1 sm:grid sm:grid-cols-2'>
@@ -20,7 +20,7 @@ const DayCamp = () => {
         {/*Column 2*/}
         <div className='mr-4 overflow-y-scroll'>
           <Image
-            src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1700409573/royalRidges/Summer_Bus_Service_Website_2024_x0fqkw.jpg'
+            src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1729788080/Royal-Ridges/Summer_Bus_Service_Website_2025_m0bzsl.png'
             alt='summer bus service'
             className='w-1/2 flex mx-auto rounded-xl my-6'
             width={400}

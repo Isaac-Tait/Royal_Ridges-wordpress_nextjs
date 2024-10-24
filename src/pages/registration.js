@@ -10,7 +10,7 @@ const SummerReg = () => {
   return (
     <div className='bg-gradient-to-l from-yellow-200 to-indigo-200'>
       <Head>
-        <title>Register for Summer Camp @ Royal Ridges</title>
+        <title>Register for Summer Camp</title>
       </Head>
       <Header />
       <div className='h-screen overflow-auto px-1 sm:grid sm:grid-cols-2'>
@@ -21,7 +21,7 @@ const SummerReg = () => {
         {/*Column 2*/}
         <div className='mr-4 '>
           <Image
-            src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1698884262/royalRidges/Summer_Camp_Descriptions_-_2024_gjloqj.png'
+            src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1729788080/Royal-Ridges/Summer_Camp_Descriptions_-_2025_ldu6mg.png'
             alt='summer camp descriptions'
             width={400}
             height={400}

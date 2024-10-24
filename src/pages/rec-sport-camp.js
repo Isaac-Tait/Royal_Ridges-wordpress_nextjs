@@ -10,7 +10,7 @@ export default function RecSportCamp() {
   return (
     <div className='bg-gradient-to-r from-yellow-200 to-indigo-200'>
       <Head>
-        <title>Recreational Sports Camp @ Royal Ridges</title>
+        <title>Recreational Sports Camp</title>
       </Head>
       <Header />
       <div className='h-screen overflow-y-scroll px-1 sm:grid sm:grid-cols-2'>
@@ -20,6 +20,13 @@ export default function RecSportCamp() {
         </div>
         {/* Column 2*/}
         <div className='flex flex-col mr-4 overflow-y-scroll'>
+          <Image
+            src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1729788080/Royal-Ridges/Rec_Sport_Camp_UC_25_qoz6cf.png'
+            alt='art and craft camp'
+            width={400}
+            height={400}
+            className='w-1/2 flex mx-auto rounded-xl my-6'
+          />
           <Link
             href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151'
             target='_blank'
