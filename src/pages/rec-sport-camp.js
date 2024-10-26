@@ -54,7 +54,7 @@ export default function RecSportCamp() {
               will experience team-building activities, explore the
               Bible during daily Bible lessons, sing songs, and visit
               the camp store each day. Recreational Sports Camps are
-              divided into two age-level groups.
+              divided into three age-level groups.
             </p>
           </div>
           <hr />

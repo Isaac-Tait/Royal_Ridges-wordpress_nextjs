@@ -35,13 +35,13 @@ const DayHorseCamp = () => {
             Register for Horse Camp
           </a>
           <div className=' text-green-200 ml-4 my-4 text-center'>
-            <p>Monday-Friday 9am-3:30pm</p>
+            <p>Monday-Friday 9 am - 3:30 pm</p>
             <p>8-14 Years Old</p>
-            <p>$400 for the week</p>
-            <p>$60 Bus Transportation</p>
+            <p>$410 for the week</p>
+            <p>$65 Bus Transportation</p>
             <p>$125 ADD ON Overnight Blast Weeks 5, 7, and 10</p>
             <p className='pt-2'>
-              Special groups designed for the younger and older horse
+              Special groups designed for younger and older horse
               lovers
             </p>
             <p>
@@ -60,7 +60,7 @@ const DayHorseCamp = () => {
             >
               Horse Specialty Theme Camps
             </a>
-            &nbsp;Trail Camp (Ages 10-16) Weeks 1 - 8Miniature Horse
+            &nbsp;Trail Camp (Ages 10-16) Weeks 1 - 8, Miniature Horse
             Driving Week 6, Vaulting Week 4
           </p>
           <hr />
@@ -72,7 +72,7 @@ const DayHorseCamp = () => {
               our skilled instructors, learn exciting information in
               horse science, grow valuable skills like grooming and
               saddling, explore the Bible during the daily Bible
-              lesson and make friends along the way! In addition to
+              lesson, and make friends along the way! In addition to
               the horsemanship activities, they will engage in team
               building, group Bible studies, and go on a scenic trail
               ride. Riders must wear closed-toe shoes and long pants
@@ -86,7 +86,7 @@ const DayHorseCamp = () => {
               Our Overnight Blast Horse Program will allow campers to
               experience additional horse time and stay overnight in
               the cabins on Thursday night of their week at camp.
-              Campers will remain after camp Thursday during their
+              Campers will remain after camp on Thursday during their
               Horse Camp week to continue their day at camp. Dinner on
               Thursday, Breakfast on Friday, and a packed lunch for
               Friday are provided! There is limited availability, and{' '}
@@ -102,7 +102,7 @@ const DayHorseCamp = () => {
               * Additional Trail or Arena Ride
             </p>
             <p className='italic ml-2'>
-              * More Horse Science, Horse Activities and Groom/Saddle
+              * More Horse Science, Horse Activities, and Groom/Saddle
               Time
             </p>
             <p className='italic ml-2'>* Outdoor Games</p>
@@ -125,7 +125,7 @@ const DayHorseCamp = () => {
               <span className='text-green-200 font-semibold'>
                 Week #3
               </span>{' '}
-              - June 30 July 3
+              - June 30 July 3{' '}
               <span className='italic text-xs'>
                 No Camp on July 4
               </span>

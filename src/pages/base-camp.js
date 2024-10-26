@@ -39,10 +39,10 @@ const DayCamp = () => {
             Register for Base Camp
           </Link>
           <div className='font-semibold text-green-200 ml-4 my-4 text-center'>
-            <p>Monday-Friday 9am-3:30pm</p>
+            <p>Monday-Friday 9 am - 3:30 pm</p>
             <p>Entering Grades 1st-5th</p>
-            <p>Spruce and Cedar Groups - $190</p>
-            <p>$60 Bus Transportation</p>
+            <p>Spruce and Cedar Groups - $195</p>
+            <p>Bus Transportation - $65</p>
           </div>
           <hr />
           <div className='my-4'>
@@ -50,17 +50,17 @@ const DayCamp = () => {
               Our Base Camps are jam-packed with activities and fun!
               Campers will play games, experience team-building
               activities, explore the Bible during the daily Bible
-              lesson, sing songs, and visit the camp store each day..
-              Base camps are divided into two age level groups:
+              lesson, sing songs, and visit the camp store each day.
+              Base camps are divided into two age-level groups:
             </p>
             <p className='font-bold underline mt-4'>
               Spruce Group - Grades 1st - 3rd
             </p>
             <p>
-              The Spruce Group&#8217;s week is brimming with fun.
+              The Spruce Group&#39;s week is brimming with fun.
               Campers will experience the pony corral and petting zoo,
-              have fun on the giant jump pillow, play games, and
-              participate in group team building activities, and more!
+              have fun on the giant jump pillow, play games,
+              participate in group team-building activities, and more!
             </p>
             <p className='font-bold underline mt-4'>
               Cedar Group - Grades 3rd - 5th
@@ -91,7 +91,10 @@ const DayCamp = () => {
               <span className='text-green-200 font-semibold'>
                 Week #3
               </span>{' '}
-              - June 30 - July 3
+              - June 30 - July 3{' '}
+              <span className='italic text-xs'>
+                No Camp on July 4
+              </span>
             </p>
             <p>
               <span className='text-green-200 font-semibold'>
@@ -129,12 +132,12 @@ const DayCamp = () => {
               </span>{' '}
               - August 11-15
             </p>
-            <p>
+            {/* <p>
               <span className='text-green-200 font-semibold'>
                 Week #10
               </span>{' '}
               - August 19-23
-            </p>
+            </p> */}
           </div>
           <a
             href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151'

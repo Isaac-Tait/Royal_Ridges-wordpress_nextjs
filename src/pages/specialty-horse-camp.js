@@ -42,7 +42,7 @@ const Staff = () => {
           <div className='text-center'>
             <p>Monday-Friday 9:00 am - 3:30 pm</p>
             <p>$485 for the week</p>
-            <p>$60 Bus Transportation</p>
+            <p>$65 Bus Transportation</p>
             <p>Ages 8-16</p>
           </div>
 
@@ -56,26 +56,11 @@ const Staff = () => {
             They will learn about trail prep, the roles of each trail
             rider, trail safety, and types of knots for packing and
             tying. Riders will have a short arena ride to work on some
-            safety skills for the trail and then they will set out on
-            a new trail each day, learning new skills along the way.
-            Campers should be confident on the horse and have some
-            riding experience to enjoy the beauty of the trails.
-            Campers should dress in jeans and riding boots with a
-            heel.
-          </p>
-
-          <h3 className='font-semibold text-xl mt-4'>
-            Miniature Horse Driving Camp -{' '}
-            <span className='text-sm italic'>&nbsp;ages 9 - 16</span>
-            (Week 6) - $485
-          </h3>
-          <p>
-            Campers will get a unique experience learning how to care
-            for and drive a miniature horse in a cart. Horse science
-            and horse activity will include leading the mini horses
-            through patterns and obstacles. Campers will also take the
-            reins, learn how to harness a miniature horse, and learn
-            new driving skills each day.
+            safety skills for the trail and then set out on a new
+            trail each day, learning new skills along the way. Campers
+            should be confident on the horse and have some riding
+            experience to enjoy the beauty of the trails. Campers
+            should dress in jeans and riding boots with a heel.
           </p>
 
           <h3 className='font-semibold text-xl mt-4'>
@@ -93,8 +78,22 @@ const Staff = () => {
             vaulting instructor. Vaulting is a wonderful activity for
             the brave horse-loving kiddo as well as the more cautious
             first-time horse lover. Vaulters should wear leggings or
-            sweatpants and soft tennis shoes to be more free moving
+            sweatpants and soft tennis shoes to be more free-moving
             and comfortable for the horse.
+          </p>
+
+          <h3 className='font-semibold text-xl mt-4'>
+            Miniature Horse Driving Camp -{' '}
+            <span className='text-sm italic'>&nbsp;ages 9 - 16</span>{' '}
+            (Week 6) - $485
+          </h3>
+          <p>
+            Campers will get a unique experience learning how to care
+            for and drive a miniature horse in a cart. Horse science
+            and horse activity will include leading the mini horses
+            through patterns and obstacles. Campers will also take the
+            reins, learn how to harness a miniature horse, and learn
+            new driving skills each day.
           </p>
           <hr />
           <div className='text-center mt-6'>

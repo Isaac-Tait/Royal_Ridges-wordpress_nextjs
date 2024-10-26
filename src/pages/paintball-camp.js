@@ -35,9 +35,9 @@ const DayPaintBall = () => {
             Register for Paintball Camp
           </a>
           <div className='font-semibold text-green-200 ml-4 my-4 text-center'>
-            <p>Monday-Friday 9am-3:30pm</p>
-            <p>$350 for the week</p>
-            <p>$60 Bus Transportation</p>
+            <p>Monday-Friday 9 am - 3:30 pm</p>
+            <p>$360 for the week</p>
+            <p>$65 Bus Transportation</p>
             <p>SPLAT Entering Grades 3rd - 6th</p>
             <p>EXTREME Entering Grades 6th - 10th</p>
           </div>
@@ -87,7 +87,7 @@ const DayPaintBall = () => {
               <span className='text-green-200 font-semibold'>
                 Week #3
               </span>{' '}
-              - June 30 July 3
+              - June 30 July 3{' '}
               <span className='italic text-xs'>
                 No Camp on July 4
               </span>

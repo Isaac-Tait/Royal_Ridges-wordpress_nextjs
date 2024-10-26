@@ -35,14 +35,14 @@ const DayAdventureCamp = () => {
             Register for Adventure Camp
           </a>
           <div className='font-semibold text-green-200 ml-4 my-4 text-center'>
-            <p>Monday-Friday 9am-3:30pm</p>
+            <p>Monday-Friday 9 am - 3:30 pm</p>
             <p>Entering Grades 4th - 9th</p>
-            <p>Adventure Camp (no high ropes)- $225 for the week</p>
+            <p>Adventure Camp (no high ropes)- $235 for the week</p>
             <p>
-              Extreme Adventure Camp (with high ropes)- $275 for the
+              Extreme Adventure Camp (with high ropes)- $285 for the
               week
             </p>
-            <p>$60 Bus Transportation</p>
+            <p>$65 Bus Transportation</p>
             <p>$125 ADD ON Overnight Blast Weeks 2, 4, and 6</p>
           </div>
           <hr />
@@ -53,11 +53,11 @@ const DayAdventureCamp = () => {
             play fun team games like gaga ball and human foosball,
             hone their expertise with slingshots and archery, and
             spend meaningful time exploring the Bible. The Extreme
-            Adventure groups will also get to experience the high
-            ropes course and zip-line. Each day your camper will go
-            home tired, dirty, and ready for the next day&#39;s
-            adventures! Campers must wear closed-toe shoes to
-            participate in adventure activities.
+            Adventure groups will also experience the high ropes
+            course and zip-line. Each day your camper will go home
+            tired, dirty, and ready for the next day&#39;s adventures!
+            Campers must wear closed-toe shoes to participate in
+            adventure activities.
           </p>
           <p className='mt-4'>
             Adventure Campers (no high ropes) are divided into the
