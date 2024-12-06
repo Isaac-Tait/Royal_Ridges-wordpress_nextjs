@@ -31,7 +31,7 @@ const DayCamp = () => {
             className='w-1/2 mx-auto rounded-xl my-6'
           />
           <Link
-            href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151'
+            href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Base+Camp'
             target='_blank'
             rel='noopener noreferrer'
             className='text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400 text-center'

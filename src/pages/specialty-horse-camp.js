@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Head from 'next/head';
+import Link from 'next/link';
 
 import Navigation from '../components/SummerNav';
 import Header from '../components/Header';
@@ -26,14 +27,14 @@ const Staff = () => {
             height={400}
             className='w-1/2 mx-auto rounded-xl my-6'
           />
-          <a
-            href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151'
+          <Link
+            href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Horse+Camp'
             target='_blank'
             rel='noopener noreferrer'
             className='text-yellow-400 font-extrabold text-3xl text-center hover:underline hover:text-indigo-400 flex justify-center'
           >
             Register for Specialty Horse Camps
-          </a>
+          </Link>
           <p className='mt-2'>
             Theme weeks are suitable for returning campers or
             experienced riders looking for some variety at horse camp.

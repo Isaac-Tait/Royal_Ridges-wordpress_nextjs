@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Head from 'next/head';
+import Link from 'next/link';
 
 import Navigation from '../components/SummerNav';
 import Header from '../components/Header';
@@ -26,14 +27,14 @@ const DayHorseCamp = () => {
             height={400}
             className='w-1/2 mx-auto rounded-xl my-6'
           />
-          <a
-            href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151'
+          <Link
+            href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Horse+Camp'
             target='_blank'
             rel='noopener noreferrer'
             className='text-yellow-400 font-extrabold text-3xl text-center hover:underline hover:text-indigo-400 flex justify-center'
           >
             Register for Horse Camp
-          </a>
+          </Link>
           <div className=' text-green-200 ml-4 my-4 text-center'>
             <p>Monday-Friday 9 am - 3:30 pm</p>
             <p>8-14 Years Old</p>
