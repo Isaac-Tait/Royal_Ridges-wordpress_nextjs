@@ -47,8 +47,8 @@ const DayPaintBall = () => {
             <span className='text-green-200 font-semibold'>
               Paintball Day Camp
             </span>
-            &nbsp;~&nbsp;Paintball Day Camp ~ Campers learn and play
-            the extreme sport of Paintball. Campers learn the
+            &nbsp;~&nbsp;At our Paintball Day Camp, Campers learn to
+            play the extreme sport of Paintball. Campers learn the
             game&#39;s finer points in the morning while fine-tuning
             their skills. Team building activities help teach
             communication skills while we grow our character through
@@ -56,13 +56,14 @@ const DayPaintBall = () => {
             game time when it is time to sling paint!
           </p>
           <p className='italic mt-4'>
-            Extreme uses conventional markers and balls at 290 fps,
-            with woodsball being the primary emphasis.
+            <span className='font-semibold'>Extreme</span>uses
+            conventional markers and balls at 240-260 fps, with
+            woodsball being the primary emphasis.
           </p>
           <p className='italic my-4'>
-            Splat is our low-impact paintball which uses pump markers,
-            a smaller ball, max. speed at 130 fps and is played mainly
-            in the Tactical Village.
+            <span className='font-semibold'>Splat</span> is our
+            low-impact paintball, which uses makers with a smaller
+            paintball and a max speed of 140 fps.
           </p>
           <hr />
           <div className='my-2 ml-2 text-center'>
