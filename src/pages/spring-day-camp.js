@@ -12,32 +12,30 @@ const SpringDayCamp = () => {
         <title>Spring Day Camp @ Royal Ridges</title>
       </Head>
       <Header />
-      <div className='h-screen grid grid-cols-2 max-w-6xl mx-auto'>
-        {/*Column 1*/}
-        <div className='flex flex-col mx-auto'>
-          <Link
-            href={'/school-break'}
-            className='mx-auto my-4 font-cursive hover:underline font-extrabold text-xl text-green-200 hover:text-indigo-500'
-          >
-            <p>School Break Camps</p>
-          </Link>
-          <hr />
-          <Link
-            href={'/winter-day-camp'}
-            className='font-cursive my-4 hover:underline text-green-200 hover:text-indigo-500'
-          >
-            <p>Winter Day Camp</p>
-          </Link>
-        </div>
-        {/*Column 2*/}
-        <div className='mr-4 overflow-y-scroll'>
+      <div className='h-screen max-w-6xl mx-auto overflow-y-auto'>
+        <div className='mr-4'>
           <Image
             src='https://royal-ridges-retreat.s3.us-west-1.amazonaws.com/school-break-camps/Spring+Day+Camp+2.0.png'
             alt='spring camp'
             width={400}
             height={400}
-            className='rounded-xl mt-1'
+            className='w-2/3 mx-auto rounded-xl mt-1'
           />
+          <div className='flex justify-between max-w-4xl mx-auto my-10'>
+            <Link
+              href={'/school-break'}
+              className='mx-auto my-4 font-cursive hover:underline font-extrabold text-xl text-green-200 hover:text-indigo-500'
+            >
+              <p>School Break Camps</p>
+            </Link>
+            <hr />
+            <Link
+              href={'/winter-day-camp'}
+              className='font-cursive my-4 hover:underline text-green-200 hover:text-indigo-500'
+            >
+              <p>Winter Day Camp</p>
+            </Link>
+          </div>
           <p className='mb-2 text-center'>
             Five action-packed days of Spring fun and activities!
           </p>
@@ -52,8 +50,8 @@ const SpringDayCamp = () => {
             weather appropriate clothing.
           </p>
           <p className='mb-2'>
-            Choose either Base Camp or Horse Camp - either way, your
-            child is sure to have a great time!
+            Choose either Base Camp, Adventure Camp, or the Horse
+            Camp. Your child is sure to have a great time!
           </p>
           <hr />
           <p className='my-2'>
@@ -71,17 +69,19 @@ const SpringDayCamp = () => {
           </p>
           <hr />
           <p className='mt-1'>
-            <span className='font-bold'>Date: </span>April 1-5, 2024
+            <span className='font-bold'>Date: </span>March 31 - April
+            4, 2025
           </p>
           <p>
-            <span className='font-bold'>Time: </span>8:30am - 3:30pm
+            <span className='font-bold'>Time: </span>9:00am - 3:30pm
           </p>
           <p>
             <span className='font-bold'>Ages: </span>Kindergarten to
             6th Grade
           </p>
           <p className='font-bold'>Prices:</p>
-          <p className='ml-1'>Base Camp: $175.00 per child</p>
+          <p className='ml-1'>Base Camp: $190.00 per child</p>
+          <p className='ml-1'>Adventure Camp: $225.00 per child</p>
           <p className='ml-1'>Horse Camp: $400.00 per child</p>
           <p className='mt-2 text-center font-cursive text-xl'>
             Register
