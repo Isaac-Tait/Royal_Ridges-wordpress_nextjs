@@ -37,7 +37,7 @@ const DayAdventureCamp = () => {
           </Link>
           <div className='font-semibold text-green-200 ml-4 my-4 text-center'>
             <p>Monday-Friday 9 am - 3:30 pm</p>
-            <p>Entering Grades 4th - 9th</p>
+            <p>Entering Grades 3rd - 9th</p>
             <p>Adventure Camp (no high ropes)- $235 for the week</p>
             <p>
               Extreme Adventure Camp (with high ropes)- $285 for the
