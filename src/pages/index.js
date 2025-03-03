@@ -102,7 +102,15 @@ export default function Home({ allPosts }) {
       {/*Windows*/}
       <div className='snap-y snap-mandatory'>
         {/* First window */}
-        <div className='snap-always snap-center heropattern-topography-yellow-400 mb-2 flex flex-col h-screen justify-between'>
+        <div
+          style={{
+            backgroundImage: 'url(/topography.svg)',
+            WebkitMaskImage: 'url(/topography.svg)',
+            maskImage: 'url(/topography.svg)',
+            backgroundColor: '#A78022', // This will color the masked SVG
+          }}
+          className='snap-always snap-center mb-2 flex flex-col h-screen justify-between'
+        >
           <div className='flex justify-center mb-10 bg-gray-100 rounded-full opacity-80 w-1/2 mx-auto'>
             <p className='px-1 text-gray-600 font-semibold text-lg'>
               Scroll Down
