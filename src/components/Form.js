@@ -42,6 +42,7 @@ export default function Form() {
     <div className='w-full md:max-w-md'>
       <form
         name='feedback'
+        data-netlify-recaptcha='true'
         onSubmit={handleFormSubmit}
         className='text-black flex flex-col gap-3 align-center'
       >
