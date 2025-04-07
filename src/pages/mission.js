@@ -37,7 +37,7 @@ const Mission = () => {
             is to share the gospel of Jesus Christ through love and
             personal example. This mission is embodied in our guiding
             principles:{' '}
-            <span className='text-yellow-400 font-bold text-lg'>
+            <span className='text-yellow-400 font-bold'>
               Discover, Connect, and Grow
             </span>
             . We aim to create meaningful outdoor experiences that
