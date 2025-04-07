@@ -21,44 +21,35 @@ const Mission = () => {
             className='rounded-2xl shadow-xl mt-2 w-2/3 mx-auto'
           />
           <p className='flex flex-wrap text-yellow-400 font-bold text-xl justify-center md:text-2xl mt-2'>
-            The Beauty of God&#39;s Creation
+            Royal Ridges Camps: A Legacy of Faith and Nature
           </p>
           <p className='text-base lg:text-lg px-1'>
-            Royal Ridges Retreat began in 1978 with the very generous
-            gift of 78 acres of land by Roy and Jean Andersen. We are
-            located 25 miles northeast of Vancouver, Washington in the
-            tranquil and scenic foothills of the majestic Cascade
-            Mountain range. Our camp has use of 390 acres of
-            breathtaking hills, trails, pastures, and streams that
-            wind their way to Andersen Lake.
-          </p>
-          <p className='flex flex-wrap text-yellow-400 font-bold text-xl justify-center md:text-2xl'>
-            Our Mission and Affiliation
-          </p>
-          <p className='text-base lg:text-lg px-1'>
-            Royal Ridges Retreat is a Christian non-profit ministry.
-            Our mission is to move one step closer to Christ by
-            reaching the unsaved with the gospel of Jesus Christ
-            through love and personal example. This is done through
-            the following three points: fun, safe, God. Our goal is to
-            provide a fun and safe experience for every camper who
-            attends a Royal Ridges camp. We do this while also
-            teaching important Biblical principles in the context of
-            God&#39;s beautiful outdoors. Campers will learn new
-            skills, meet new challenges, make life long friends, and
-            learn about themselves in a positive, caring environment.
-            All campers are welcomed at Royal Ridges without regard to
-            race, color, or national origin. Our camp programs are
-            tailored for youth grades 1 to 12. Our adult programs and
-            retreats are perfect for groups or organizations as well
-            as individuals. We also offer a unique combination of
-            parent-child programs. Although we are a part of the
-            Pacific Northwest District of the Evangelical Free Church,
-            all of our programs are intended to be non-denominational
-            in design, scope and teaching. Thanks to revenues from
-            operations and the generous gifts of individuals and
-            churches who believe in our ministry, we are able to be
-            self supporting.
+            Founded in 1978 with a generous gift of 78 acres from Roy
+            and Jean Andersen, Royal Ridges is nestled 25 miles
+            northeast of Vancouver, Washington, in the tranquil
+            foothills of the Cascade Mountain range. What began with a
+            small piece of land has since grown into a 378-acre
+            sanctuary. Our property features rolling hills, winding
+            trails, lush pastures, and peaceful streams leading to
+            Andersen Lake, offering a picturesque backdrop for all who
+            visit. As a Christian non-profit ministry, Royal Ridges is
+            committed to bringing people closer to Christ. Our mission
+            is to share the gospel of Jesus Christ through love and
+            personal example. This mission is embodied in our guiding
+            principles:{' '}
+            <span className='text-yellow-400 font-bold text-lg'>
+              Discover, Connect, and Grow
+            </span>
+            . We aim to create meaningful outdoor experiences that
+            allow participants to discover purpose and passion,
+            connect with God and others, and grow emotionally,
+            physically, and spiritually. We welcome individuals of all
+            backgrounds to experience the transformative power of our
+            programs. Royal Ridges offers a wide range of
+            opportunities for youth in grades 1 through 12, as well as
+            for adults seeking retreats or group events. We also offer
+            unique parent-child programs, designed to strengthen
+            family bonds and create lasting memories.
           </p>
         </div>
       </div>
