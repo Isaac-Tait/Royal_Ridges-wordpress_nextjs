@@ -7,6 +7,22 @@ const Footer = () => {
         <div className='md:w-1/3 flex flex-col justify-start'>
           <p>© 1978-{new Date().getFullYear()}</p>
           <p>Royal Ridges Retreat</p>
+          <p>
+            <Link
+              href={'/terms'}
+              className='text-green-200 hover:underline hover:text-indigo-400'
+            >
+              T&C
+            </Link>{' '}
+            and
+            <Link
+              href={'/privacy'}
+              className='text-green-200 hover:underline hover:text-indigo-400'
+            >
+              {' '}
+              Privacy
+            </Link>
+          </p>
         </div>
         <div className='text-green-200 hover:text-yellow-400 md:w-1/3 flex justify-center'>
           <Link href={'/donations'} className='flex flex-wrap'>
