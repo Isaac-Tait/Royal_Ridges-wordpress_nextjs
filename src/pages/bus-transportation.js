@@ -189,7 +189,8 @@ const DayCamp = () => {
               West Two Bus Route
             </h3>
             <h4 className='font-semibold'>
-              Safeway at Salmon Creek (formerly Albertsons)
+              Safeway at Salmon Creek (Safeway closest to Kaiser
+              Permanente Medical Office @ Salmon Creek.)
             </h4>
             <p className='ml-2'>8:15am - Departure Time</p>
             <p className='ml-2'>
