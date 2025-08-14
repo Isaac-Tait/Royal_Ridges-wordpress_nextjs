@@ -171,7 +171,7 @@ export default function Home({ allPosts }) {
         </div>
 
         {/* Fourth window */}
-        <div className='h-screen grid grid-rows-3 grid-flow-col gap-4 bg-gradient-radial from-yellow-200 to-yellow-500'>
+        <div className='h-screen grid grid-rows-3 grid-flow-col gap-4 bg-radial-[at_50%_40%] from-yellow-200 to-yellow-500 to-80%'>
           {/* Row One */}
           <div className='grid col-span-3 grid-cols-3 md:col-span-1'>
             <div className='flex flex-col items-center justify-center'>
