@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-const heroPatterns = require('tailwindcss-hero-patterns/src/patterns');
 const colors = require('tailwindcss/colors');
 
 module.exports = {
@@ -50,32 +49,6 @@ module.exports = {
         900: '#78350f',
       },
     },
-    heroPatterns: {
-      topography: heroPatterns.topography,
-      rain: heroPatterns.rain,
-      bamboo: heroPatterns.bamboo,
-    },
-    heroPatternsShades: [
-      '100',
-      '200',
-      '300',
-      '400',
-      '500',
-      '600',
-      '700',
-      '800',
-      '900',
-    ],
-    heroPatternsColors: [
-      'green',
-      'yellow',
-      'gray',
-      'indigo',
-      'purple',
-    ],
   },
-  plugins: [
-    require('tailwindcss-hero-patterns'),
-    require('@tailwindcss/typography'),
-  ],
+  plugins: [require('@tailwindcss/typography')],
 };
