@@ -102,15 +102,17 @@ export default function Home({ allPosts }) {
       {/*Windows*/}
       <div className='snap-y snap-mandatory'>
         {/* First window */}
-        <div
-          style={{
-            backgroundImage: 'url(/topography.svg)',
-            WebkitMaskImage: 'url(/topography.svg)',
-            maskImage: 'url(/topography.svg)',
-            backgroundColor: '#A78022', // This will color the masked SVG
-          }}
-          className='snap-always snap-center mb-2 flex flex-col h-screen justify-between'
-        >
+        <div className='snap-always snap-center mb-2 flex flex-col h-screen justify-between bg-[url("/patternTopo.svg")]'>
+          <div className='flex justify-center my-auto box-content'>
+            <Image
+              src='/images/logo.png'
+              alt='Royal Ridges Logo'
+              loading='eager'
+              width={700}
+              height={200}
+            />
+          </div>
+
           <div className='flex justify-center mb-10 bg-gray-100 rounded-full opacity-80 w-1/2 mx-auto'>
             <p className='px-1 text-gray-600 font-semibold text-lg'>
               Scroll Down
@@ -130,35 +132,10 @@ export default function Home({ allPosts }) {
               />
             </svg>
           </div>
-          <div className='flex justify-center my-auto box-content'>
-            <Image
-              src='/images/logo.png'
-              alt='Royal Ridges Logo'
-              loading='eager'
-              width={700}
-              height={200}
-            />
-          </div>
         </div>
 
         {/* Second window */}
         <div className='flex flex-col h-screen bg-gradient-to-r from-yellow-500 to-yellow-200'>
-          <div className='flex justify-center'>
-            <svg
-              xmlns='http://www.w3.org/2000/svg'
-              className='h-6 w-6 animate-bounce text-gray-600'
-              fill='none'
-              viewBox='0 0 24 24'
-              stroke='currentColor'
-            >
-              <path
-                strokeLinecap='round'
-                strokeLinejoin='round'
-                strokeWidth={2}
-                d='M19 14l-7 7m0 0l-7-7m7 7V3'
-              />
-            </svg>
-          </div>
           <Navigation />
           <div className='flex justify-center my-auto px-1'>
             <Image
