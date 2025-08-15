@@ -1,34 +1,37 @@
 // pages/search.js
 import Head from 'next/head';
-import { renderToString } from 'react-dom/server';
-import { getServerState } from 'react-instantsearch';
-
-import SearchPage, { SearchContent } from '../components/Search';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import SearchPage, {
+  SearchContent,
+  getServerState,
+  renderToString,
+} from '../components/Search';
 
 export default function Search({ serverState }) {
   return (
-    <div className='heropattern-topography-yellow-400'>
+    <div className='heropattern-topography-yellow-400 min-h-screen flex flex-col'>
       <Head>
         <title>Search the Royal Ridges&#39; website</title>
       </Head>
-
       <Header />
-
-      {/* pass serverState down */}
-      <SearchPage serverState={serverState} />
-
-      <div className='fixed bottom-0 w-full'>
-        <Footer />
-      </div>
+      <main className='flex-1'>
+        <SearchPage serverState={serverState} />
+      </main>
+      <Footer />
     </div>
   );
 }
 
 export async function getStaticProps() {
-  const serverState = await getServerState(<SearchContent />, {
+  const raw = await getServerState(<SearchContent />, {
     renderToString,
   });
+
+  // Remove all `undefined` to satisfy Next's JSON serialization
+  const serverState = JSON.parse(
+    JSON.stringify(raw, (_k, v) => (v === undefined ? null : v))
+  );
+
   return { props: { serverState } };
 }
