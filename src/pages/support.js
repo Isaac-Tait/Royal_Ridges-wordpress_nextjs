@@ -12,7 +12,7 @@ const Support = () => {
         <title>Support Royal Ridges</title>
       </Head>
       <Header />
-      <div className='min-h-screen max-w-6xl mx-auto'>
+      <div className='min-h-screen max-w-6xl mx-auto mt-1'>
         <div className='flex justify-center'>
           <Image
             src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1699283063/royalRidges/icons/SupportIcon_anp6bi.png'
