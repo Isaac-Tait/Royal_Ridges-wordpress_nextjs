@@ -1,112 +1,106 @@
+// src/components/SummerNav.js
 'use client';
 
+import Link from 'next/link';
+import { useRouter } from 'next/router'; // If you're on the App Router, swap to: import { usePathname } from 'next/navigation'
 import { Disclosure } from '@headlessui/react';
-import { XIcon } from '@heroicons/react/outline';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import SUMMER_NAV from '@/config/summerNav';
 
-const navigation = [
-  { name: 'Registration', href: '/registration', current: false },
-  { name: 'Base Camp', href: '/base-camp', current: false },
-  {
-    name: 'Recreational Sports Camp',
-    href: '/rec-sport-camp',
-    current: false,
-  },
-  {
-    name: 'Arts and Crafts Camp',
-    href: '/art-craft-camp',
-    current: false,
-  },
-  { name: 'Horse Camp', href: '/horse-camp', current: false },
-  { name: 'Adventure Camp', href: '/adventure-camp', current: false },
-  { name: 'Paintball Camp', href: '/paintball-camp', current: false },
-  {
-    name: 'Specialty Horse Camp',
-    href: '/specialty-horse-camp',
-    current: false,
-  },
-  {
-    name: 'Bus Transportation',
-    href: '/bus-transportation',
-    current: false,
-  },
-  { name: 'FAQs', href: '/faq', current: false },
-];
+const cx = (...c) => c.filter(Boolean).join(' ');
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ');
-}
+// For Pages Router:
+const usePath = () => {
+  const { pathname } = useRouter();
+  return pathname;
+};
+// For App Router, replace the two lines above with:
+// const usePath = () => usePathname();
 
-const SummerNav = () => {
+const isActive = (href, pathname) =>
+  href.startsWith('/') &&
+  (pathname === href || pathname.startsWith(href + '/'));
+
+export default function SummerNav() {
+  const pathname = usePath();
+
   return (
-    <div>
-      <Disclosure as='nav'>
+    <div className='flex justify-center'>
+      <Disclosure as='nav' className='w-full'>
         {({ open }) => (
-          <div className='flex justify-center'>
-            <div className='mt-10'>
-              <div className='sm:hidden'>
-                {/* Mobile menu button*/}
-                <Disclosure.Button className='-ml-4 inline-flex items-center justify-center p-2 rounded-md text-gray-800 bg-yellow-400 hover:bg-green-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white opacity-80'>
-                  <span className='sr-only'>Open main menu</span>
-                  {open ? (
-                    <XIcon
-                      className='block h-6 w-6'
-                      aria-hidden='true'
-                    />
-                  ) : (
-                    <p className='font-medium'>Summer Camp Options</p>
-                  )}
-                </Disclosure.Button>
-              </div>
-              <div className='flex-1 flex items-center justify-center sm:items-stretch sm:justify-start'>
-                <div className='hidden sm:block sm:ml-6 '>
-                  <div className='flex flex-col'>
-                    {navigation.map((item) => (
-                      <a
+          <>
+            {/* Mobile toggle */}
+            <div className='mt-10 sm:hidden flex justify-center'>
+              <Disclosure.Button
+                className='inline-flex items-center gap-2 rounded-md px-3 py-2 text-base font-semibold text-zinc-800 bg-yellow-400/90 hover:bg-emerald-600 hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500'
+                aria-label={
+                  open
+                    ? 'Close summer camp menu'
+                    : 'Open summer camp menu'
+                }
+              >
+                {open ? (
+                  <XMarkIcon className='h-6 w-6' aria-hidden='true' />
+                ) : (
+                  <Bars3Icon className='h-6 w-6' aria-hidden='true' />
+                )}
+                <span>Summer Camp Options</span>
+              </Disclosure.Button>
+            </div>
+
+            {/* Desktop vertical list */}
+            <div className='mt-10 hidden sm:flex w-full items-center justify-center'>
+              <div className='sm:ml-6'>
+                <div className='flex flex-col'>
+                  {SUMMER_NAV.map((item) => {
+                    const active = isActive(item.href, pathname);
+                    const base =
+                      'px-3 py-2 my-3 rounded-lg text-base font-semibold transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500';
+                    const state = active
+                      ? 'bg-emerald-700 text-white'
+                      : 'text-zinc-800 bg-yellow-400/90 hover:bg-emerald-600 hover:text-white';
+                    return (
+                      <Link
                         key={item.name}
                         href={item.href}
-                        className={classNames(
-                          item.current
-                            ? 'bg-gray-900 text-white'
-                            : 'text-gray-800 bg-yellow-400 opacity-80 hover:opacity-100 hover:bg-green-200 hover:text-white',
-                          'px-3 py-2 my-4 rounded-md text-base font-semibold'
-                        )}
-                        aria-current={
-                          item.current ? 'page' : undefined
-                        }
+                        className={cx(base, state)}
+                        aria-current={active ? 'page' : undefined}
                       >
                         {item.name}
-                      </a>
-                    ))}
-                  </div>
+                      </Link>
+                    );
+                  })}
                 </div>
               </div>
             </div>
 
+            {/* Mobile panel */}
             <Disclosure.Panel className='sm:hidden'>
-              <div className='px-2 pt-2 pb-3 space-y-1'>
-                {navigation.map((item) => (
-                  <Disclosure.Button
-                    key={item.name}
-                    as='a'
-                    href={item.href}
-                    className={classNames(
-                      item.current
-                        ? 'bg-gray-900 text-white'
-                        : 'text-gray-800 bg-yellow-400 hover:text-white',
-                      'block px-3 py-2 rounded-md text-base font-medium'
-                    )}
-                    aria-current={item.current ? 'page' : undefined}
-                  >
-                    {item.name}
-                  </Disclosure.Button>
-                ))}
+              <div className='space-y-1 px-4 pb-4 pt-2'>
+                {SUMMER_NAV.map((item) => {
+                  const active = isActive(item.href, pathname);
+                  const base =
+                    'block rounded-md px-3 py-2 text-base font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500';
+                  const state = active
+                    ? 'bg-emerald-700 text-white'
+                    : 'text-zinc-800 bg-yellow-400/90 hover:bg-emerald-600 hover:text-white';
+                  return (
+                    <Disclosure.Button
+                      key={item.name}
+                      as={Link}
+                      href={item.href}
+                      className={cx(base, state)}
+                      aria-current={active ? 'page' : undefined}
+                    >
+                      {item.name}
+                    </Disclosure.Button>
+                  );
+                })}
               </div>
             </Disclosure.Panel>
-          </div>
+          </>
         )}
       </Disclosure>
     </div>
   );
-};
-
-export default SummerNav;
+}
