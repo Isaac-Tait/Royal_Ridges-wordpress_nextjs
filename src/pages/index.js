@@ -165,95 +165,77 @@ export default function Home({ allPosts }) {
               />
             </svg>
           </div>
-          <div className='flex justify-center h-screen'>
+          <div className='px-4'>
             <Blog allPosts={allPosts} />
           </div>
         </div>
 
-        {/* Fourth window */}
-        <div className='h-screen grid grid-rows-3 grid-flow-col gap-4 bg-radial-[at_50%_40%] from-yellow-200 to-yellow-500 to-80%'>
-          {/* Row One */}
-          <div className='grid col-span-3 grid-cols-3 md:col-span-1'>
-            <div className='flex flex-col items-center justify-center'>
-              <Link href='/summer-camp'>
-                <div className='flex justify-center content-center box-content h-full'>
+        {/* Fourth Window */}
+        <div
+          className='min-h-screen grid grid-cols-2 gap-6 place-items-center
+             bg-radial-[at_50%_40%] from-yellow-200 to-yellow-500 to-80%
+             md:grid-cols-3 md:grid-rows-3 pt-2'
+        >
+          {[
+            {
+              href: '/summer-camp',
+              alt: 'Summer',
+              src: 'https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1699283063/royalRidges/icons/SummerIcon_wa521t.png',
+              basePos: '', // normal 2-col flow on mobile
+              posMd: 'md:col-start-1 md:row-start-1',
+            },
+            {
+              href: '/programs',
+              alt: 'Programs',
+              src: 'https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1699283061/royalRidges/icons/ProgramIcon_ocgaad.png',
+              basePos: '',
+              posMd: 'md:col-start-3 md:row-start-1',
+            },
+            {
+              href: '/about',
+              alt: 'About',
+              src: 'https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1699283059/royalRidges/icons/AboutIcon_pomsgv.png',
+              basePos: '',
+              posMd: 'md:col-start-2 md:row-start-2',
+            },
+            {
+              href: '/support',
+              alt: 'Support',
+              src: 'https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1699283063/royalRidges/icons/SupportIcon_anp6bi.png',
+              basePos: '',
+              posMd: 'md:col-start-1 md:row-start-3',
+            },
+            {
+              href: '/contact',
+              alt: 'Contact',
+              src: 'https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1699283059/royalRidges/icons/ContactIcon_obpqt4.png',
+              // 👇 Center on mobile by spanning both columns
+              basePos: 'col-span-2 justify-self-center',
+              posMd: 'md:col-start-3 md:row-start-3',
+            },
+          ].map(({ href, src, alt, basePos = '', posMd = '' }) => (
+            <div key={href} className={`${basePos} ${posMd}`}>
+              <Link
+                href={href}
+                className='group block rounded-2xl focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500'
+                aria-label={alt}
+              >
+                <div
+                  className='relative w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 lg:w-56 lg:h-56
+                        transition-transform duration-200 motion-reduce:transition-none
+                        group-hover:scale-105 active:scale-95'
+                >
                   <Image
-                    src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1699283063/royalRidges/icons/SummerIcon_wa521t.png'
-                    alt='Summer'
-                    height={200}
-                    width={200}
-                    className='w-full md:w-1/2 pl-2'
+                    src={src}
+                    alt={alt}
+                    fill
+                    className='object-contain drop-shadow-md'
+                    sizes='(min-width:1024px) 14rem, (min-width:768px) 11rem, 7rem'
                   />
                 </div>
               </Link>
             </div>
-            {/* Empty Div*/}
-            <div></div>
-            <div className='flex flex-col items-center justify-center'>
-              <Link href='/programs'>
-                <div className='flex justify-center content-center box-content h-full'>
-                  <Image
-                    src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1699283061/royalRidges/icons/ProgramIcon_ocgaad.png'
-                    alt='Programs'
-                    height={200}
-                    width={200}
-                    className='w-full md:w-1/2 pr-2'
-                  />
-                </div>
-              </Link>
-            </div>
-          </div>
-          {/* Row Two */}
-          <div className='grid col-span-3 grid-cols-3 md:col-span-1'>
-            {/* Empty Div*/}
-            <div></div>
-            <div className='flex flex-col items-center justify-center'>
-              <Link href='/about'>
-                <div className='flex justify-center content-center box-content h-full'>
-                  <Image
-                    src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1699283059/royalRidges/icons/AboutIcon_pomsgv.png'
-                    alt='About'
-                    height={200}
-                    width={200}
-                    className='w-full md:w-1/2'
-                  />
-                </div>
-              </Link>
-            </div>
-            {/* Empty Div*/}
-            <div></div>
-          </div>
-          {/* Row Three */}
-          <div className='grid col-span-3 grid-cols-3 md:col-span-1'>
-            <div className='flex flex-col items-center'>
-              <Link href='/support'>
-                <div className='flex justify-center content-center box-content h-full'>
-                  <Image
-                    src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1699283063/royalRidges/icons/SupportIcon_anp6bi.png'
-                    alt='Support'
-                    height={200}
-                    width={200}
-                    className='w-full md:w-1/2'
-                  />
-                </div>
-              </Link>
-            </div>
-            {/* Empty Div*/}
-            <div></div>
-            <div className='flex flex-col items-center'>
-              <Link href='/contact'>
-                <div className='flex justify-center content-center box-content h-full'>
-                  <Image
-                    src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1699283059/royalRidges/icons/ContactIcon_obpqt4.png'
-                    alt='Contact'
-                    height={200}
-                    width={200}
-                    className='w-full md:w-1/2'
-                  />
-                </div>
-              </Link>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
       <Footer />
