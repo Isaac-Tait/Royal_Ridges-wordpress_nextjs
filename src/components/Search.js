@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 import { renderToString } from 'react-dom/server';
-import algoliasearch from 'algoliasearch/lite';
+import algoliasearch from 'algoliasearch';
 import {
   InstantSearch,
   InstantSearchSSRProvider,
