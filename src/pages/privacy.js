@@ -10,6 +10,10 @@ export const metadata = {
 export default function Privacy() {
   return (
     <div className='bg-gradient-to-l from-yellow-200 to-green-200'>
+      <meta
+        name='algolia-site-verification'
+        content='87E6CF323EB243CC'
+      />
       <Header />
       <div className='max-w-6xl mx-auto'>
         <p>
