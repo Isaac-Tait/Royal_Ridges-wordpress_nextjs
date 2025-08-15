@@ -18,8 +18,8 @@ module.exports = {
       sans: ['ui-sans-serif', 'system-ui'],
       serif: ['ui-serif', 'Georgia'],
       mono: ['ui-monospace', 'SFMono-Regular'],
-      cursive: ['"Permanent Marker"', 'cursive'],
-      chalk: ['"Gloria Hallelujah"', 'cursive'],
+      cursive: ['var(--font-cursive)', 'cursive'],
+      chalk: ['var(--font-chalk)', 'cursive'],
     },
     colors: {
       transparent: 'transparent',

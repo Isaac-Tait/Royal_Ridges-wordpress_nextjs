@@ -11,7 +11,7 @@ export default function Blog({ allPosts }) {
               href={`https://updatesroyalridges.org/${node.slug}`}
               target='_blank'
             >
-              <p className='text-3xl font-cursive text-black'>
+              <p className='text-3xl font-["Permanent_Marker"] text-black'>
                 {node.title}
               </p>
               <Image
