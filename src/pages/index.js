@@ -5,7 +5,7 @@ import Head from 'next/head';
 import { getAllPosts } from '../lib/api';
 
 import Blog from '../components/Blog';
-import Navigation from '../components/Navigation';
+import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 export async function getStaticProps() {
@@ -136,7 +136,7 @@ export default function Home({ allPosts }) {
 
         {/* Second window */}
         <div className='flex flex-col h-screen bg-gradient-to-r from-yellow-500 to-yellow-200'>
-          <Navigation />
+          <Header />
           <div className='flex justify-center my-auto px-1'>
             <Image
               src='/images/D_C_G_Logo.png'

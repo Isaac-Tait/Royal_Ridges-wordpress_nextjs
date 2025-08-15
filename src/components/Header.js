@@ -1,121 +1,119 @@
-import { Disclosure } from '@headlessui/react';
-import { XIcon } from '@heroicons/react/outline';
+'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
+import { useRouter } from 'next/router';
+import { Disclosure } from '@headlessui/react';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import NAV from '@/config/nav';
 
-const navigation = [
-  { name: 'Programs', href: '/programs', current: false },
-  { name: 'Summer Camp', href: '/summer-camp', current: false },
-  {
-    name: 'Updates',
-    href: 'https://updatesroyalridges.org/',
-    current: false,
-  },
-  { name: 'Support', href: '/support', current: false },
-  { name: 'About', href: '/about', current: false },
-  { name: 'Contact', href: '/contact', current: false },
-  {
-    name: 'Account',
-    href: 'https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151',
-    current: false,
-  },
-];
+const cx = (...c) => c.filter(Boolean).join(' ');
+const isActive = (href, pathname) =>
+  href.startsWith('/') &&
+  (pathname === href || pathname.startsWith(href + '/'));
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ');
-}
+export default function Header() {
+  const { pathname } = useRouter();
 
-const Header = () => {
   return (
-    <div className='heropattern-topography-yellow-500 flex flex-col'>
-      <div className='flex mx-auto my-2'>
-        <Link href='/'>
-          <div className='flex justify-center content-center box-content h-full'>
-            <Image
-              src='/images/logo.png'
-              alt='Royal Ridges Logo'
-              className='w-1/2'
-              width={400}
-              height={400}
-            />
-          </div>
-        </Link>
-      </div>
+    <div
+      data-nav='v2'
+      className='sticky top-0 z-40 border-b border-zinc-200 bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60'
+    >
       <Disclosure as='nav'>
         {({ open }) => (
           <>
-            <div className='max-w-7xl mx-auto px-3 sm:px-6 lg:px-8'>
-              <div className='relative flex items-center justify-between h-16'>
-                <div className='absolute inset-y-0 left-0 flex items-center sm:hidden'>
-                  {/* Mobile menu button*/}
-                  <Disclosure.Button className='inline-flex items-center justify-center p-2 rounded-md text-gray-800 bg-yellow-400 hover:text-white hover:bg-green-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white opacity-80 hover:opacity-100'>
-                    <span className='sr-only'>Open main menu</span>
+            <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
+              <div className='flex h-16 items-center justify-between'>
+                <Link
+                  href='/'
+                  className='font-cursive text-2xl font-bold text-emerald-700 tracking-wide'
+                >
+                  Royal Ridges
+                </Link>
+
+                <div className='flex sm:hidden'>
+                  <Disclosure.Button
+                    className='inline-flex items-center justify-center rounded-md p-2 text-zinc-700 hover:bg-emerald-600 hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500'
+                    aria-label={open ? 'Close menu' : 'Open menu'}
+                  >
                     {open ? (
-                      <XIcon
-                        className='block h-6 w-6'
-                        aria-hidden='true'
-                      />
+                      <XMarkIcon className='h-6 w-6' />
                     ) : (
-                      <p className='text-base font-medium tracking-wide'>
-                        Menu
-                      </p>
+                      <Bars3Icon className='h-6 w-6' />
                     )}
                   </Disclosure.Button>
                 </div>
-                <div className='flex-1 flex items-center justify-center sm:items-stretch sm:justify-start'>
-                  <div className='hidden sm:block sm:ml-6 '>
-                    <div className='flex space-x-2'>
-                      {navigation.map((item) => (
+
+                <div className='hidden sm:block'>
+                  <div className='flex items-center gap-2'>
+                    {NAV.map((item) => {
+                      const active = isActive(item.href, pathname);
+                      const base =
+                        'px-3 py-2 rounded-lg text-sm font-semibold transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500';
+                      const state = active
+                        ? 'bg-emerald-700 text-white'
+                        : 'text-zinc-800 hover:bg-emerald-600 hover:text-white';
+
+                      return item.external ? (
                         <a
                           key={item.name}
                           href={item.href}
-                          className={classNames(
-                            item.current
-                              ? 'bg-gray-900 text-white'
-                              : 'text-gray-800 bg-yellow-400 opacity-80 hover:opacity-100 hover:bg-green-200 hover:text-white',
-                            'px-3 py-2 rounded-md text-base font-semibold'
-                          )}
-                          aria-current={
-                            item.current ? 'page' : undefined
-                          }
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          className={cx(base, state)}
+                          aria-current={active ? 'page' : undefined}
                         >
                           {item.name}
                         </a>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-                <div className='flex-2 flex justify-end py-2 font-medium text-sm'>
-                  <div className='flex'>
-                    <Link href={'/search'}>
-                      <p className='text-gray-800 bg-yellow-400 opacity-80 hover:bg-green-200 hover:text-white hover:opacity-100 px-2 py-2 rounded-md text-base font-medium'>
-                        Search
-                      </p>
-                    </Link>
+                      ) : (
+                        <Link
+                          key={item.name}
+                          href={item.href}
+                          className={cx(base, state)}
+                          aria-current={active ? 'page' : undefined}
+                        >
+                          {item.name}
+                        </Link>
+                      );
+                    })}
                   </div>
                 </div>
               </div>
             </div>
 
             <Disclosure.Panel className='sm:hidden'>
-              <div className='px-2 pt-2 pb-3 space-y-1'>
-                {navigation.map((item) => (
-                  <Disclosure.Button
-                    key={item.name}
-                    as='a'
-                    href={item.href}
-                    className={classNames(
-                      item.current
-                        ? 'bg-gray-900 text-white'
-                        : 'text-gray-800 bg-yellow-400 hover:text-white',
-                      'block px-3 py-2 rounded-md text-base font-medium'
-                    )}
-                    aria-current={item.current ? 'page' : undefined}
-                  >
-                    {item.name}
-                  </Disclosure.Button>
-                ))}
+              <div className='space-y-1 px-4 pb-4 pt-2'>
+                {NAV.map((item) => {
+                  const active = isActive(item.href, pathname);
+                  const base =
+                    'block rounded-md px-3 py-2 text-base font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500';
+                  const state = active
+                    ? 'bg-emerald-700 text-white'
+                    : 'text-zinc-800 hover:bg-emerald-600 hover:text-white';
+
+                  return item.external ? (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className={cx(base, state)}
+                      aria-current={active ? 'page' : undefined}
+                    >
+                      {item.name}
+                    </a>
+                  ) : (
+                    <Disclosure.Button
+                      key={item.name}
+                      as={Link}
+                      href={item.href}
+                      className={cx(base, state)}
+                      aria-current={active ? 'page' : undefined}
+                    >
+                      {item.name}
+                    </Disclosure.Button>
+                  );
+                })}
               </div>
             </Disclosure.Panel>
           </>
@@ -123,6 +121,4 @@ const Header = () => {
       </Disclosure>
     </div>
   );
-};
-
-export default Header;
+}
