@@ -15,11 +15,41 @@ import {
   Snippet,
 } from 'react-instantsearch';
 
-// Pick module by environment, then pick the function by name or default
-function getAlgoliaSearch() {
+function resolveAlgoliaFactory() {
+  // Pick the right module for the environment
   const mod =
     typeof window === 'undefined' ? AlgoliaNode : AlgoliaBrowser;
-  return mod.algoliasearch || mod.default;
+
+  // Try common shapes in order:
+  //  - v5 ESM:        mod.algoliasearch
+  //  - v4 CJS:        mod.default   (function)
+  //  - quirky bundle: mod.default.algoliasearch
+  const fn =
+    (mod &&
+      typeof mod.algoliasearch === 'function' &&
+      mod.algoliasearch) ||
+    (mod && typeof mod.default === 'function' && mod.default) ||
+    (mod &&
+      mod.default &&
+      typeof mod.default.algoliasearch === 'function' &&
+      mod.default.algoliasearch);
+
+  if (!fn) {
+    // Temporary debug to see what's actually exported
+    // (remove after it works)
+    // eslint-disable-next-line no-console
+    console.error(
+      '[Algolia] export keys:',
+      Object.keys(mod || {}),
+      'default keys:',
+      Object.keys((mod && mod.default) || {})
+    );
+    throw new Error(
+      '[Algolia] Could not resolve algoliasearch export. ' +
+        'Ensure there are NO other algoliasearch imports in the repo and that algoliasearch/react-instantsearch versions match.'
+    );
+  }
+  return fn;
 }
 
 const appId = '9Y3RHNIFAD';
@@ -27,7 +57,8 @@ const searchOnlyApiKey = '602c4a47f7f3b3bfd06064bbf6d86ccc';
 const indexName =
   'netlify_3f1d04a0-b847-4a3a-aba8-722f05e29701_main_all';
 
-const searchClient = getAlgoliaSearch()(appId, searchOnlyApiKey);
+const createSearchClient = resolveAlgoliaFactory();
+const searchClient = createSearchClient(appId, searchOnlyApiKey);
 
 function Hit({ hit }) {
   return (
