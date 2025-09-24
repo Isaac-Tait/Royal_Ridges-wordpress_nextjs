@@ -5,7 +5,7 @@ import Head from 'next/head';
 import { getAllPosts } from '../lib/api';
 
 import Blog from '../components/Blog';
-import Navigation from '../components/Navigation';
+import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 export async function getStaticProps() {
@@ -85,24 +85,23 @@ export default function Home({ allPosts }) {
               </svg>
             </a>
           </div>
-          {/* Search Icon */}
-          <div className='mr-2'>
-            <Link href='/search'>
-              <span
-                role='img'
-                aria-label='Detective: Medium Skin Tone'
-              >
-                &#128373;
-              </span>
-            </Link>
-          </div>
         </div>
       </div>
 
       {/*Windows*/}
       <div className='snap-y snap-mandatory'>
         {/* First window */}
-        <div className='snap-always snap-center heropattern-topography-yellow-400 mb-2 flex flex-col h-screen justify-between'>
+        <div className='snap-always snap-center mb-2 flex flex-col h-screen justify-between bg-[url("/patternTopo.svg")]'>
+          <div className='flex justify-center my-auto box-content'>
+            <Image
+              src='/images/logo.png'
+              alt='Royal Ridges Logo'
+              loading='eager'
+              width={700}
+              height={200}
+            />
+          </div>
+
           <div className='flex justify-center mb-10 bg-gray-100 rounded-full opacity-80 w-1/2 mx-auto'>
             <p className='px-1 text-gray-600 font-semibold text-lg'>
               Scroll Down
@@ -122,36 +121,11 @@ export default function Home({ allPosts }) {
               />
             </svg>
           </div>
-          <div className='flex justify-center my-auto box-content'>
-            <Image
-              src='/images/logo.png'
-              alt='Royal Ridges Logo'
-              loading='eager'
-              width={700}
-              height={200}
-            />
-          </div>
         </div>
 
         {/* Second window */}
         <div className='flex flex-col h-screen bg-gradient-to-r from-yellow-500 to-yellow-200'>
-          <div className='flex justify-center'>
-            <svg
-              xmlns='http://www.w3.org/2000/svg'
-              className='h-6 w-6 animate-bounce text-gray-600'
-              fill='none'
-              viewBox='0 0 24 24'
-              stroke='currentColor'
-            >
-              <path
-                strokeLinecap='round'
-                strokeLinejoin='round'
-                strokeWidth={2}
-                d='M19 14l-7 7m0 0l-7-7m7 7V3'
-              />
-            </svg>
-          </div>
-          <Navigation />
+          <Header />
           <div className='flex justify-center my-auto px-1'>
             <Image
               src='/images/D_C_G_Logo.png'
@@ -163,7 +137,7 @@ export default function Home({ allPosts }) {
         </div>
 
         {/* Third window */}
-        <div className='flex flex-col justify-between heropattern-rain-gray-100'>
+        <div className='flex flex-col justify-between bg-[url("/patternTwoDark.svg")]'>
           <div className='flex justify-center'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -180,95 +154,77 @@ export default function Home({ allPosts }) {
               />
             </svg>
           </div>
-          <div className='flex justify-center h-screen'>
+          <div className='px-4'>
             <Blog allPosts={allPosts} />
           </div>
         </div>
 
-        {/* Fourth window */}
-        <div className='h-screen grid grid-rows-3 grid-flow-col gap-4 bg-gradient-radial from-yellow-200 to-yellow-500'>
-          {/* Row One */}
-          <div className='grid col-span-3 grid-cols-3 md:col-span-1'>
-            <div className='flex flex-col items-center justify-center'>
-              <Link href='/summer-camp'>
-                <div className='flex justify-center content-center box-content h-full'>
+        {/* Fourth Window */}
+        <div
+          className='min-h-screen grid grid-cols-2 gap-6 place-items-center
+             bg-radial-[at_50%_40%] from-yellow-200 to-yellow-500 to-80%
+             md:grid-cols-3 md:grid-rows-3 pt-2'
+        >
+          {[
+            {
+              href: '/summer-camp',
+              alt: 'Summer',
+              src: 'https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1699283063/royalRidges/icons/SummerIcon_wa521t.png',
+              basePos: '', // normal 2-col flow on mobile
+              posMd: 'md:col-start-1 md:row-start-1',
+            },
+            {
+              href: '/programs',
+              alt: 'Programs',
+              src: 'https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1699283061/royalRidges/icons/ProgramIcon_ocgaad.png',
+              basePos: '',
+              posMd: 'md:col-start-3 md:row-start-1',
+            },
+            {
+              href: '/about',
+              alt: 'About',
+              src: 'https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1699283059/royalRidges/icons/AboutIcon_pomsgv.png',
+              basePos: '',
+              posMd: 'md:col-start-2 md:row-start-2',
+            },
+            {
+              href: '/support',
+              alt: 'Support',
+              src: 'https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1699283063/royalRidges/icons/SupportIcon_anp6bi.png',
+              basePos: '',
+              posMd: 'md:col-start-1 md:row-start-3',
+            },
+            {
+              href: '/contact',
+              alt: 'Contact',
+              src: 'https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1699283059/royalRidges/icons/ContactIcon_obpqt4.png',
+              // 👇 Center on mobile by spanning both columns
+              basePos: 'col-span-2 justify-self-center',
+              posMd: 'md:col-start-3 md:row-start-3',
+            },
+          ].map(({ href, src, alt, basePos = '', posMd = '' }) => (
+            <div key={href} className={`${basePos} ${posMd}`}>
+              <Link
+                href={href}
+                className='group block rounded-2xl focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500'
+                aria-label={alt}
+              >
+                <div
+                  className='relative w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 lg:w-56 lg:h-56
+                        transition-transform duration-200 motion-reduce:transition-none
+                        group-hover:scale-105 active:scale-95'
+                >
                   <Image
-                    src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1699283063/royalRidges/icons/SummerIcon_wa521t.png'
-                    alt='Summer'
-                    height={200}
-                    width={200}
-                    className='w-full md:w-1/2 pl-2'
+                    src={src}
+                    alt={alt}
+                    fill
+                    className='object-contain drop-shadow-md'
+                    sizes='(min-width:1024px) 14rem, (min-width:768px) 11rem, 7rem'
                   />
                 </div>
               </Link>
             </div>
-            {/* Empty Div*/}
-            <div></div>
-            <div className='flex flex-col items-center justify-center'>
-              <Link href='/programs'>
-                <div className='flex justify-center content-center box-content h-full'>
-                  <Image
-                    src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1699283061/royalRidges/icons/ProgramIcon_ocgaad.png'
-                    alt='Programs'
-                    height={200}
-                    width={200}
-                    className='w-full md:w-1/2 pr-2'
-                  />
-                </div>
-              </Link>
-            </div>
-          </div>
-          {/* Row Two */}
-          <div className='grid col-span-3 grid-cols-3 md:col-span-1'>
-            {/* Empty Div*/}
-            <div></div>
-            <div className='flex flex-col items-center justify-center'>
-              <Link href='/about'>
-                <div className='flex justify-center content-center box-content h-full'>
-                  <Image
-                    src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1699283059/royalRidges/icons/AboutIcon_pomsgv.png'
-                    alt='About'
-                    height={200}
-                    width={200}
-                    className='w-full md:w-1/2'
-                  />
-                </div>
-              </Link>
-            </div>
-            {/* Empty Div*/}
-            <div></div>
-          </div>
-          {/* Row Three */}
-          <div className='grid col-span-3 grid-cols-3 md:col-span-1'>
-            <div className='flex flex-col items-center'>
-              <Link href='/support'>
-                <div className='flex justify-center content-center box-content h-full'>
-                  <Image
-                    src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1699283063/royalRidges/icons/SupportIcon_anp6bi.png'
-                    alt='Support'
-                    height={200}
-                    width={200}
-                    className='w-full md:w-1/2'
-                  />
-                </div>
-              </Link>
-            </div>
-            {/* Empty Div*/}
-            <div></div>
-            <div className='flex flex-col items-center'>
-              <Link href='/contact'>
-                <div className='flex justify-center content-center box-content h-full'>
-                  <Image
-                    src='https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1699283059/royalRidges/icons/ContactIcon_obpqt4.png'
-                    alt='Contact'
-                    height={200}
-                    width={200}
-                    className='w-full md:w-1/2'
-                  />
-                </div>
-              </Link>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
       <Footer />
