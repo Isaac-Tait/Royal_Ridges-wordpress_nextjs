@@ -85,17 +85,6 @@ export default function Home({ allPosts }) {
               </svg>
             </a>
           </div>
-          {/* Search Icon */}
-          <div className='mr-2'>
-            <Link href='/search'>
-              <span
-                role='img'
-                aria-label='Detective: Medium Skin Tone'
-              >
-                &#128373;
-              </span>
-            </Link>
-          </div>
         </div>
       </div>
 
