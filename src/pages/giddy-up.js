@@ -21,7 +21,8 @@ const GiddyUp = () => {
             height={400}
             className='w-2/3 mx-auto rounded-xl shadow-2xl mt-2'
           />
-          <p className='flex flex-wrap text-green-200 font-cursive text-md justify-center md:text-2xl'>
+          <p className='flex flex-wrap text-green-200 font-cursive text-md justify-center md:text-3xl'>Giddy Up: Year-Round Camp Fun!</p>
+          <p className='flex flex-wrap text-green-200 text-md justify-center md:text-xl'>
             "Giddy Up" means to go ahead or go faster, and our program helps campers do just that
             – keep the summer camp fun going all year long!
           </p>
@@ -61,7 +62,7 @@ const GiddyUp = () => {
 
           <p className='font-bold'>Ready to Sign Up?</p>
 
-          <div className='w-2/3 my-6 text-lg mx-auto'>
+          <div className='text-lg my-6'>
             <a
               href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151'
               target='_blank'
