@@ -19,7 +19,6 @@ const Vaulting = () => {
           height={400}
           className='w-2/3 mx-auto rounded-2xl shadow-xl mt-2'
         />
-        week</p>
         <div className='p-5'>
           <ul className='prose list-disc'>
             <li>Dates: Wednesdays 4:00 - 6:00 pm</li>
@@ -32,12 +31,6 @@ const Vaulting = () => {
           </ul>
         </div>
         <div className='my-4 text-center text-4xl'>
-          <a
-            href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Horsemanship+Lessons+Vaulting'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='hover:underline hover:text-indigo-400 text-green-200 font-cursive'
-          >
             <p>Have questions? Please email chrisy@royalridges.org</p>
       </div>
       <Footer />
