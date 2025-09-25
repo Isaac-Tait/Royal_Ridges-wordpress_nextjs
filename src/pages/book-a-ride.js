@@ -35,7 +35,7 @@ an arena ride, as we cannot accommodate both simultaneously.</p>
           <p className='ml-2'><span className='font-bold'>◾️ Arrival Time:</span>{' '}Please arrive 15 minutes before your scheduled ride.</p>
           <p className='ml-2'><span className='font-bold'>◾️ Duration:</span>{' '}The riding time is approximately 45 minutes. Plan for your entire Book-A-Ride
 experience to last 1 to 1.5 hours. Your group may have the opportunity to assist with
-unsaddling and grooming, at the wrangler's discretion.</p>
+unsaddling and grooming, at the wrangler&#39;s discretion.</p>
           <p className='ml-2'><span className='font-bold'>◾️ Liability Form:</span>{' '}All riders must complete a liability form. Please ensure this is done
 before you arrive to avoid wasting your scheduled time. You can access the form here:
 <a 
@@ -45,7 +45,7 @@ before you arrive to avoid wasting your scheduled time. You can access the form 
   className='hover:underline hover:text-indigo-400 text-green-200'>{' '}Horse Liability Form</a></p>
           <p className='ml-2'><span className='font-bold'>◾️ Safety Requirements:</span>{' '}The weight limit for riders is 250 lbs. For safety reasons,
 expectant mothers are not permitted to ride. We kindly ask you to respect our weight
-limit, as our horses are older and primarily used for youth and children's programs.</p>
+limit, as our horses are older and primarily used for youth and children&#39;s programs.</p>
           <p className='ml-2'><span className='font-bold'>◾️ Cancellations:</span>{' '}If you need to cancel your ride, you must do so by noon the day before
 your scheduled time. A 50% cancellation fee will apply to the total fee.</p>
         </div>
