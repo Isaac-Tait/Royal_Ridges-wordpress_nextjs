@@ -19,19 +19,9 @@ const Vaulting = () => {
           height={400}
           className='w-2/3 mx-auto rounded-2xl shadow-xl mt-2'
         />
-        <div className='p-5'>
-          <ul className='prose list-disc'>
-            <li>Dates: Wednesdays 4:00 - 6:00 pm</li>
-            <li>Fall term: September 13 - December 13, 2023</li>
-            <li>Spring Term: April 10 - June 5, 2024</li>
-            <li>
-              Vaulting <span className=''>will not</span> be available
-              during the Winter term
-            </li>
-          </ul>
-        </div>
         <div className='my-4 text-center text-4xl'>
             <p>Have questions? Please email chrisy@royalridges.org</p>
+      </div>
       </div>
       <Footer />
     </div>
