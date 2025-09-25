@@ -21,18 +21,16 @@ const ParentChild = () => {
           className='w-2/3 mx-auto rounded-2xl shadow-xl mt-2'
         />
         <p>
-          Come spend the day at Royal Ridges Retreat with your child!
-          With multiple activities and special moments to spend
-          together, you and your child will create unforgettable
-          memories while building a better relationship with each
-          other.
+          Come spend the day at Royal Ridges Camps with your child! Our specially designed
+activities provide unique opportunities for connection and growth, strengthening your
+bond in a fun and engaging environment. Come and experience the joy of spending
+quality time together, creating a legacy of love and laughter that will last a lifetime.
         </p>
         <div className='mt-2'>
-          <p>
-            Check-in will be at 9:00 am on Saturday at Upper Camp with
-            lunch provided. Please wear long pants for riding and
-            closed toe shoes.
-          </p>
+          <Link href='https://updatesroyalridges.org/parent-child-days/' className='hover:underline text-green-200 hover:text-indigo-500'>
+            Click here for upcoming dates
+          </Link>
+          
           <div className='flex flex-row justify-between'>
             <div>
               <Link href={'/mother-daughter'}>
