@@ -54,6 +54,8 @@ const RidingLessons = () => {
             </a>
           </div>
 
+          <p className='mb-2'>Scholarships may be available upon request for those with financial needs.</p>
+
           <p className='font-semibold'>Notes:</p>
           <ul className='prose list-disc pb-4'>
             <li>Horsemanship Lessons are once a week.</li>
