@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Head from 'next/head';
+import Link from 'next/link';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -21,88 +22,43 @@ const GirlScouts = () => {
             className='w-2/3 mx-auto rounded-2xl shadow-xl mt-2'
           />
           <p className='mt-2'>
-            Help your Girl Scout troop work toward earning their horse
-            riding badge by registering for our Girl Scouts Riding
-            Badge Class. Your troop will learn some of the basics of
-            horses through horse facts, horse safety, some basics of
-            care, leading a horse, how to groom and saddle, and they
-            will get a ride in the arena.
+           Help your Girl Scout troop earn their horse riding badge with our specialized class! Your
+           troop will delve into the fundamentals of horses, covering essential facts, safety
+           protocols, basic care, leading techniques, and how to groom and saddle. The class
+           culminates in a fun arena ride.
           </p>
-          <p className='mt-2'>
-            The class is 3 hours and will fulfill most of the Girl
-            Scout Riding Badge requirements for ages{' '}
-            <span className='font-semibold'>five</span> and up (patch
-            not included). The scouts will get 30 minutes of riding
-            time with this class. Leaders and parents are welcome to
-            ride with them. *Please note that riding has a weight
-            limit of 250 lbs.*
-          </p>
-          <p className='mt-2'>
-            The riding portion will be an arena ride only. If you
-            would like to book a trail ride in addition to this class
-            on the same date, there will be an additional fee per
-            rider and an added hour to the class. Riders must be at
-            least <span className='font-semibold'>nine</span> years of
-            age to ride on a trail ride.
-          </p>
-          <p className='mt-2'>
-            Minimum Group size for Badge Class or Trail Ride = 7.
-          </p>
-          <p className='mt-2'>
-            Interested? Please contact{' '}
-            <a
-              href='emailto:programs@royalridges.org'
-              className='hover:underline hover:text-indigo-400 text-green-200'
-            >
-              programs@royalridges.org
-            </a>
-            .
-          </p>
-          <div className='p-5'>
-            <p className='font-semibold text-lg'>Girl Scout Note:</p>
-            <ul className='prose list-disc'>
-              <li>
-                All riders must have their liability form filled out
-                before class. Use this link to fill out the
-                form:&nbsp;
-                <a
-                  href='https://waiver.smartwaiver.com/w/57d1b3426821c/web/fd/web/'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='hover:underline hover:text-indigo-400 text-green-200'
-                >
-                  Liability Form
-                </a>
-              </li>
-              <li>
-                Please arrive 15 minutes before your scheduled time.
-              </li>
-              <li>
-                Long pants and sturdy closed-toe shoes are required.
-                (No crocs)
-              </li>
-              <li>
-                Please remember to bring a lunch and a refillable
-                water bottle.
-              </li>
-              <li>
-                Royal Ridges provides riding helmets. If you bring
-                your own, it must be an ASTM-certified helmet.
-              </li>
-              <li>
-                It is frequently cooler here at camp. Please be sure
-                to wear weather-appropriate clothing.
-              </li>
-              <li>
-                Our camp store will be open after your class time if
-                desired, so your troop can purchase horse camp
-                t-shirts, the button of the horse they rode, horse
-                camp studies, lanyards, or other souvenirs. If you
-                would like to visit the camp store, prepare your troop
-                to bring cash ahead of time. Items are $1-$15.
-              </li>
-            </ul>
-          </div>
+
+         <h3 className='font-bold text-xl mt-2'>Class Details:</h3>
+         <p className='ml-2'><span className='font-bold'>◾️ Duration:</span>{' '}3 hours</p>
+         <p className='ml-2'><span className='font-bold'>◾️ Requirements Fulfilled:</span>{' '}Fulfills most Girl Scout Riding Badge requirements for ages five and up (patch not included).</p>
+         <p className='ml-2'><span className='font-bold'>◾️ Riding Time:</span>{' '}30 minutes of arena riding.</p>
+         <p className='ml-2'><span className='font-bold'>◾️ Participation:</span>{' '}Leader and parents are welcome to ride.</p>
+         <p className='ml-2'><span className='font-bold'>◾️ Weight Limit:</span>{' '}Please note a weight limit of 250lbs for riding.</p>
+
+         <h3 className='font-bold text-xl mt-2'>Optional Trail Ride</h3>
+         <p>For an additional fee and an extra hour, you can add a trail ride to your class on the same date.
+            Riders must be at least nine years of age for trail rides.
+         </p>
+
+         <h3 className='font-bold text-xl mt-2'>Group Size & Contact</h3>
+          <p className='ml-2'><span className='font-bold'>◾️ Minimum Group Size: </span>{' '}7 (for either the Badge Class or Trail Ride)</p>
+          <p className='ml-2'><span className='font-bold'>◾️ Inquiries: </span>{' '}Interested? Please contact programs@royalridges.org</p>
+
+        <h3 className='font-bold text-xl mt-2'>Important Notes for Girl Scouts:</h3>
+         <p className='ml-2'><span className='font-bold'>◾️ Liability Form:</span>{' '}All riders must complete a liability form before class. Use this link:
+          <a href='https://app.smartwaiver.com/editor/v2/qse1rw8pknrsfipt3ktayf#' className='hover:underline text-green-200 hover:text-indigo-500'>{' '}Liability Form</a>.</p>
+         <p className='ml-2'><span className='font-bold'>◾️ Arrival:</span>{' '}Please arrive 15 minutes before your scheduled time.</p>
+         <p className='ml-2'><span className='font-bold'>◾️ Attire:</span>{' '}Long pants and sturdy closed-toe shoes are required (no Crocs).</p>
+         <p className='ml-2'><span className='font-bold'>◾️ Essentials:</span>{' '}Remember to bring a lunch and a refillable water bottle.</p>
+         <p className='ml-2'><span className='font-bold'>◾️ Helmets:</span>{' '}Royal Ridges provides riding helmets. If bringing your own, it must be an
+ASTM-certified helmet.</p>
+         <p className='ml-2'><span className='font-bold'>◾️ Weather:</span>{' '}It can be cooler at camp; please wear weather-appropriate clothing.</p>
+         <p className='ml-2 mb-4'><span className='font-bold'>◾️ Camp Store:</span>{' '}Our camp store will be open after your class if you wish to purchase
+souvenirs like horse camp t-shirts, horse buttons, studies, lanyards, or other items.
+Please cash only (items are $1-$15).</p>
+
+         <Link href='https://updatesroyalridges.org/girl-scouts/' className='mb-4 hover:underline text-green-200 hover:text-indigo-500'>Click here for the latest updates</Link>
+
         </div>
       </div>
       <Footer />
