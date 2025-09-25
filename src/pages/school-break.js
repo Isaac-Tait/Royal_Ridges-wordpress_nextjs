@@ -20,6 +20,12 @@ const SchoolBreak = () => {
           className='w-2/3 mx-auto rounded-xl mt-1'
         />
 
+        <p className='flex flex-wrap text-green-200 font-cursive text-xl justify-center md:text-2xl'>School Break Camps</p>   
+        <p className='mb-6'>Give your kids an unforgettable school break! Our day camps offer an amazing opportunity to
+          get outside, discover new skills, connect with friends, and build confidence. Camps are aligned
+          with the Battle Ground School District calendar.
+        </p>
+        
         <div className='flex justify-between w-2/3 mx-auto'>
           <Link
             href={'/spring-day-camp'}
