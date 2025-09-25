@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Head from 'next/head';
+import Link from 'next/link';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -19,18 +20,22 @@ const SaturdayCamps = () => {
           height={400}
           className='w-2/3 mx-auto rounded-2xl shadow-xl mt-2'
         />
-        <p className='flex flex-wrap text-green-200 font-cursive text-xl justify-center md:text-4xl'>
-          Traditional Day Camp
+        <p className='flex flex-wrap text-green-200 font-cursive text-xl justify-center md:text-2xl'>
+Saturday Horse Camp: Saddle Up for an Unforgettable Equestrian Journey!        </p>
+        <p className='mb-4'>
+          Calling all aspiring equestrians! Our Day Horse Camp offers a unique opportunity to delve into
+the captivating world of horses. Campers will receive a riding lesson from our team of skilled
+and passionate instructors, catering to various experience levels. Beyond the thrill of riding,
+participants will gain exciting insights into horse science, learning about equine anatomy,
+behavior, and care. Crucial practical skills such as grooming, saddling, and bridling will be
+taught, fostering confidence and competence around these magnificent animals. This camp is
+not only a chance to develop valuable equestrian skills but also a wonderful environment to
+forge new friendships and share a common love for horses.
         </p>
+
+        <Link href='https://updatesroyalridges.org/saturday-horse-camps/' className='hover:underline text-green-200 hover:text-indigo-500'>Click here for available dates</Link>
         <p>
-          Campers are divided into grade-level groups. Activities
-          could include climbing wall, field games, hiking trails,
-          archery, slingshots, crafts, games, snack shack, hayride,
-          giant bounce pillow, petting farm, GaGa Ball, loud singing,
-          funny skits, and memorable Bible stories.
-        </p>
-        <p>
-          Purchase camp&nbsp;
+          Embark on your equestrian adventure today! Purchase camp&nbsp;
           <a
             href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Saturday+Day+Camps'
             target='_blank'
