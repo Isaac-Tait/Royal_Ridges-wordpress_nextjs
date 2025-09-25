@@ -21,17 +21,16 @@ const GiddyUp = () => {
             height={400}
             className='w-2/3 mx-auto rounded-xl shadow-2xl mt-2'
           />
-          <p className='flex flex-wrap text-green-200 font-cursive text-lg justify-center md:text-4xl'>
-            Giddy Up - definition: To go ahead or go faster.
+          <p className='flex flex-wrap text-green-200 font-cursive text-md justify-center md:text-2xl'>
+            "Giddy Up" means to go ahead or go faster, and our program helps campers do just that
+            – keep the summer camp fun going all year long!
           </p>
 
           <p className='my-2'>
-            Our Giddy Up program offers a{' '}
-            <span className='italic'>Day at Camp</span> program where
-            campers come one day each week and participate in camp
-            activities to keep the summer camp fun alive year-round.
-            Activities include a fun camp activity, games,
-            socialization, and friendship building.
+            Our Giddy Up program offers a "Day at Camp" experience every Wednesday from September
+            through May, from 9:00 am to 3:00 pm. Campers aged 5-12 will enjoy a variety of engaging
+            activities including classic camp fun, games, and opportunities for socialization and friendship
+            building.
           </p>
 
           <p className='mt-4'>
@@ -40,24 +39,25 @@ const GiddyUp = () => {
           </p>
           <p>Ages: 5 - 12</p>
           <p>Price: $35/per week</p>
-          <p>Dates: September 11, 2024 - June 4, 2025</p>
-          <p>
-            <span className='font-bold'>Horse Option: </span>We
-            offer&nbsp;
-            <Link
-              href='/horsemanship'
+          <p>Dates: September - May</p>
+          <p>Schedule: Every Wednesday, 9:00 am - 3:00 pm</p>
+        
+          <div className='my-4 hover:underline text-green-200 hover:text-indigo-500'>
+            <Link href='https://updatesroyalridges.org/giddyup-wednesdays/'>Click here for the latest updates!</Link>
+          </div>
+
+          <p className='font-bold'>Special Offer: Horse Option!</p>
+          <p>Enhance your camper's experience with our Horsemanship Lessons, available on Wednesdays
+            and Thursdays. When you combine the Giddy Up program with Wednesday Horsemanship
+            Lessons, you receive a <span className='font-bold'>$10 per day discount!</span> Learn more about our Horsemanship Lessons{' '}
+            <a
+              href='https://updatesroyalridges.org/lessons/'
+              target='_blank'
+              rel='noopener noreferrer'
               className='hover:underline hover:text-indigo-400 text-green-200'
-            >
-              Horsemanship Lessons
-            </Link>{' '}
-            on Wednesdays and Thursdays.
+            >here
+            </a>
           </p>
-
-          <p>
-            A $10/day discount is offered when purchasing the GiddyUp
-            program and Wednesday Horsemanship Lessons.
-          </p>
-
           <div className='w-2/3 my-6 text-lg mx-auto'>
             <a
               href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151'
@@ -70,7 +70,7 @@ const GiddyUp = () => {
           </div>
 
           <p className='uppercase font-semibold'>Notes:</p>
-          <ul className='prose list-disc'>
+          <ul className='list-disc'>
             <li>
               * Please dress your camper in weather-appropriate
               clothing (layers, gloves, long pants, sturdy shoes, rain
