@@ -41,7 +41,7 @@ forge new friendships and share a common love for horses.
             href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Saturday+Day+Camps'
             target='_blank'
             rel='noopener noreferrer'
-            className='hover:underline hover:text-indigo-400 text-green-200 text-lg mt-4'
+            className='hover:underline hover:text-indigo-400 text-green-200 mt-4'
           >
             here
           </a>
