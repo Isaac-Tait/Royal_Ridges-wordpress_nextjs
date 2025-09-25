@@ -23,12 +23,12 @@ const GiddyUp = () => {
           />
           <p className='flex flex-wrap text-green-200 font-cursive text-md justify-center md:text-3xl'>Giddy Up: Year-Round Camp Fun!</p>
           <p className='flex flex-wrap text-green-200 text-md justify-center md:text-xl'>
-            "Giddy Up" means to go ahead or go faster, and our program helps campers do just that
+            &quot;Giddy Up&quot; means to go ahead or go faster, and our program helps campers do just that
             – keep the summer camp fun going all year long!
           </p>
 
           <p className='my-2'>
-            Our Giddy Up program offers a "Day at Camp" experience every Wednesday from September
+            Our Giddy Up program offers a &quot;Day at Camp&quot; experience every Wednesday from September
             through May, from 9:00 am to 3:00 pm. Campers aged 5-12 will enjoy a variety of engaging
             activities including classic camp fun, games, and opportunities for socialization and friendship
             building.
@@ -48,7 +48,7 @@ const GiddyUp = () => {
           </div>
 
           <p className='font-bold'>Special Offer: Horse Option!</p>
-          <p>Enhance your camper's experience with our Horsemanship Lessons, available on Wednesdays
+          <p>Enhance your camper&#39;s experience with our Horsemanship Lessons, available on Wednesdays
             and Thursdays. When you combine the Giddy Up program with Wednesday Horsemanship
             Lessons, you receive a <span className='font-bold'>$10 per day discount!</span> Learn more about our Horsemanship Lessons{' '}
             <a
