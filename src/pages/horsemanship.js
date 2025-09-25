@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Head from 'next/head';
+import Link from 'next/link';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -8,7 +9,7 @@ const RidingLessons = () => {
   return (
     <div className='bg-gradient-to-r from-yellow-200 to-indigo-200'>
       <Head>
-        <title>Royal Ridges&#39; Horsemanship Program</title>
+        <title>Royal Ridges&#39; Camps Horsemanship Riding Lessons Program</title>
       </Head>
       <Header />
       <div>
@@ -20,31 +21,29 @@ const RidingLessons = () => {
             height={400}
             className='w-2/3 mx-auto rounded-2xl shadow-xl mt-2'
           />
-          <p>
-            Royal Ridges Horsemanship Riding Lesson program emphasizes
-            riding skills and the safe handling and care of horses.
+          <p className='flex flex-wrap text-green-200 font-cursive text-md justify-center md:text-3xl'>
+            Royal Ridges&#39; Camps Horsemanship Riding Lessons Program
           </p>
-          <p className='mt-2'>
-            Each Horsemanship lesson includes riding time, fellowship
-            time, and horse science. (Fellowship time includes prayer,
-            discussion, and Bible topics related to horsemanship)
+          <p className='mt-2 font-bold'>
+            Each Horsemanship lesson incorporates:
           </p>
-          <p>Ages: 6 to 18</p>
-          <p>Price: $47/per week</p>
-
-          <h3>Dates:</h3>
-          <ul className='prose list-disc'>
-            <li>
-              * Wednesdays - September 11, 2024 - June 4, 2025
-              (10:00am - 12:00pm)
-            </li>
-            <li>
-              * Thursdays: September 12, 2024 - June 5, 2025 (4:30 -
-              6:30 pm)
-            </li>
+          <ul className='prose'>
+            <li>◾️ Dedicated riding time</li>
+            <li>◾️ Fellowship, including prayer, discussion, and Bible topics relevant to horsemanship</li>
+            <li>◾️ Horse science education</li>
           </ul>
+        <p className='font-bold'>Program Details:</p>
+        <ul className='prose mb-4'>
+          <li>◾️ Ages: 6 to 18</li>
+          <li>◾️ Price: $47 per week</li>
+          <li className='font-bold'>◾️ Schedule:</li>
+          <li className='ml-2'><span className='underline'>Wednesday:</span>{' '}September - May (10am-12pm)</li>
+          <li className='ml-2'><span className='underline'>Thursday:</span>{' '}September - May (4:30pm-6:30pm)</li>
+        </ul>
 
-          <div className='my-4 text-center text-4xl'>
+        <Link href='https://updatesroyalridges.org/lessons/' className='hover:underline text-green-200 hover:text-indigo-500'>Click here for the latest updates</Link>
+          
+          <div className='my-4 text-center text-2xl'>
             <a
               href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Horsemanship+Lessons+Vaulting'
               target='_blank'
