@@ -58,6 +58,9 @@ const GiddyUp = () => {
             >here
             </a>
           </p>
+
+          <p className='font-bold'>Ready to Sign Up?</p>
+
           <div className='w-2/3 my-6 text-lg mx-auto'>
             <a
               href='https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151'
@@ -65,7 +68,7 @@ const GiddyUp = () => {
               rel='noopener noreferrer'
               className='hover:underline hover:text-indigo-400 text-green-200 font-cursive'
             >
-              Sign Up Here
+              Click Here To Register
             </a>
           </div>
 
