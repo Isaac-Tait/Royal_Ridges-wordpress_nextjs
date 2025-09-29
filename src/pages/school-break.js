@@ -28,29 +28,17 @@ const SchoolBreak = () => {
         
         <div className='flex justify-between w-2/3 mx-auto'>
           <Link
-            href={'/spring-day-camp'}
+            href={'/https://updatesroyalridges.org/spring-break-camp/'}
             className='font-cursive text-2xl my-4 hover:underline text-green-200 hover:text-indigo-500'
           >
             <p>Spring Day Camp</p>
           </Link>
           <Link
-            href={'/winter-day-camp'}
+            href={'/https://updatesroyalridges.org/winter-break-camp/'}
             className='font-cursive text-2xl my-4 hover:underline text-green-200 hover:text-indigo-500'
           >
             <p>Winter Day Camp</p>
           </Link>
-        </div>
-
-        <div className='mr-4'>
-          <p>
-            Looking for a great way for your kids to spend their
-            school breaks. Then sign them up for one of our amazing
-            day camp options and get them outside, discovering new
-            skills, connecting with friends, and making new ones,
-            while growing in their confidence. Our school break camps
-            are aligned with the Battle Ground School District
-            calender. Click on the specific camps for more details.
-          </p>
         </div>
       </div>
       <Footer />
