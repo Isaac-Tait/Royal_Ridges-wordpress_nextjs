@@ -28,13 +28,13 @@ const SchoolBreak = () => {
         
         <div className='flex justify-between w-2/3 mx-auto'>
           <Link
-            href={'/https://updatesroyalridges.org/spring-break-camp/'}
+            href={'https://updatesroyalridges.org/spring-break-camp/'}
             className='font-cursive text-2xl my-4 hover:underline text-green-200 hover:text-indigo-500'
           >
             <p>Spring Day Camp</p>
           </Link>
           <Link
-            href={'/https://updatesroyalridges.org/winter-break-camp/'}
+            href={'https://updatesroyalridges.org/winter-break-camp/'}
             className='font-cursive text-2xl my-4 hover:underline text-green-200 hover:text-indigo-500'
           >
             <p>Winter Day Camp</p>
