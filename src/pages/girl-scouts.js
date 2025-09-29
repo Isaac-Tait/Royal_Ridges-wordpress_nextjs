@@ -46,7 +46,7 @@ const GirlScouts = () => {
 
         <h3 className='font-bold text-xl mt-2'>Important Notes for Girl Scouts:</h3>
          <p className='ml-2'><span className='font-bold'>◾️ Liability Form:</span>{' '}All riders must complete a liability form before class. Use this link:
-          <a href='https://app.smartwaiver.com/editor/v2/qse1rw8pknrsfipt3ktayf#' className='hover:underline text-green-200 hover:text-indigo-500'>{' '}Liability Form</a>.</p>
+          <a href='https://waiver.smartwaiver.com/w/qse1rw8pknrsfipt3ktayf/web/' className='hover:underline text-green-200 hover:text-indigo-500'>{' '}Horse Liability Waiver</a>.</p>
          <p className='ml-2'><span className='font-bold'>◾️ Arrival:</span>{' '}Please arrive 15 minutes before your scheduled time.</p>
          <p className='ml-2'><span className='font-bold'>◾️ Attire:</span>{' '}Long pants and sturdy closed-toe shoes are required (no Crocs).</p>
          <p className='ml-2'><span className='font-bold'>◾️ Essentials:</span>{' '}Remember to bring a lunch and a refillable water bottle.</p>

@@ -66,28 +66,6 @@ forge new friendships and share a common love for horses.
             here
           </a>
         </p>
-        <p className='flex flex-wrap text-green-200 font-cursive text-xl justify-center md:text-xl'>
-          Paintball Camp
-        </p>
-        <p>
-          Campers get to learn and play the extreme sport of
-          Paintball. In the morning, campers learn the finer points of
-          the game while fine-tuning their skills. Team building
-          activities help teach communication skills while we grow our
-          character through a Bible Study. The last three hours of the
-          day are game-time, where it is time to sling paint!
-        </p>
-        <p>
-          Purchase camp&nbsp;
-          <a
-            href='https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Saturday+Day+Camps'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='hover:underline hover:text-indigo-400 text-green-200 uppercase text-lg mt-4'
-          >
-            here
-          </a>
-        </p>
       </div>
       <Footer />
     </div>

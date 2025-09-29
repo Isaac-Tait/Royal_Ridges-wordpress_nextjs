@@ -24,6 +24,8 @@ const RidingLessons = () => {
           <p className='flex flex-wrap text-green-200 font-cursive text-md justify-center md:text-3xl'>
             Royal Ridges&#39; Camps Horsemanship Riding Lessons Program
           </p>
+          <p>Our Horsemanship Riding Lessons program at Royal Ridges focuses on developing
+essential riding skills, safe horse handling techniques, and proper horse care.</p>
           <p className='mt-2 font-bold'>
             Each Horsemanship lesson incorporates:
           </p>

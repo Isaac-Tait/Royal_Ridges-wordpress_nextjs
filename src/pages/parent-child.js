@@ -31,36 +31,6 @@ quality time together, creating a legacy of love and laughter that will last a l
             Click here for upcoming dates
           </Link>
           
-          <div className='flex flex-row justify-between'>
-            <div>
-              <Link href={'/mother-daughter'}>
-                <p className='text-green-200 font-bold text-lg justify-center hover:underline hover:brightness-200 md:text-2xl'>
-                  Mother Daughter
-                </p>
-              </Link>
-            </div>
-            <div>
-              <Link href={'/mother-son'}>
-                <p className='text-green-200 font-bold text-lg justify-center hover:underline hover:brightness-200 md:text-2xl'>
-                  Mother Son
-                </p>
-              </Link>
-            </div>
-            <div>
-              <Link href={'/father-daughter'}>
-                <p className='text-green-200 font-bold text-lg justify-center hover:underline hover:brightness-200 md:text-2xl'>
-                  Father Daughter
-                </p>
-              </Link>
-            </div>
-            <div>
-              <Link href={'/father-son'}>
-                <p className='text-green-200 font-bold text-lg justify-center hover:underline hover:brightness-200 md:text-2xl'>
-                  Father Son
-                </p>
-              </Link>
-            </div>
-          </div>
         </div>
       </div>
       <Footer />
