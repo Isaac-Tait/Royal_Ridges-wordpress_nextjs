@@ -44,10 +44,10 @@ const SummerReg = () => {
             have the opportunity to visit the Camp Store. Be prepared for your
             camper to come home tired and a bit dirty from their exciting day!
             Please note that within each camp, the Bible themes and main
-            activities are repeated each week. For your camper's comfort, please
-            ensure they wear weather-appropriate clothing (mornings can be
-            chilly, so a coat is recommended) and closed-toe shoes. Remember to
-            pack a lunch in a self-insulated lunch box and a water bottle. To
+            activities are repeated each week. For your camper&#39;s comfort,
+            please ensure they wear weather-appropriate clothing (mornings can
+            be chilly, so a coat is recommended) and closed-toe shoes. Remember
+            to pack a lunch in a self-insulated lunch box and a water bottle. To
             encourage a focused and engaging experience,{" "}
             <span className="font-bold underline">please do not</span> send your
             camper with any electronic devices.
