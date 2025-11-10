@@ -4,6 +4,7 @@ const SUMMER_NAV = [
   { name: "Base Camp", href: "/base-camp" },
   { name: "Recreational Sports Camp", href: "/rec-sport-camp" },
   { name: "Arts and Crafts Camp", href: "/art-craft-camp" },
+  { name: "Theater Camp", href: "/theater-camp" },
   { name: "Horse Camp", href: "/horse-camp" },
   { name: "Adventure Camp", href: "/adventure-camp" },
   { name: "Paintball Camp", href: "/paintball-camp" },

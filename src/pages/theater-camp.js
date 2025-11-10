@@ -6,14 +6,14 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Navigation from "../components/SummerNav";
 
-const SportCamp = () => {
+const TheaterCamp = () => {
   return (
     <div className="bg-gradient-to-l from-yellow-200 to-indigo-200">
       <Head>
-        <title>Sports Camp @ Royal Ridges</title>
+        <title>Theater Camp @ Royal Ridges</title>
       </Head>
       <Head>
-        <title>Sports Camp!</title>
+        <title>Theater Camp!</title>
       </Head>
       <Header />
 
@@ -25,19 +25,19 @@ const SportCamp = () => {
         {/*Column 2*/}
         <div className="flex flex-col mr-4 overflow-y-scroll">
           <Image
-            src="https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1729788080/Royal-Ridges/Rec_Sport_Camp_UC_25_qoz6cf.png"
+            src="https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1762742804/Royal-Ridges/Theater_Camp_UC_26_kndmdh.png"
             alt="sports_camp"
             width={300}
             height={300}
             className="w-1/2 mx-auto rounded-xl my-6"
           />
           <Link
-            href="https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Recreational+Sports+Camp"
+            href="https://www.ultracamp.com/info/upcomingSessions.aspx?idCamp=1145&campCode=151&lnkCategory=Arts+and+Crafts+Camp"
             target="_blank"
             rel="noopener noreferrer"
             className="text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400 text-center"
           >
-            Register for Sports Camp
+            Register for Theater Camp
           </Link>
           <div className="font-semibold text-green-200 ml-4 my-4 text-center">
             <p>Monday-Friday 9 am - 3:30 pm</p>
@@ -62,35 +62,11 @@ const SportCamp = () => {
             <div className="my-4 ml-2 text-center">
               <p>
                 <span className="text-green-200 font-semibold">Week #1</span> -
-                June 22-26 (Grades 5-7){" "}
-              </p>
-              <p>
-                <span className="text-green-200 font-semibold">Week #2</span> -
-                June 29-July 3 (Grades 3-5){" "}
-              </p>
-              <p>
-                <span className="text-green-200 font-semibold">Week #3</span> -
-                July 6-10 (Grades 1-3){" "}
-              </p>
-              <p>
-                <span className="text-green-200 font-semibold">Week #4</span> -
-                July 13-17 (Grades 5-7){" "}
-              </p>
-              <p>
-                <span className="text-green-200 font-semibold">Week #5</span> -
                 July 20-24 (Grades 3-5){" "}
               </p>
               <p>
-                <span className="text-green-200 font-semibold">Week #6</span> -
-                July 27-31 (Grades 5-7){" "}
-              </p>
-              <p>
-                <span className="text-green-200 font-semibold">Week #7</span> -
-                August 3-7 (Grades 1-3){" "}
-              </p>
-              <p>
-                <span className="text-green-200 font-semibold">Week #8</span> -
-                August 10-14 (Grades 3-5){" "}
+                <span className="text-green-200 font-semibold">Week #2</span> -
+                August 3-7 (Grades 6-8){" "}
               </p>
               <div className="my-10">
                 {" "}
@@ -100,7 +76,7 @@ const SportCamp = () => {
                   rel="noopener noreferrer"
                   className="text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400 text-center"
                 >
-                  Register for Sports Camp
+                  Register for Theater Camp
                 </a>
               </div>
             </div>
@@ -112,4 +88,4 @@ const SportCamp = () => {
   );
 };
 
-export default SportCamp;
+export default TheaterCamp;
