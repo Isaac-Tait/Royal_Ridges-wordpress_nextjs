@@ -49,13 +49,14 @@ const TheaterCamp = () => {
           <div className="my-4">
             <div className="mb-4">
               <p>
-                Our Recreational Sports Camp is ideal for active campers,
-                especially those who enjoy GagaBall. We&#39;ve added new sports
-                activities and games to offer team-based fun and promote good
-                sportsmanship, with no prior experience needed. Campers will
-                take part in team-building exercises, daily Bible lessons,
-                singing, and visits to the camp store. We offer Recreational
-                Sports Camps for three different age groups.
+                Unleash your child&#39;s creativity in our Theater Camp! Theater
+                camp is designed for outgoing and charismatic campers who enjoy
+                center stage. Each day, campers will be challenged with drama
+                and improv games and will spend time each day practicing for a
+                skit to present to younger groups at the end of the week. The
+                camp also includes daily Bible lessons, singing, team-building
+                activities, and visits to the camp store. Theater Camps are
+                offered for two weeks for two distinct age groups.
               </p>
             </div>
             <hr />
