@@ -21,7 +21,7 @@ const SummerReg = () => {
         {/*Column 2*/}
         <div className="mr-4 ">
           <Image
-            src="https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1729788080/Royal-Ridges/Summer_Camp_Descriptions_-_2025_ldu6mg.png"
+            src="https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1762742806/Royal-Ridges/Summer_Camp_Descriptions_-_2026_ry4mg8.png"
             alt="summer camp descriptions"
             width={400}
             height={400}

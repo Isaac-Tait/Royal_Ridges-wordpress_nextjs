@@ -42,6 +42,7 @@ const DayCamp = () => {
             <p>Monday-Friday 9 am - 3:30 pm</p>
             <p>Entering Grades 1st-5th</p>
             <p>Spruce and Cedar Groups - $195</p>
+            <p>Pony Express - $215</p>
             <p>Bus Transportation - $65</p>
           </div>
           <hr />
