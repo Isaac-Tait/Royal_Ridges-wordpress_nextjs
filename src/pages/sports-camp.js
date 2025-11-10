@@ -50,7 +50,7 @@ const SportCamp = () => {
             <div className="mb-4">
               <p>
                 Our Recreational Sports Camp is ideal for active campers,
-                especially those who enjoy GagaBall. We've added new sports
+                especially those who enjoy GagaBall. We&#39;ve added new sports
                 activities and games to offer team-based fun and promote good
                 sportsmanship, with no prior experience needed. Campers will
                 take part in team-building exercises, daily Bible lessons,
@@ -71,7 +71,6 @@ const SportCamp = () => {
               <p>
                 <span className="text-green-200 font-semibold">Week #3</span> -
                 July 6-10 (Grades 1-3){" "}
-                <span className="italic text-xs">No Camp on July 4</span>
               </p>
               <p>
                 <span className="text-green-200 font-semibold">Week #4</span> -

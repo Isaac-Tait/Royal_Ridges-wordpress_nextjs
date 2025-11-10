@@ -97,7 +97,6 @@ const DayCamp = () => {
             <p>
               <span className="text-green-200 font-semibold">Week #3</span> -
               July 6-10{" "}
-              <span className="italic text-xs">No Camp on July 4</span>
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #4</span> -
@@ -123,12 +122,6 @@ const DayCamp = () => {
               <span className="text-green-200 font-semibold">Week #9</span> -
               August 17-21{" "}
             </p>
-            {/* <p>
-              <span className='text-green-200 font-semibold'>
-                Week #10
-              </span>{' '}
-              - August 19-23
-            </p> */}
           </div>
           <a
             href="https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151"
