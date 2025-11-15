@@ -41,7 +41,7 @@ const DayCamp = () => {
             <h4 className="font-semibold">NW Gospel Church/Camas</h4>
             <p className="ml-2">7:50am/4:20pm</p>
             <p className="ml-2">
-              4:20pm - Drop Off Time&nbsp;
+              Drop Off Time&nbsp;
               <span className="font-semibold text-red-400">(Final Stop)</span>
             </p>
             <a
@@ -53,8 +53,7 @@ const DayCamp = () => {
               1420 NE 3rd Avenue Camas, WA
             </a>
             <h4 className="font-semibold">NW Gospel Church - East Vancouver</h4>
-            <p className="ml-2">8:10am - Departure Time</p>
-            <p className="ml-2">4:00pm - Drop Off Time</p>
+            <p className="ml-2">8:10am/4:00pm</p>
             <a
               href="https://goo.gl/maps/hpvKZQcPRKAxzEKo9"
               target="_blank"
@@ -68,9 +67,9 @@ const DayCamp = () => {
               East Two Bus Route
             </h3>
             <h4 className="font-semibold">East Park Church</h4>
-            <p className="ml-2">8:05am - Departure Time</p>
+            <p className="ml-2">8:05am/4:15pm</p>
             <p className="ml-2">
-              4:15pm - Drop Off Time&nbsp;
+              Drop Off Time&nbsp;
               <span className="font-semibold text-red-400">(Final Stop)</span>
             </p>
             <a
@@ -82,15 +81,12 @@ const DayCamp = () => {
               15815 NE 18th Street Vancouver, WA
             </a>
             <p className="italic ml-2 text-xs">
-              (NE side of Parking Lot/Back of Parking lot near basketball
-              hoop.(There are food trucks in parking lot - please leave space
-              for their customers to park.))
+              (Use parking lot nearest to the street)
             </p>
             <h4 className="font-semibold">
               Fourth Plains Church of the Nazarene
             </h4>
-            <p className="ml-2">8:20am - Departure Time</p>
-            <p className="ml-2">4:00pm - Drop Off Time</p>
+            <p className="ml-2">8:20am/4:00pm</p>
             <a
               href="https://goo.gl/maps/YKX8bJS4H76KNDXp6"
               target="_blank"
@@ -104,9 +100,9 @@ const DayCamp = () => {
               East Three Bus Route
             </h3>
             <h4 className="font-semibold">Reign Church</h4>
-            <p className="ml-2">8:15am - Departure Time</p>
+            <p className="ml-2">8:15am/4:15pm</p>
             <p className="ml-2">
-              4:00pm - Drop Off Time&nbsp;
+              Drop Off Time&nbsp;
               <span className="font-semibold text-red-400">(Final Stop)</span>
             </p>
             <a
@@ -122,8 +118,7 @@ const DayCamp = () => {
               front of the building or by the daycare center.)
             </p>
             <h4 className="font-semibold">Battle Ground Baptist Church</h4>
-            <p className="ml-2">8:30am - Departure Time</p>
-            <p className="ml-2">3:50pm - Drop Off Time</p>
+            <p className="ml-2">8:30am/3:50pm</p>
             <a
               href="https://goo.gl/maps/cTXDh6qwmtNUxHHQ7"
               target="_blank"
@@ -141,9 +136,9 @@ const DayCamp = () => {
               West One Bus Route
             </h3>
             <h4 className="font-semibold">Vancouver Vineyard Church</h4>
-            <p className="ml-2">7:45am - Departure Time</p>
+            <p className="ml-2">7:45am/4:25pm</p>
             <p className="ml-2">
-              4:25pm - Drop Off Time&nbsp;
+              Drop Off Time&nbsp;
               <span className="font-semibold text-red-400">(Final Stop)</span>
             </p>
             <a
@@ -158,8 +153,7 @@ const DayCamp = () => {
               (South parking lot next to The Portal)
             </p>
             <h4 className="font-semibold">City Harvest Church</h4>
-            <p className="ml-2">8:05am - Departure Time</p>
-            <p className="ml-2">4:00pm - Drop Off Time</p>
+            <p className="ml-2">8:05am/4:00pm</p>
             <a
               href="https://goo.gl/maps/WUrB2xMB1T1FbZFT7"
               target="_blank"
@@ -176,9 +170,9 @@ const DayCamp = () => {
               Safeway at Salmon Creek (Safeway closest to Kaiser Permanente
               Medical Office @ Salmon Creek.)
             </h4>
-            <p className="ml-2">8:15am - Departure Time</p>
+            <p className="ml-2">8:15am/4:05pm</p>
             <p className="ml-2">
-              4:05pm - Drop Off Time&nbsp;
+              Drop Off Time&nbsp;
               <span className="font-semibold text-red-400">(Final Stop)</span>
             </p>
             <a
@@ -195,9 +189,9 @@ const DayCamp = () => {
               West Three Bus Route
             </h3>
             <h4 className="font-semibold">La Center Church</h4>
-            <p className="ml-2">7:50am - Departure Time</p>
+            <p className="ml-2">7:50am/4:20pm</p>
             <p className="ml-2">
-              4:20pm - Drop Off Time&nbsp;
+              Drop Off Time&nbsp;
               <span className="font-semibold text-red-400">(Final Stop)</span>
             </p>
             <a
@@ -212,8 +206,8 @@ const DayCamp = () => {
               (South parking lot - bus on the street)
             </p>
             <h4 className="font-semibold">Ridgefield Church of the Nazarene</h4>
-            <p className="ml-2">8:10am - Departure Time</p>
-            <p className="ml-2">4:00pm - Drop Off Time</p>
+            <p className="ml-2">8:10am/4:00pm</p>
+            <p className="ml-2">Drop Off Time</p>
             <a
               href="https://goo.gl/maps/HMZbNaLseeihz8ZY9"
               target="_blank"
@@ -222,6 +216,25 @@ const DayCamp = () => {
             >
               747 Pioneer Street Ridgefield, WA
             </a>
+            <p className="italic ml-2 text-xs">
+              (Please park by the fence that is farthest away from the church
+              building. Do not enter the church building.)
+            </p>
+            <p>
+              <span className="font-semibold">
+                Substitute bus stop if Ridgefield Church is unavailable:{" "}
+              </span>
+              Rosaurers
+              <a
+                href="https://maps.app.goo.gl/1Nny2ahvpQkGAN1T7"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="ml-2 hover:underline text-green-200 hover:text-indigo-500"
+              >
+                101 S 47th Ave. Ridgefield WA
+              </a>{" "}
+              (You will be notified if there is a change.)
+            </p>
           </div>
           <hr />
           <div className="my-4">
