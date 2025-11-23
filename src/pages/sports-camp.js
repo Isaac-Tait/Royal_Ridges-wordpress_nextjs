@@ -37,7 +37,7 @@ const SportCamp = () => {
             rel="noopener noreferrer"
             className="text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400 text-center"
           >
-            Register for Sports Camp
+            Register for Recreational Sports Camp
           </Link>
           <div className="font-semibold text-green-200 ml-4 my-4 text-center">
             <p>Monday-Friday 9 am - 3:30 pm</p>
@@ -100,7 +100,7 @@ const SportCamp = () => {
                   rel="noopener noreferrer"
                   className="text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400 text-center"
                 >
-                  Register for Sports Camp
+                  Register for Recreational Sports Camp
                 </a>
               </div>
             </div>
