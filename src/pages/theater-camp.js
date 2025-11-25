@@ -41,7 +41,7 @@ const TheaterCamp = () => {
           </Link>
           <div className="font-semibold text-green-200 ml-4 my-4 text-center">
             <p>Monday-Friday 9 am - 3:30 pm</p>
-            <p>Weeks for campers entering Grades 1st-3rd and 3rd-5th</p>
+            <p>Weeks for campers entering Grades 3rd-5th and 6th-8th</p>
             <p>$225 for the week</p>
             <p>Bus Transportation - $65</p>
           </div>
@@ -68,6 +68,14 @@ const TheaterCamp = () => {
               <p>
                 <span className="text-green-200 font-semibold">Week #2</span> -
                 August 3-7 (Grades 6-8){" "}
+              </p>
+              <p>
+                <span className="text-green-200 font-semibold">Week $5</span> -
+                July 20-24 (Grades 3-5)
+              </p>
+              <p>
+                <span className="text-green-200 font-semibold">Week #7</span> -{" "}
+                August 3-7 (Grades 6-8)
               </p>
               <div className="my-10">
                 {" "}

@@ -47,15 +47,16 @@ const DayPaintBall = () => {
             <span className="text-green-200 font-semibold">
               Paintball Day Camp
             </span>
-            &nbsp;~&nbsp;At our Paintball Day Camp, Campers learn to play the
-            extreme sport of Paintball. Campers learn the game&#39;s finer
-            points in the morning while fine-tuning their skills. Team building
-            activities help teach communication skills while we grow our
-            character through daily Bible Study. The last three hours of the day
-            are game time when it is time to sling paint!
+            Paintball Day Camp ~ At our Paintball Camp, campers will immerse
+            themselves in the extreme sport of paintball. Mornings are dedicated
+            to learning the game&#39;s nuances and refining skills. Through
+            team-building exercises, campers will enhance their communication
+            abilities, while daily Bible study fosters character development.
+            The final three hours of each day are reserved for thrilling game
+            time, where it&#39;s all about slinging paint
           </p>
           <p className="italic mt-4">
-            <span className="font-semibold">Extreme</span>uses conventional
+            <span className="font-semibold">Extreme</span> uses conventional
             markers and balls at 240-260 fps, with woodsball being the primary
             emphasis.
           </p>
