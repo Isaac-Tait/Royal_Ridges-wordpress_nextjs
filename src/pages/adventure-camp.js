@@ -78,20 +78,17 @@ const DayAdventureCamp = () => {
             Adventure Camp Overnight Blast Option:
           </p>
           <p>
-            Our Overnight Blast Adventure Program will bring campers together
-            for additional adventure activities unique to Overnight Blast. Night
-            games will be the highlight of their week! Campers will stay
-            overnight in the cabins on Thursday night of their week at camp.
-            Dinner on Thursday, Breakfast on Friday, and a packed lunch for
-            Friday will be provided! There is limited availability, and{" "}
-            <span className="uppercase font-semibold">onb</span> will only be
-            available on certain weeks. Please sign up for this option early to
-            reserve your space. Do not forget your sleeping bag and items needed
-            for the next day.
+            Our Overnight Blast Adventure Program offers a stay-at camp
+            experience, bringing campers together for exciting activities and
+            memorable night games. Campers will spend Thursday night in cabins,
+            with dinner on Thursday, breakfast on Friday, and a packed Friday
+            lunch provided. Due to limited availability and select weeks, early
+            sign-up is recommended to secure a spot. Remember to bring a
+            sleeping bag and essentials for the next day (Grades 4 - 9).
           </p>
           <p className="mt-2">Activities to Include:</p>
           <ul className="list-disc mb-2 ml-6">
-            <li className="mt-2">Dinner and Campfire</li>
+            <li className="mt-2">Dinner</li>
             <li className="mt-2">
               Additional Adventure Camp Activities unique to Overnight Blast
             </li>

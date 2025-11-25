@@ -83,18 +83,17 @@ const DayCamp = () => {
             <p className="italic ml-2 text-xs">
               (Use parking lot nearest to the street)
             </p>
-            <h4 className="font-semibold">
-              Fourth Plains Church of the Nazarene
-            </h4>
+            <h4 className="font-semibold">NW Gospel Church/Summit View</h4>
             <p className="ml-2">8:20am/4:00pm</p>
             <a
-              href="https://goo.gl/maps/YKX8bJS4H76KNDXp6"
+              href="https://maps.app.goo.gl/2YeLPSmSzJv1jSmeA"
               target="_blank"
               rel="noopener noreferrer"
               className="ml-2 hover:underline text-green-200 hover:text-indigo-500"
             >
-              16807 NE Fourth Plain Boulevard Vancouver, WA
+              7701 NE 182nd Ave, Vancouver, WA 98682
             </a>
+            <p className="font-sm">Use the parking lot closest to the street</p>
             <hr />
             <h3 className="text-green-200 font-semibold text-xl mt-6">
               East Three Bus Route
