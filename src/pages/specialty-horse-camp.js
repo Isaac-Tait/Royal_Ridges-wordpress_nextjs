@@ -63,6 +63,12 @@ const Staff = () => {
             in jeans and riding boots with a heel.
           </p>
 
+          <p className="font-semibold">
+            For the safety of all participants, your child must have either
+            completed formal riding lessons or attended a Royal Ridges Summer
+            Horse Camp
+          </p>
+
           <h3 className="font-semibold text-xl mt-4">
             Vaulting Camp -{" "}
             <span className="text-sm italic">&nbsp;ages 8 - 16</span> (Week 5) -

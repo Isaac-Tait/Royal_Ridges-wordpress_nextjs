@@ -62,15 +62,7 @@ const TheaterCamp = () => {
             <hr />
             <div className="my-4 ml-2 text-center">
               <p>
-                <span className="text-green-200 font-semibold">Week #1</span> -
-                July 20-24 (Grades 3-5){" "}
-              </p>
-              <p>
-                <span className="text-green-200 font-semibold">Week #2</span> -
-                August 3-7 (Grades 6-8){" "}
-              </p>
-              <p>
-                <span className="text-green-200 font-semibold">Week $5</span> -
+                <span className="text-green-200 font-semibold">Week #5</span> -
                 July 20-24 (Grades 3-5)
               </p>
               <p>

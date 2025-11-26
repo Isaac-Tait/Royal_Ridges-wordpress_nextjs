@@ -40,7 +40,7 @@ const DayHorseCamp = () => {
             <p>8-14 Years Old</p>
             <p>$425 for the week</p>
             <p>$65 Bus Transportation</p>
-            <p>$150 ADD ON Overnight Blast Weeks 5, 7, and 10</p>
+            <p>$150 ADD ON Overnight Blast Weeks 3, 5, and 7</p>
             <p className="pt-2">
               Special groups designed for younger and older horse lovers
             </p>
