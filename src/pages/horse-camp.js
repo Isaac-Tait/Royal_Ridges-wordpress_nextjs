@@ -44,7 +44,6 @@ const DayHorseCamp = () => {
             <p className="pt-2">
               Special groups designed for younger and older horse lovers
             </p>
-            <p>Teen Horse Trail Camp (Ages 13-16) Week 7</p>
           </div>
           <hr />
           <div>
@@ -101,26 +100,22 @@ const DayHorseCamp = () => {
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #5</span> -
-              July 14-18 (ONB Available)
+              July 20-24 (ONB Available)
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #6</span> -
-              July 20-24
+              July 27-31
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #7</span> -
-              July 27-31 (ONB Available)
+              August 3-7 (ONB Available)
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #8</span> -
-              August 3-7
-            </p>
-            <p>
-              <span className="text-green-200 font-semibold">Week #9</span> -
               August 10-14
             </p>
             <p>
-              <span className="text-green-200 font-semibold">Week #10</span> -
+              <span className="text-green-200 font-semibold">Week #9</span> -
               August 17-21
             </p>
           </div>
