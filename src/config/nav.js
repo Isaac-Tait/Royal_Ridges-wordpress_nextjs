@@ -13,8 +13,6 @@ const NAV = [
   },
   { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
-  { name: "About", href: "/about" },
-  { name: "Contact", href: "/contact" },
   {
     name: "Account",
     href: "https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151",
