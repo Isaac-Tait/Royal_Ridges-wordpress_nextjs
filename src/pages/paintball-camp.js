@@ -69,7 +69,7 @@ const DayPaintBall = () => {
           <div className="my-2 ml-2 text-center">
             <p>
               <span className="text-green-200 font-semibold">Week #1</span> -
-              June 6-10
+              June 22-26
               <span className="text-green-200 font-bold">
                 &nbsp;SPLAT Grades 3-5
               </span>

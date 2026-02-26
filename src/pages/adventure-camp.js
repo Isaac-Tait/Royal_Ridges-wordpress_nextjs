@@ -103,12 +103,12 @@ const DayAdventureCamp = () => {
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #2</span> -
-              June 26-July 3
+              June 29-July 3
               <span className="text-md font-semibold"> (ONB Available)</span>
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #3</span> -
-              July6-10
+              July 6-10
             </p>
 
             <p>
