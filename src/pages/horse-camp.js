@@ -53,9 +53,9 @@ const DayHorseCamp = () => {
               instructors and delve into horse science. They&#39;ll develop
               valuable skills such as grooming and saddling, explore the Bible
               during daily lessons, and forge new friendships. Beyond
-              horsemanship, activities include team building, group Bible
-              studies, and scenic trail rides. Riders are required to wear
-              closed-toe shoes and long pants; helmets are provided.
+              horsemanship, activities include team building, and group Bible
+              studies. Riders are required to wear closed-toe shoes and long
+              pants; helmets are provided.
             </p>
             {/*Updated for 2024*/}
             <p className="text-xl font-bold mt-2">
