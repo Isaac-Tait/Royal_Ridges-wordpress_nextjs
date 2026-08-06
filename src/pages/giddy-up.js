@@ -74,21 +74,21 @@ const GiddyUp = () => {
           </div>
 
           <p className="font-bold">Important Notes:</p>
-          <p>
+          <p className="my-2">
             ● Please ensure your camper is dressed in weather-appropriate
             attire, such as layers, gloves, long pants, sturdy footwear, and
             rain gear.
           </p>
-          <p>
+          <p className="my-2">
             ● Be sure to pack a lunch, a snack, and a refillable water bottle.
           </p>
-          <p>
+          <p className="my-2">
             ● Morning drop-off and afternoon pick-up take place at the lower
             camp two-rail fence archway at 9:00 am and 3:00 pm, respectively.
             Program staff will shuttle campers up the hill for morning
             activities, and covered spaces are available on cold or rainy days.
           </p>
-          <p>
+          <p className="my-2">
             ● Refunds or make-up sessions are not provided for missed days.
             However, if Royal Ridges cancels a session, a credit will be issued.
           </p>
@@ -96,9 +96,25 @@ const GiddyUp = () => {
             ● GiddyUp Day at Camp is offered exclusively during the school year
             due to our Summer Camp operations.
           </p>
-          <p>
+          <p className="my-2">
             ● Sessions will not be held during Winter Break and Spring Break,
             aligning with the Battle Ground Public School calendar.
+          </p>
+
+          <p className="my-2">
+            You can pay in full or choose a monthly payment plan.
+            <br />
+            <strong>
+              One-day drop-in options ($40) can be booked by calling
+              360.686.3737 or via email at
+              <Link
+                href="mailto:registrations@royalridges.org"
+                className="hover:underline"
+              >
+                registrations@royalridges.org
+              </Link>
+              .
+            </strong>
           </p>
 
           <p className="font-bold">Ready to Sign Up?</p>
