@@ -14,6 +14,7 @@ export default function GiddyUpSchedule() {
 
   const winterSpringSessions = [
     { date: "Jan 6", program: "Horse Fun" },
+    { date: "Jan 20", program: "Outdoor Fun" },
     { date: "Feb 10", program: "Horse Fun" },
     { date: "Feb 24", program: "Outdoor Fun" },
     { date: "Mar 10", program: "Horse Fun" },

@@ -41,21 +41,21 @@ const GiddyUp = () => {
               games, and wonderful opportunities to make friends and socialize.
               Each month features two unique Wednesday sessions: the first is
               dedicated to &quot;Horse Fun&quot;, while the second is focused on
-              Outdoor Fun&quot;.
+              &quot;Outdoor Fun&quot;.
             </p>
           </div>
 
           <p className="mt-4">
-            The Giddy Up program runs from September through May - every
-            Wednesday from 9:00 am - 3:00 pm.
+            The Giddy Up program runs from September through May - two
+            Wednesdays per month from 9:00 am to 3:00 pm.
           </p>
           <p>Ages: 5 - 12</p>
           <p>Price: $35 per session</p>
           <p>Single-day drop-off option available ($40)</p>
           <p>Dates: September - May</p>
           <p>
-            Schedule: Every Wednesday (two sessions each month), 9:00 am - 3:00
-            pm <span className="text-sm italics">*See schedule below</span>
+            Schedule: Two Wednesdays per month 9:00 am - 3:00 pm{" "}
+            <span className="text-sm italics">*See schedule below</span>
           </p>
 
           <div className="my-4 hover:underline text-green-200 hover:text-indigo-500">
