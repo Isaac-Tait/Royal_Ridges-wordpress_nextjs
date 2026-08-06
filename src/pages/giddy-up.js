@@ -22,7 +22,7 @@ const GiddyUp = () => {
             height={400}
             className="w-2/3 mx-auto rounded-xl shadow-2xl mt-2"
           />
-          <p className="flex flex-wrap text-green-200 font-cursive text-md justify-center md:text-3xl">
+          <p className="flex flex-wrap text-green-200 font-cursive text-md justify-center md:text-3xl mb-4">
             Giddy Up: Year-Round Camp Fun!
           </p>
           <p className="flex flex-wrap text-green-200 text-md justify-center md:text-xl">
@@ -31,17 +31,19 @@ const GiddyUp = () => {
             excitement alive throughout the entire year!
           </p>
 
-          <p className="my-2">
-            <span className="font-bold">Program Overview</span>
-            Designed for children ages 5 to 12, the Giddy Up program provides an
-            exciting &quot;Day at Camp&quot; experience twice a month on
-            Wednesdays from September through May, running from 9:00 am to 3:00
-            pm. Campers will participate in classic camp activities, games, and
-            wonderful opportunities to make friends and socialize. Each month
-            features two unique Wednesday sessions: the first is dedicated to
-            &quot;Horse Fun&quot;, while the second is focused on Outdoor
-            Fun&quot;.
-          </p>
+          <div className="my-4">
+            <h2 className="font-bold">Program Overview</h2>
+            <p className="my-2">
+              Designed for children ages 5 to 12, the Giddy Up program provides
+              an exciting &quot;Day at Camp&quot; experience twice a month on
+              Wednesdays from September through May, running from 9:00 am to
+              3:00 pm. Campers will participate in classic camp activities,
+              games, and wonderful opportunities to make friends and socialize.
+              Each month features two unique Wednesday sessions: the first is
+              dedicated to &quot;Horse Fun&quot;, while the second is focused on
+              Outdoor Fun&quot;.
+            </p>
+          </div>
 
           <p className="mt-4">
             The Giddy Up program runs from September through May - every
@@ -64,7 +66,9 @@ const GiddyUp = () => {
             >
               Click here for the latest updates!
             </Link>
+          </div>
 
+          <div className="my-4 hover:underline text-green-200 hover:text-indigo-500">
             <Link
               href="https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151"
               target="_blank"
@@ -111,10 +115,10 @@ const GiddyUp = () => {
             <br />
             <strong>
               One-day drop-in options ($40) can be booked by calling
-              360.686.3737 or via email at
+              360.686.3737 or via email at{" "}
               <Link
                 href="mailto:registrations@royalridges.org"
-                className="hover:underline"
+                className="hover:underline text-indigo-500"
               >
                 registrations@royalridges.org
               </Link>
@@ -124,16 +128,18 @@ const GiddyUp = () => {
 
           <GiddyupSchedule />
 
-          <p className="font-bold">Ready to Sign Up?</p>
-          <div className="text-lg my-6">
-            <a
-              href="https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:underline hover:text-indigo-400 text-green-200 font-cursive"
-            >
-              Click Here To Register
-            </a>
+          <div className="text-center">
+            <p className="font-bold">Ready to Sign Up?</p>
+            <div className="text-lg my-6">
+              <a
+                href="https://www.ultracamp.com/clientlogin.aspx?idCamp=1145&campCode=151"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline hover:text-indigo-400 text-green-200 font-cursive"
+              >
+                Click Here To Register
+              </a>
+            </div>
           </div>
         </div>
       </div>
