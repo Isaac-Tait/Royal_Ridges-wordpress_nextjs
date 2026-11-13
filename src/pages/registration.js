@@ -39,48 +39,35 @@ const SummerReg = () => {
           </div>
           <hr />
           <p>
-            Our Summer Camps are packed with fun, featuring games, team-building
-            activities, Bible studies, and lively camp songs. Campers will also
-            have the opportunity to visit the Camp Store. Be prepared for your
-            camper to come home tired and a bit dirty from their exciting day!
-            Please note that within each camp, the Bible themes and main
-            activities are repeated each week. For your camper&#39;s comfort,
-            please ensure they wear weather-appropriate clothing (mornings can
-            be chilly, so a coat is recommended) and closed-toe shoes. Remember
-            to pack a lunch in a self-insulated lunch box and a water bottle. To
-            encourage a focused and engaging experience,{" "}
-            <span className="font-bold underline">please do not</span> send your
-            camper with any electronic devices.
+            Packed with high-energy fun, our Summer Camps offer engaging games,
+            team-building challenges, daily Bible studies, and spirited camp
+            songs, along with trips to the Camp Store. Expect your camper to
+            return home delightfully tired and dirty after an action-packed day!
+            Please keep in mind that core Bible themes and primary activities
+            remain the same across weeks within each camp. To keep your child
+            comfortable, dress them in weather-appropriate attire (coat
+            recommended for chilly mornings) along with sturdy, closed-toe shoes
+            (no Crocs). Pack a refillable water bottle and a lunch in a
+            self-insulated container. To promote full participation and
+            connection,{" "}
+            <span className="font-bold underline">
+              electronic devices are not permitted.
+            </span>
           </p>
           {/*New Content for 2024*/}
           <p className="font-semibold text-xl text-green-200 text-center mt-4">
-            What&#39;s New for Summer Camp 2026!
+            What&#39;s New for Summer Camp 2027!
           </p>
           <p className="text-center font-bold">
-            We&#39;re looking forward to Summer Camp 2026 and are delighted to
-            let you know about some exciting new adventures and changes.
+            We&#39;re looking forward to Summer Camp 2027 and are delighted to
+            let you know about exciting new adventures and changes.
           </p>
-          <ul className="list-disc mb-2 ml-6">
-            <li className="mt-2">
-              <span className="font-bold">
-                Introducing the NEW Pony Express Camp!{" "}
-              </span>
-              This exciting adaptation of Base Camp is designed for Spruce
-              campers eager for more time with horses. Campers will enjoy an
-              extra visit to the corral, gaining additional grooming and horse
-              science experience, all while participating in the classic Base
-              Camp activities.
-            </li>
-            <li className="mt-2">
-              <span className="font-bold">New this Summer: Theater Camp! </span>
-              Unleash your inner star at our new Theater Camp, available for
-              select weeks this summer! This camp is perfect for creative,
-              outgoing campers who love to act. Throughout the week, campers
-              will engage in drama skill-building games and work together to
-              prepare a play, culminating in a special performance for our
-              younger campers.
-            </li>
-          </ul>
+
+          <p className="mt-2">
+            <span className="font-bold">NEW this summer…Airsoft Camp!</span>{" "}
+            Campers will engage in exciting, team-building airsoft games and
+            daily educational activities that offer both challenge and fun.
+          </p>
           <div className="text-center">
             <p className="text-xs italic mt-4">
               For questions regarding registrations, please email{" "}
