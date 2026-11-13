@@ -35,25 +35,30 @@ const DayAdventureCamp = () => {
           >
             Register for Adventure Camp
           </Link>
-          <div className="font-semibold text-green-200 ml-4 my-4 text-center">
+          <div className="font-regular text-green-200 ml-4 my-4 text-center">
             <p>Monday-Friday 9 am - 3:30 pm</p>
             <p>Entering Grades 3rd - 9th</p>
-            <p>Adventure Camp (no high ropes)- $245 for the week</p>
-            <p>Extreme Adventure Camp (with high ropes)- $295 for the week</p>
-            <p>$65 Bus Transportation</p>
+            <p>Adventure Camp (no high ropes)- $310* for the week</p>
+            <p>Extreme Adventure Camp (with high ropes)- $360* for the week</p>
+            <p className="text-xs font-semibold">
+              (*Price Includes bus transportation)
+            </p>
             <p>$150 ADD ON Overnight Blast Weeks 2, 4, and 6</p>
           </div>
           <hr />
           <p className="mt-4">
-            Our Adventure Camp is back and better than ever! Throughout the
-            week, your camper will learn new outdoor survival skills, test their
-            ability on the climbing wall, play fun team games like gaga ball and
-            human foosball, hone their expertise with slingshots and archery,
-            and spend meaningful time exploring the Bible. The Extreme Adventure
-            groups will also experience the high ropes course and zip-line. Each
-            day your camper will go home tired, dirty, and ready for the next
-            day&#39;s adventures! Campers must wear closed-toe shoes to
-            participate in adventure activities.
+            <span className="font-bold">
+              Looking for adventure? Adventure Camp is the perfect fit!
+            </span>{" "}
+            All week long, campers will discover practical outdoor survival
+            skills, challenge themselves on the climbing wall, sharpen their
+            skills with archery and slingshots, play exciting group games like
+            human foosball and gaga ball, and engage in meaningful Bible
+            exploration. For even more excitement, our Extreme Adventure groups
+            will take on the high ropes course and zip-line! Expect your camper
+            to return home each day dirty, tired, and eager for tomorrow's next
+            big adventure! Note: Closed-toe shoes are required for all adventure
+            activities (No Crocs).
           </p>
           <p className="mt-4">
             Adventure Campers (no high ropes) are divided into the following
@@ -99,43 +104,43 @@ const DayAdventureCamp = () => {
           <div className="my-2 ml-2 text-center">
             <p>
               <span className="text-green-200 font-semibold">Week #1</span> -
-              June 22-26
+              June 21-25
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #2</span> -
-              June 29-July 3
+              June 28-July 2
               <span className="text-md font-semibold"> (ONB Available)</span>
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #3</span> -
-              July 6-10
+              July 5-9
             </p>
 
             <p>
               <span className="text-green-200 font-semibold">Week #4</span> -
-              July 13-17
+              July 12-16
             </p>
             <span className="text-md font-semibold"> (ONB Available)</span>
             <p>
               <span className="text-green-200 font-semibold">Week #5</span> -
-              July 20-24
+              July 19-23
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #6</span> -
-              July 27-31
+              July 26-30
               <span className="text-md font-semibold"> (ONB Available)</span>
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #7</span> -
-              August 3-7
+              August 2-6
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #8</span> -
-              August 10-14
+              August 9-13
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #9</span> -
-              August 17-21
+              August 16-20
             </p>
           </div>
           <a
