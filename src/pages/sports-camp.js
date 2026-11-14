@@ -42,8 +42,10 @@ const SportCamp = () => {
           <div className="font-semibold text-green-200 ml-4 my-4 text-center">
             <p>Monday-Friday 9 am - 3:30 pm</p>
             <p>Weeks for campers entering Grades 1st-3rd and 3rd-5th</p>
-            <p>$225 for the week</p>
-            <p>Bus Transportation - $65</p>
+            <p>$290* for the week</p>
+            <p className="text-xs font-semibold">
+              (*Price Includes bus transportation)
+            </p>
           </div>
           <hr />
           <div className="my-4">
@@ -66,31 +68,31 @@ const SportCamp = () => {
               </p>
               <p>
                 <span className="text-green-200 font-semibold">Week #2</span> -
-                June 29-July 3 (Grades 3-5){" "}
+                June 28-July 2 (Grades 3-5){" "}
               </p>
               <p>
                 <span className="text-green-200 font-semibold">Week #3</span> -
-                July 6-10 (Grades 1-3){" "}
+                July 5-9 (Grades 1-3){" "}
               </p>
               <p>
                 <span className="text-green-200 font-semibold">Week #4</span> -
-                July 13-17 (Grades 5-7){" "}
+                July 12-16 (Grades 5-7){" "}
               </p>
               <p>
                 <span className="text-green-200 font-semibold">Week #5</span> -
-                July 20-24 (Grades 3-5){" "}
+                July 19-23 (Grades 3-5){" "}
               </p>
               <p>
                 <span className="text-green-200 font-semibold">Week #6</span> -
-                July 27-31 (Grades 5-7){" "}
+                July 26-30 (Grades 5-7){" "}
               </p>
               <p>
                 <span className="text-green-200 font-semibold">Week #7</span> -
-                August 3-7 (Grades 1-3){" "}
+                August 2-6 (Grades 1-3){" "}
               </p>
               <p>
                 <span className="text-green-200 font-semibold">Week #8</span> -
-                August 10-14 (Grades 3-5){" "}
+                August 9-13 (Grades 3-5){" "}
               </p>
               <div className="my-10">
                 {" "}
