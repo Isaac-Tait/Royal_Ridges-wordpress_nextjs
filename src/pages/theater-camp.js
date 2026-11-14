@@ -39,11 +39,13 @@ const TheaterCamp = () => {
           >
             Register for Theater Camp
           </Link>
-          <div className="font-semibold text-green-200 ml-4 my-4 text-center">
+          <div className="text-green-200 ml-4 my-4 text-center">
             <p>Monday-Friday 9 am - 3:30 pm</p>
             <p>Weeks for campers entering Grades 3rd-5th and 6th-8th</p>
-            <p>$225 for the week</p>
-            <p>Bus Transportation - $65</p>
+            <p>$290* for the week</p>
+            <p className="text-xs font-semibold">
+              (*Price Includes bus transportation)
+            </p>
           </div>
           <hr />
           <div className="my-4">
@@ -55,19 +57,23 @@ const TheaterCamp = () => {
                 and improv games and will spend time each day practicing for a
                 skit to present to younger groups at the end of the week. The
                 camp also includes daily Bible lessons, singing, team-building
-                activities, and visits to the camp store. Theater Camps are
-                offered for two weeks for two distinct age groups.
+                activities, and visits to the camp store. Three weeks of Theater
+                Camps are available, tailored for two separate age groups..
               </p>
             </div>
             <hr />
             <div className="my-4 ml-2 text-center">
               <p>
                 <span className="text-green-200 font-semibold">Week #5</span> -
-                July 20-24 (Grades 3-5)
+                July 5-9 (Grades 3-5)
+              </p>
+              <p>
+                <span className="text-green-200 font-semibold">Week #5</span> -
+                July 19-23 (Grades 3-5)
               </p>
               <p>
                 <span className="text-green-200 font-semibold">Week #7</span> -{" "}
-                August 3-7 (Grades 6-8)
+                August 2-6 (Grades 6-8)
               </p>
               <div className="my-10">
                 {" "}

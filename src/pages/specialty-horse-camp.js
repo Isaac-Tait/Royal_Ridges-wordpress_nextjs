@@ -40,7 +40,7 @@ const Staff = () => {
             looking for some variety at horse camp.
           </p>
           <hr />
-          <div className="text-center">
+          <div className="text-green-200 ml-4 my-4 text-center">
             <p>Monday-Friday 9:00 am - 3:30 pm</p>
             <p>$560* for the week</p>
             <p className="text-xs font-semibold">
