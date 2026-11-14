@@ -33,13 +33,15 @@ const DayHorseCamp = () => {
             rel="noopener noreferrer"
             className="text-yellow-400 font-extrabold text-3xl text-center hover:underline hover:text-indigo-400 flex justify-center"
           >
-            Register for Horse Camp
+            Register for Arena Horse Camp
           </Link>
           <div className=" text-green-200 ml-4 my-4 text-center">
             <p>Monday-Friday 9 am - 3:30 pm</p>
-            <p>8-14 Years Old</p>
-            <p>$425 for the week</p>
-            <p>$65 Bus Transportation</p>
+            <p>8-13 Years Old</p>
+            <p>$490* for the week</p>
+            <p className="text-xs font-semibold">
+              (*Price Includes bus transportation)
+            </p>
             <p>$150 ADD ON Overnight Blast Weeks 3, 5, and 7</p>
             <p className="pt-2">
               Special groups designed for younger and older horse lovers
@@ -48,14 +50,14 @@ const DayHorseCamp = () => {
           <hr />
           <div>
             <p>
-              Is your child crazy about horses? Our Horse Camp is the perfect
-              fit! Campers will receive daily riding lessons from skilled
-              instructors and delve into horse science. They&#39;ll develop
-              valuable skills such as grooming and saddling, explore the Bible
-              during daily lessons, and forge new friendships. Beyond
-              horsemanship, activities include team building, and group Bible
-              studies. Riders are required to wear closed-toe shoes and long
-              pants; helmets are provided.
+              Is your child crazy about horses? Our Arena Horse Camp is the
+              perfect fit! Campers will receive daily riding lessons from
+              skilled instructors and delve into horse science. They&#39;ll
+              develop valuable skills such as grooming and saddling, explore the
+              Bible during daily lessons, and forge new friendships. Beyond
+              horsemanship, activities include team building, games, and Camp
+              Store. Riders are required to wear sturdy shoes and long pants;
+              helmets are provided.
             </p>
             {/*Updated for 2024*/}
             <p className="text-xl font-bold mt-2">
@@ -84,39 +86,39 @@ const DayHorseCamp = () => {
           <div className="my-2 ml-2 text-center">
             <p>
               <span className="text-green-200 font-semibold">Week #1</span> -
-              June 22-26
+              June 21-25
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #2</span> -
-              June 29-July 3
+              June 28-July 2
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #3</span> -
-              July 6-10 (ONB Available)
+              July 5-9 (ONB Available)
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #4</span> -
-              July 13-17
+              July 12-16
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #5</span> -
-              July 20-24 (ONB Available)
+              July 19-23 (ONB Available)
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #6</span> -
-              July 27-31
+              July 26-30
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #7</span> -
-              August 3-7 (ONB Available)
+              August 2-6 (ONB Available)
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #8</span> -
-              August 10-14
+              August 9-13
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #9</span> -
-              August 17-21
+              August 16-20
             </p>
           </div>
           <a
@@ -125,7 +127,7 @@ const DayHorseCamp = () => {
             rel="noopener noreferrer"
             className="text-yellow-400 py-10 font-extrabold text-3xl text-center hover:underline hover:text-indigo-400 flex justify-center"
           >
-            Register for Horse Camp
+            Register for Arena Horse Camp
           </a>
         </div>
       </div>
