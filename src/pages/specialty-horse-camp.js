@@ -10,7 +10,7 @@ const Staff = () => {
   return (
     <div className="bg-gradient-to-t from-yellow-200 to-indigo-200">
       <Head>
-        <title>Specialty Horse Camp @ Royal Ridges</title>
+        <title>Trail Horse Camp @ Royal Ridges</title>
       </Head>
       <Header />
       <div className="h-screen overflow-y-scroll px-1 sm:grid sm:grid-cols-2">
@@ -33,17 +33,19 @@ const Staff = () => {
             rel="noopener noreferrer"
             className="text-yellow-400 font-extrabold text-3xl text-center hover:underline hover:text-indigo-400 flex justify-center"
           >
-            Register for Specialty Horse Camps
+            Register for Trail Horse Camp
           </Link>
           <p className="mt-2">
-            Theme weeks are suitable for returning campers or experienced riders
+            Trail Camp is suitable for returning campers or experienced riders
             looking for some variety at horse camp.
           </p>
           <hr />
           <div className="text-center">
             <p>Monday-Friday 9:00 am - 3:30 pm</p>
-            <p>$495 for the week</p>
-            <p>$65 Bus Transportation</p>
+            <p>$560* for the week</p>
+            <p className="text-xs font-semibold">
+              (*Price Includes bus transportation)
+            </p>
             <p>Ages 8-16</p>
           </div>
 
@@ -102,39 +104,39 @@ const Staff = () => {
           <div className="text-center mt-6">
             <p>
               <span className="text-green-200 font-semibold">Week #1</span> June
-              22-26
+              21-25
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #2</span> June
-              29-July 3 (Mini Driving Camp Available)
+              28-July 2
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #3</span> June
-              July 6-10 (ONB Available)
+              July 5-9
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #4</span> July
-              13-17
+              12-16
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #5</span> July
-              20-24 (ONB and Vaulting Camp Available)
+              19-23 (ONB Available)
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #6</span> July
-              27-31 (Mini Driving Available)
+              26-30
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #7</span>{" "}
-              August 3-7 (ONB and Teen Trail Camp Available)
+              August 2-6 (ONB Teen Trail Camp Available)
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #8</span>{" "}
-              August 10-14
+              August 9-13
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #9</span>{" "}
-              August 17-21
+              August 16-20
             </p>
           </div>
           <a
