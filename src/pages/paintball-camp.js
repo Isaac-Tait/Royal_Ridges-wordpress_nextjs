@@ -35,10 +35,12 @@ const DayPaintBall = () => {
           >
             Register for Paintball Camp
           </Link>
-          <div className="font-semibold text-green-200 ml-4 my-4 text-center">
+          <div className="text-green-200 ml-4 my-4 text-center">
             <p>Monday-Friday 9 am - 3:30 pm</p>
-            <p>$380 for the week</p>
-            <p>$65 Bus Transportation</p>
+            <p>$445* for the week</p>
+            <p className="text-xs font-semibold">
+              (*Price Includes bus transportation)
+            </p>
             <p>SPLAT Entering Grades 3rd - 6th</p>
             <p>EXTREME Entering Grades 6th - 10th</p>
           </div>
@@ -47,13 +49,13 @@ const DayPaintBall = () => {
             <span className="text-green-200 font-semibold">
               Paintball Day Camp
             </span>
-            Paintball Day Camp ~ At our Paintball Camp, campers will immerse
-            themselves in the extreme sport of paintball. Mornings are dedicated
-            to learning the game&#39;s nuances and refining skills. Through
-            team-building exercises, campers will enhance their communication
-            abilities, while daily Bible study fosters character development.
-            The final three hours of each day are reserved for thrilling game
-            time, where it&#39;s all about slinging paint
+            At our Paintball Camp, campers will immerse themselves in the
+            extreme sport of paintball. Mornings are dedicated to learning the
+            game&#39;s nuances and refining skills. Through team-building
+            exercises, campers will enhance their communication abilities, while
+            daily Bible study fosters character development. The final hours of
+            each day are reserved for thrilling game time, where it&#39;s all
+            about slinging paint.
           </p>
           <p className="italic mt-4">
             <span className="font-semibold">Extreme</span> uses conventional
@@ -69,63 +71,63 @@ const DayPaintBall = () => {
           <div className="my-2 ml-2 text-center">
             <p>
               <span className="text-green-200 font-semibold">Week #1</span> -
-              June 22-26
+              June 21-25
               <span className="text-green-200 font-bold">
                 &nbsp;SPLAT Grades 3-5
               </span>
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #2</span> -
-              June 29-July 3
+              June 28-July 2
               <span className="text-green-200 font-bold">
                 &nbsp;SPLAT Grades 4-6
               </span>
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #3</span> -
-              July 6-10{" "}
+              July 5-9
               <span className="text-yellow-400 font-bold">
                 &nbsp;EXTREME Grades 6-10
               </span>
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #4</span> -
-              July 13-17
+              July 12-16
               <span className="text-green-200 font-bold">
                 &nbsp;SPLAT Grades 3-5
               </span>
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #5</span> -
-              July 20-24
+              July 19-23
               <span className="text-green-200 font-bold">
                 &nbsp;SPLAT Grades 4-6
               </span>
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #6</span> -
-              July 27-31
+              July 26-30
               <span className="text-yellow-400 font-bold">
                 &nbsp;EXTREME Grades 6-10
               </span>
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #7</span>{" "}
-              August 3-7
+              August 2-6
               <span className="text-green-200 font-bold">
                 &nbsp;SPLAT Grades 4-6
               </span>
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #8</span> -
-              August 10-14
+              August 9-13
               <span className="text-green-200 font-bold">
                 &nbsp;SPLAT Grades 3-5
               </span>
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #9</span> -
-              August 17-21
+              August 16-20
               <span className="text-yellow-400 font-bold">
                 &nbsp;EXTREME Grades 6-10
               </span>

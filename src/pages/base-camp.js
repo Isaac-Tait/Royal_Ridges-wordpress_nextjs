@@ -38,7 +38,7 @@ const DayCamp = () => {
           >
             Register for Base Camp
           </Link>
-          <div className="font-semibold text-green-200 ml-4 my-4 text-center">
+          <div className="text-green-200 ml-4 my-4 text-center">
             <p>Monday-Friday 9 am - 3:30 pm</p>
             <p>Entering Grades 1st-5th</p>
             <p>Spruce and Cedar Groups - $260*</p>

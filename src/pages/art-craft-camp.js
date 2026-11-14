@@ -35,7 +35,7 @@ export default function RecSportCamp() {
           >
             Register for Crafts Camp
           </Link>
-          <div className="font-semibold text-green-200 ml-4 my-4 text-center">
+          <div className="text-green-200 ml-4 my-4 text-center">
             <p>Monday-Friday 9 am-3:30pm</p>
             <p>Weeks for campers entering Grades 1st-3rd, 3rd-5th</p>
             <p>$290* for the week</p>
