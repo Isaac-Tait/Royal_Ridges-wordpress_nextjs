@@ -41,9 +41,11 @@ const DayCamp = () => {
           <div className="font-semibold text-green-200 ml-4 my-4 text-center">
             <p>Monday-Friday 9 am - 3:30 pm</p>
             <p>Entering Grades 1st-5th</p>
-            <p>Spruce and Cedar Groups - $195</p>
-            <p>Pony Express - $215</p>
-            <p>Bus Transportation - $65</p>
+            <p>Spruce and Cedar Groups - $260*</p>
+            <p>Pony Express - $280*</p>
+            <p className="text-xs font-semibold">
+              (*Price Includes bus transportation)
+            </p>
           </div>
           <hr />
           <div className="my-4">
@@ -64,7 +66,7 @@ const DayCamp = () => {
             </p>
 
             <p className="font-bold underline mt-4">
-              Pony Express! Spruce Group- Grades 1st-3rd
+              Pony Express! Spruce Group- Grades 1st-2nd
             </p>
             <p>
               For the horse lovers, campers will get to visit the corral a
@@ -88,39 +90,39 @@ const DayCamp = () => {
           <div className="my-2 ml-2 text-center">
             <p>
               <span className="text-green-200 font-semibold">Week #1</span> -
-              June 22-26{" "}
+              June 21-25
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #2</span> -
-              June 29-July 3{" "}
+              June 28-July 2
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #3</span> -
-              July 6-10{" "}
+              July 5-9
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #4</span> -
-              July 13-17{" "}
+              July 12-16
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #5</span> -
-              July 20-24{" "}
+              July 19-23
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #6</span> -
-              July 27-31{" "}
+              July 26-30
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #7</span> -
-              August 3-7{" "}
+              August 2-6
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #8</span> -
-              August 10-14{" "}
+              August 9-13
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #9</span> -
-              August 17-21{" "}
+              August 16-20
             </p>
           </div>
           <a
