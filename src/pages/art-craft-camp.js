@@ -33,57 +33,58 @@ export default function RecSportCamp() {
             rel="noopener noreferrer"
             className="text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400 text-center"
           >
-            Register for Arts and Crafts Camp
+            Register for Crafts Camp
           </Link>
           <div className="font-semibold text-green-200 ml-4 my-4 text-center">
             <p>Monday-Friday 9 am-3:30pm</p>
-            <p>Weeks for campers entering Grades 1st-3rd, 3rd-5th, 6th-9th*</p>
-            <p>$225 for the week</p>
-            <p>$65 Bus Transportation</p>
+            <p>Weeks for campers entering Grades 1st-3rd, 3rd-5th</p>
+            <p>$290* for the week</p>
+            <p className="text-xs font-semibold">
+              (*Price Includes bus transportation)
+            </p>
           </div>
           <hr />
           <p className="my-4">
-            Our Arts and Crafts Camp is designed for creative campers who enjoy
-            drawing, painting, and making things. Each day, campers will engage
-            in an art or craft activity to foster their creativity and
-            imagination, along with outdoor games and play time. The camp also
-            includes daily Bible lessons, singing, team-building activities, and
-            visits to the camp store. Arts and Crafts Camps are offered for two
-            distinct age groups. *(One week available for grades 6-9.)
+            Our Crafts Camp is designed for creative campers who enjoy drawing,
+            painting, and making things. Each day, campers will engage in an art
+            or craft activity to foster their creativity and imagination, along
+            with outdoor games and play time. The camp also includes daily Bible
+            lessons, singing, team-building activities, and visits to the camp
+            store. Crafts Camps are offered for two distinct age groups.
           </p>
           <hr />
           <div className="my-2 ml-2 text-center">
             <p>
               <span className="text-green-200 font-semibold">Week #1</span> June
-              22-26 (Grades 3 - 5)
+              21-25 (Grades 3 - 5)
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #2</span> June
-              29-July 3 (Grades 1 - 3)
+              28-July 2 (Grades 1 - 3)
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #3</span> July
-              13-17 (Grades 3 - 5)
+              5-9 (Grades 3 - 5)
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #4</span> July
-              13-17 (Grades 1 - 3)
+              12-16 (Grades 1 - 3)
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #5</span> July
-              20-24 (Grades 6 - 9)
+              19-23 (Grades 3 - 5)
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #6</span> July
-              27-30 (Grades 1 - 3)
+              26-30 (Grades 1 - 3)
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #7</span>{" "}
-              August 3 - 7 (Grades 3 - 5)
+              August 2-6 (Grades 3 - 5)
             </p>
             <p>
               <span className="text-green-200 font-semibold">Week #8</span>{" "}
-              August 10-14 (Grades 1 - 3)
+              August 9-13 (Grades 1 - 3)
             </p>
           </div>
           <Link
@@ -92,7 +93,7 @@ export default function RecSportCamp() {
             rel="noopener noreferrer"
             className="text-yellow-400 font-extrabold text-3xl hover:underline hover:text-indigo-400 text-center"
           >
-            Register for Arts and Crafts Camp
+            Register for Crafts Camp
           </Link>
         </div>
       </div>
